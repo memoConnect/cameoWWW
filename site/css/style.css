@@ -1,2 +1,6 @@
-body {width:100%;height:100%;background-color:#000;color:#fff;margin:0;padding:0;overflow:hidden}
-.splash {width:854px;height:480px;background-image: url('../gfx/splash.png');position:absolute;top:50%;left:50%;margin-left:-427px;margin-top:-240px}
+*{margin:0;padding:0}
+body {width:100%;height:100%;background-color:#000;color:#fff;overflow:hidden}
+.wrapper {width:854px;height:500px;position:absolute;top:50%;left:50%;margin-left:-427px;margin-top:-250px}
+.splash {width:854px;height:480px;background-image:url('../gfx/splash.png')}
+.msg {text-align: center;}
+.msg h1 {color:#fff;font-size:16px;font-family: Helvetica}

@@ -3,11 +3,12 @@ package helper
 import play.api.i18n.Messages
 import java.util.Calendar
 import java.text.SimpleDateFormat
+import play.twirl.api.Html
 
 object Utils {
 
   def i18n(index: String) = {
-    Messages(index)
+    Html(Messages(index))
   }
 
   def currentYear = {

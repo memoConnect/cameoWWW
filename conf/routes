@@ -3,8 +3,10 @@
 # ~~~~
 
 # Home page
-GET     /                            controllers.Application.index
-GET     /w                           controllers.Application.index
+GET        /                      controllers.Application.redirect(url = "/w/")
+GET        /w                     controllers.Application.redirect(url = "/w/")
+GET        /w/                    controllers.Application.index
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /w/static/*file              controllers.Assets.at(path="/public/", file)
+
+GET     /w/static/*file           controllers.Assets.at(path="/public/", file)

@@ -3,13 +3,14 @@
 # ~~~~
 
 # Home page
+GET        /                      controllers.Application.redirect(url = "/w/")
+GET        /w                     controllers.Application.redirect(url = "/w/")
+GET        /w/                    controllers.Application.index
+
 GET     /                           controllers.Application.index
 GET     /moep                       controllers.Moep.moep
 GET     /sendMail                   controllers.Message.sendMessage
 POST    /sendMail                   controllers.Message.sendMessage
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /img/*file               controllers.Assets.at(path="/public/img", file)
-GET     /images/*file               controllers.Assets.at(path="/public/images", file)
-GET     /css/*file               controllers.Assets.at(path="/public/css", file)
-GET     /js/*file               controllers.Assets.at(path="/public/js", file)
+GET     /w/static/*file           controllers.Assets.at(path="/public/", file)

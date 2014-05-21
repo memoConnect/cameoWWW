@@ -1,17 +1,23 @@
 package controllers
 
 import play.api.mvc._
-import play.api.Logger
+import _root_.helper.i18n
 
 import models.Antibot
 
 object Application extends Controller {
+  def redirect(url: String) = Action {
+    Redirect(url)
+  }
 
   def index = Action {
-    val ab = new Antibot("moep", "moep-value")
+    val lang: String = "de"
+
+    i18n.setLang(lang)
+
+    val ab: new Antibot("moep", "moep-value")
     Logger.debug(ab.name)
 
     Ok(views.html.index())
   }
-
 }

@@ -1,375 +1,427 @@
-﻿<!DOCTYPE HTML>
+@import _root_.helper.utils
+@import _root_.helper.i18n
+
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>CameoNet</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<script src="js/jquery.min.js"></script>
-		<script src="js/config.js"></script>
-		<script src="js/skel.min.js"></script>
-		<link rel="stylesheet" href="css/font-awesome.css">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="css/fxfullwidth.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-		<script src="js/modernizr.custom.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-	</head>
-	<body>	
-		<div id="git"><a href="https://github.com/you"><img src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a></div>	
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top"><span class="fa-toplogo fa cm-logo"></span><span class="fa-toprhino fa cm-rhino-positive"></span></a></li>
-					<li><a href="#product">@Messages("navigation.functions")</a></li>
-					<li><a href="#business">@Messages("navigation.business")</a></li>
-					<li><a href="#faq">@Messages("navigation.faq")</a></li>
-					<li><a href="#contact">@Messages("navigation.contact")</a></li>
-				</ul>
-			</nav>
+    <head>
+        <title>@i18n.get("seo.title")</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8"/>
+        <meta name="description" content="@i18n.get("seo.description")"/>
+        <meta name="keywords" content="@i18n.get("seo.keywords")"/>
+        <script src="@utils.getFile("js/jquery.min.js")"></script>
+        <script src="@utils.getFile("js/config.js")"></script>
+        <script src="@utils.getFile("js/skel.min.js")"></script>
+        <link rel="stylesheet" href="@utils.getFile("css/font-awesome.css")">
+        <link rel="stylesheet" type="text/css" href="@utils.getFile("css/normalize.css")"/>
+        <link rel="stylesheet" type="text/css" href="@utils.getFile("css/component.css")"/>
+        <link rel="stylesheet" type="text/css" href="@utils.getFile("css/fxfullwidth.css")"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <script src="@utils.getFile("js/modernizr.custom.js")"></script>
+        <noscript>
+            <link rel="stylesheet" type="text/css" href="@utils.getFile("css/skel-noscript.css")"/>
+            <link rel="stylesheet" type="text/css" href="@utils.getFile("css/style.css")"/>
+            <link rel="stylesheet" type="text/css" href="@utils.getFile("css/style-desktop.css")"/>
+        </noscript>
+        <!--[if lte IE 9]>
+        <link rel="stylesheet" href="@utils.getFile("css/ie9.css")"/><![endif]-->
+        <!--[if lte IE 8]>
+        <script src="js/html5shiv.js"></script>
+        <link rel="stylesheet" href="@utils.getFile("css/ie8.css")"/><![endif]-->
+        <!--[if lte IE 7]>
+        <link rel="stylesheet" href="@utils.getFile("css/ie7.css")"/><![endif]-->
+    </head>
+    <body>
 
-		<!-- Home -->
-			<div class="wrapper wrapper-style1 wrapper-first">
-				<article class="container_top" id="top">
-	
-			<section>
-				<div id="component" class="component component-fullwidth fxSoftScale">
-					<ul class="itemwrap">
-						<li class="current"><img src="img/8.jpg" alt="img08"/>
-							<div class="logo">Der sichere Communicator!</div></li>
-						<li><img src="img/6.jpg" alt="img06"/>
-							<div class="logo">Auf allen Endgeräten!</div></li>
-						<li><img src="img/7.jpg" alt="img07"/>
-							<div class="logo">Offen für externe Nutzer!</div></li>
-						<li><img src="img/9.jpg" alt="img08"/>
-							<div class="logo">Auch für Geschäftskunden!</div></li>
-					</ul>
-					<nav>
-					</nav>
-				</div>
-			</section>
-		<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
-				</article>
-			</div>
+        <div id="git">
+            <a href="https://github.com/memoConnect/cameoWWW/fork">
+                <img
+                src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
+                alt="Fork me on GitHub"
+                data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
+            </a>
+        </div>
 
-		<!-- Product -->
-			<div class="wrapper wrapper-style1">
-				<article id="product">
-					<header>
-						<h2>Funktionen</h2>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="container">
+                <li><a href="#top"><span class="fa-toplogo fa cm-logo"></span><span
+                class="fa-toprhino fa cm-rhino-positive"></span></a></li>
+                <li><a href="#product">@i18n.get("navigation.functions")</a></li>
+                <li><a href="#business">@i18n.get("navigation.business")</a></li>
+                <li><a href="#faq">@i18n.get("navigation.faq")</a></li>
+                <li><a href="#contact">@i18n.get("navigation.contact")</a></li>
+            </ul>
+        </nav>
 
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="12u">
-							</div>
-						</div>
-						<div class="row">
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio05.jpg" alt="" /></div>
-<h3>Sicherheit - bequem & einfach</h3>
-<p>Absolute Sicherheit mit Ende zu Ende Verschlüsselung (RSA-4096, AES-256, Perfect Forward Secrecy). Sicherheit kann jeder.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio06.jpg" alt="" /></div>
-<h3>OpenSource - 100% transparent</h3>
-<p>Bewährte Kryptographie ist nicht angreifbar, selbst wenn der Source Code bekannt ist.  Wir halten unsere Versprechen.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio01.jpg" alt="" /></div>
-<h3>Alle Endgeräte - perfekte Lösung</h3>
-<p>Parallele Nutzung von allen Endgeräten wie Desktop/Tablet/Smartphone mit einem Account.Immer richtig, in allen Situationen.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio12.jpg" alt="" /></div>
-<h3>Multi Identitäten - richtig Auftreten</h3><p>
-Integration aller Lebensbereiche wie Beruf, Familie, Hobby in einem Account. Immer das richtige Profil zeigen.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio07.jpg" alt="" /></div>
-<h3>Anonymität - einfach mal inkognito</h3><p>
-Auch komplett anonyme Nutzung möglich. Es gibt immer mal einen guten Grund, unerkannt bleiben zu wollen.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio13.jpg" alt="" /></div>
-<h3>Unified Messaging - auf allen Kanälen</h3><p>
-Sämtliche elektronischen Kommunikationswege stehen zur Verfügung: cameoNet, SMS, Email, Twitter oder Facebook. Mit maximaler Sicherheit.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio14.jpg" alt="" /></div>
-<h3>Externe Nutzer - herzlich Willkommen</h3><p>
-Externe Nutzer erhalten Nachrichten und Dateien sogar mit einfachem Sicherheitsniveau, auch ohne sich bei cameoNet registrieren zu müssen.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio11.jpg" alt="" /></div>
-<h3>Kostenlos - mehr umsonst geht nicht</h3><p>
-cameoNet ist in der Basic Version kostenlos und garantiert werbefrei. Für immer und ewig. Mehr geht nicht.</p>
-</article>
-</div>
-<div class="4u">
-<article class="box box-style2">
-<div class="image image-full"><img src="images/portfolio10.jpg" alt="" /></div>
-<h3>Zusatzfunktionen fürs Business kostenpflichtig & profitabel</h3><p>
-Organisationen präsentieren sich und die eigenen Mitarbeiter. Verschlüsselte Kommunikation mit anderen teilen. Und vieles andere Mehr.</p>
-</article>
-</div>
+        <!-- Home -->
+        <div class="wrapper wrapper-style1 wrapper-first">
+            <article class="container_top" id="top">
+                <section>
+                    <div id="component" class="component component-fullwidth fxSoftScale">
+                        <ul class="itemwrap">
+                            <li class="current"><img src="@utils.getFile("img/8.jpg")" alt="@i18n.get("slider.safer-communicator")"/>
+                                <div class="logo">@i18n.get("slider.safer-communicator")</div>
+                            </li>
+                            <li><img src="@utils.getFile("img/6.jpg")" alt="@i18n.get("slider.all-devices")"/>
+                                <div class="logo">@i18n.get("slider.all-devices")</div>
+                            </li>
+                            <li><img src="@utils.getFile("img/7.jpg")" alt="@i18n.get("slider.open-for-extern")"/>
+                                <div class="logo">@i18n.get("slider.open-for-extern")</div>
+                            </li>
+                            <li><img src="@utils.getFile("img/9.jpg")" alt="@i18n.get("slider.also-business")"/>
+                                <div class="logo">@i18n.get("slider.also-business")</div>
+                            </li>
+                        </ul>
+                        <nav>
 
-						</div>
+                        </nav>
+                    </div>
+                </section>
+                <script src="@utils.getFile("js/classie.js")"></script>
+                <script src="@utils.getFile("js/main.js")"></script>
+            </article>
+        </div>
 
-					</div>
+        <!-- Product -->
+        <div class="wrapper wrapper-style1">
+            <article id="product">
+                <header>
+                    <h2>@i18n.get("functions.header")</h2>
 
-				</article>
-					<footer>
-				<p>Demnächst hier erhältlich!</p>
-				<div class="store">
-							<div class="storelink">
-									<div class="image image-full"><img src="images/appStore.png" alt="" /></div>
-							</div>
-							<div class="storelink">
-									<div class="image image-full"><img src="images/playStore.png" alt="" /></div>
-							</div>
-							<div class="storelink">
-									<div class="image image-full"><img src="images/winStore.png" alt="" /></div>
-							</div>
-				</div>
-						<a href="#business" class="button button-big">Business</a>
-					</footer>
-				</article>
-			</div>
-			</div>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <div class="12u">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio05.jpg")" alt="@i18n.get("functions.safety.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.safety.header")</h3>
 
+                                <p>@i18n.get("functions.safety.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio06.jpg")" alt="@i18n.get("functions.open-source.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.open-source.header")</h3>
 
-		<!-- business -->
-			<div class="wrapper wrapper-style3">
-				<article id="business">
-					<header>
-						<h2>Business und Organisationen</h2>
-						<span>cameoNet bietet für Geschäftskunden viele gewinnbringende Zusatzfeatures und ist kostenpflichtig.<br>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="11u">
-							</div>
-						</div>
-						<div class="row">
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business01.png" alt="" /></div>
-									<h3>cameoCard Pro</h3>
-									<p>Unternehmensprofil mit allgemeinen Kontaktdaten und Mitarbeiterverknüpfung</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business02.png" alt="" /></div>
-									<h3>Mitarbeiter Identitäten</h3>
-									<p>Mitarbeiter haben interne und externe Profile</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business03.png" alt="" /></div>
-									<h3>Dokumentenechtheit</h3>
-									<p>Mit Sicherheit wissen, dass das Dokument echt ist</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business04.png" alt="" /></div>
-									<h3>Authentifizierung</h3>
-									<p>Schön, wenn man weiß, mit wem man spricht</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business05.png" alt="" /></div>
-									<h3>Externe Kundeneinbindung</h3>
-									<p>Einfache integration externer Kunden in Kommunikation</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business06.png" alt="" /></div>
-									<h3>Archiv</h3>
-									<p>Variable Speichergröße Aufbewahrungszeit bis zu 10 Jahre</p>
-								</article>
-							</div>
+                                <p>@i18n.get("functions.open-source.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio01.jpg")" alt="@i18n.get("functions.all-devices.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.all-devices.header")</h3>
 
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business07.png" alt="" /></div>
-									<h3>Delegationsmanagement</h3>
-									<p>Für sichere Kommunikation auch bei Delegation oder Vertretung</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business08.png" alt="" /></div>
-									<h3>SMS</h3>
-									<p>Günstige Pakete für erweiterte Auslandskommunikation</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<div class="image image-small"><img src="images/business09.png" alt="" /></div>
-									<h3>Präsenzerkennung</h3>
-									<p>Erkennen, wann die Gegenseite anwesend ist</p>
-								</article>
-							</div>
+                                <p>@i18n.get("functions.all-devices.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio12.jpg")" alt="@i18n.get("functions.multi-identity.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.multi-identity.header")</h3>
 
-						</div>
-					</div>
-					<footer>
-						<p>Die detaillierten Konditionen werden im Frühsommer bekannt gegeben.<br> 
-Geschäftskunden, die Interesse an einem Beta-Test haben, melden sich bitte hier.</p>
-						<a href="#contact" class="button button-big">Kontakt</a>
-					</footer>
-				</article>
-			</div>
+                                <p>@i18n.get("functions.multi-identity.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio07.jpg")" alt="@i18n.get("functions.anonymity.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.anonymity.header")</h3>
 
-		<!-- FAQ -->
-			<div class="wrapper wrapper-style2">
-				<article id="faq">
-					<header>
-						<h2>FAQ</h2>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="12u">
+                                <p>@i18n.get("functions.anonymity.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio13.jpg")" alt="@i18n.get("functions.unified-messaging.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.unified-messaging.header")</h3>
 
-<h3>Warum is cameoNet sicherer?</h3>
-<div class="faqtext">
-<p>cameoNet nutzt bewährte Kryptologie und beweist mit Open Source, das es auch
-seine Versprechen hält. cameoNet ist so sicher, das selbst wir die
-Nachrichten und Anhänge nicht lesen können.
-</p><hr />
-</div>
+                                <p>@i18n.get("functions.unified-messaging.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio14.jpg")" alt="@i18n.get("functions.extern-user.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.extern-user.header")</h3>
 
-<h3>Kann ich mit cameoNet auch Dateien versenden?</h3>
-<div class="faqtext">
-<p>Mit cameoNet können Sie auch sicher, einfach und unkompliziert Dateien versenden.
-</p><hr />
-</div>
+                                <p>@i18n.get("functions.extern-user.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio11.jpg")" alt="@i18n.get("functions.free.header")" />
+                                </div>
+                                <h3>@i18n.get("functions.free.header")</h3>
 
-<h3>Wie melde ich mich an?</h3>
-<div class="faqtext">
-<p>Schon bald können Sie an einem BetaTest teilnehmen. Wenn Sie informiert
-werden wollen, tragen Sie sich hier ein.
-</p><hr />
-</div>
+                                <p>@i18n.get("functions.free.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-full"><img src="@utils.getFile("images/portfolio10.jpg")" alt=""/></div>
+                                <h3>@i18n.get("functions.business.header")</h3>
 
-<h3>Wer steht hinter cameNet?</h3>
-<div class="faqtext">
-<p>Ein Team erfahrener Unternehmer und Entwickler, denen selbstbestimmte
-Kommunikation mehr als wichtig ist.
-</p><hr />
-</div>
+                                <p>@i18n.get("functions.business.text")</p>
+                            </article>
+                        </div>
 
-<h3>Anonym anmelden, wie geht das?</h3>
-<div class="faqtext">
-<p>Sie können sich ohne Mobilnummer oder Mailadresse anmelden. Nachteil ist,
-dass wir Ihnen natürlich niemals Ihr Paßwort zurückstellen können, wenn Sie
-es verloren haben sollten.</p>
-</p><hr />
-</div>
-					</div> 
-						</div>
-							</div>
-					<footer>
-<h3>Wenn Sie weitere Fragen haben, dann senden Sie uns diese bitte hier.</h3>
-						<a href="#contact" class="button button-big">Kontakt</a>
-					</footer>
-				</article>
-			</div>
+                    </div>
 
+                </div>
 
-		<!-- Contact -->
-			<div class="wrapper wrapper-style4">
-				<article id="contact" class="container small">
-					<header>
-						<h2><span>Kontakt</span></h2>
-					</header><br>
-					<div>
-						<div class="row">
-							<div class="12u">
-								<form method="post" action="#">
-									<div>
-										<div class="row half">
-											<div class="6u">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="6u">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<a href="#" class="button form-button-submit">Send Message</a>
-												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-				</article>
-			</div>
-			<div class="wrapper wrapper-style4">
-				<article id="impressum">
-						<div class="row">
-							<div class="12u">
-								<hr />
-								<h3>Impressum</h3>
-<p>Cameo ein Dienst der:<br> 
-memo Connect GmbH<br> 
-Große Nikolaistraße 7 06108 Halle (Saale) Germany<br> 
-Fon: +49 345 213 79 66 5<br> 
-Fax: +49 345 213 79 66 59<br> 
-Amtsgericht Stendal HRB 20018<br> 
-Geschäftsführer: Dr. Holger Haedrich, Michael Merz</p>
-								<hr />
-							</div>
-						</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; 2013 <a href="http://cameo.io">cameoNet</a></li>
-						</ul>
-					</footer>
-				</article>
-			</div>
-	</body>
+            </article>
+            <footer>
+                <p>@i18n.get("functions.apps.header")</p>
+
+                <div class="store">
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/appStore.png")" alt=""/></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/playStore.png")" alt=""/></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/winStore.png")" alt=""/></div>
+                    </div>
+                </div>
+                <a href="#business" class="button button-big">@i18n.get("navigation.business")</a>
+            </footer>
+        </div>
+
+        <!-- business -->
+        <div class="wrapper wrapper-style3">
+            <article id="business">
+                <header>
+                    <h2>@i18n.get("business.header")</h2>
+                    <span>@i18n.get("business.text")</span>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <div class="11u">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business01.png")" alt="@i18n.get("business.cameocard-pro.header")" />
+                                </div>
+                                <h3>@i18n.get("business.cameocard-pro.header")</h3>
+
+                                <p>@i18n.get("business.cameocard-pro.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business02.png")" alt="@i18n.get("business.coworker-identity.header")" />
+                                </div>
+                                <h3>@i18n.get("business.coworker-identity.header")</h3>
+
+                                <p>@i18n.get("business.coworker-identity.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business03.png")" alt="@i18n.get("business.document-authenticity.header")" />
+                                </div>
+                                <h3>@i18n.get("business.document-authenticity.header")</h3>
+
+                                <p>@i18n.get("business.document-authenticity.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business04.png")" alt="@i18n.get("business.authentication.header")" />
+                                </div>
+                                <h3>@i18n.get("business.authentication.header")</h3>
+
+                                <p>@i18n.get("business.authentication.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business05.png")" alt="@i18n.get("business.external-customer.header")" />
+                                </div>
+                                <h3>@i18n.get("business.external-customer.header")</h3>
+
+                                <p>@i18n.get("business.external-customer.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business06.png")" alt="@i18n.get("business.archives.header")" />
+                                </div>
+                                <h3>@i18n.get("business.archives.header")</h3>
+
+                                <p>@i18n.get("business.archives.text")</p>
+                            </article>
+                        </div>
+
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business07.png")" alt="@i18n.get("business.delegation-management.header")" />
+                                </div>
+                                <h3>@i18n.get("business.delegation-management.header")</h3>
+
+                                <p>@i18n.get("business.delegation-management.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business08.png")" alt="@i18n.get("business.sms.header")" />
+                                </div>
+                                <h3>@i18n.get("business.sms.header")</h3>
+
+                                <p>@i18n.get("business.sms.text")</p>
+                            </article>
+                        </div>
+                        <div class="4u">
+                            <article class="box box-style2">
+                                <div class="image image-small"><img src="@utils.getFile("images/business09.png")" alt="@i18n.get("business.presence-detection.header")" />
+                                </div>
+                                <h3>@i18n.get("business.presence-detection.header")</h3>
+
+                                <p>@i18n.get("business.presence-detection.text")</p>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+                <footer>
+                    <p>@i18n.get("business.footer")</p>
+                    <a href="#contact" class="button button-big">@i18n.get("navigation.contact")</a>
+                </footer>
+            </article>
+        </div>
+
+        <!-- FAQ -->
+        <div class="wrapper wrapper-style2">
+            <article id="faq">
+                <header>
+                    <h2>@i18n.get("faq.header")</h2>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <div class="12u">
+
+                            <h3>@i18n.get("faq.why-were-safe.header")</h3>
+
+                            <div class="faqtext">
+                                <p>@i18n.get("faq.why-were-safe.text")</p>
+                                <hr/>
+                            </div>
+
+                            <h3>@i18n.get("faq.what-about-files.header")</h3>
+
+                            <div class="faqtext">
+                                <p>@i18n.get("faq.what-about-files.text")</p>
+                                <hr/>
+                            </div>
+
+                            <h3>@i18n.get("faq.how-to-sign-in.header")</h3>
+
+                            <div class="faqtext">
+                                <p>@i18n.get("faq.how-to-sign-in.text")</p>
+                                <hr/>
+                            </div>
+
+                            <h3>@i18n.get("faq.who-is-behind.header")</h3>
+
+                            <div class="faqtext">
+                                <p>@i18n.get("faq.who-is-behind.text")</p>
+                                <hr/>
+                            </div>
+
+                            <h3>@i18n.get("faq.how-to-join-anonymous.header")</h3>
+
+                            <div class="faqtext">
+                                <p>@i18n.get("faq.how-to-join-anonymous.text")</p>
+                                <hr/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <h3>@i18n.get("faq.footer")</h3>
+                    <a href="#contact" class="button button-big">@i18n.get("navigation.contact")</a>
+                </footer>
+            </article>
+        </div>
+
+        <!-- Contact -->
+        <div class="wrapper wrapper-style4">
+            <article id="contact" class="container small">
+                <header>
+                    <h2><span>@i18n.get("contact.header")</span></h2>
+                </header>
+                <br>
+
+                <div>
+                    <div class="row">
+                        <div class="12u">
+                            <form method="post" action="#">
+                                <div>
+                                    <div class="row half">
+                                        <div class="6u">
+                                            <input type="text" name="name" id="name" placeholder="@i18n.get("contact.name")" />
+                                        </div>
+                                        <div class="6u">
+                                            <input type="text" name="email" id="email" placeholder="@i18n.get("contact.email")"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="row half">
+                                        <div class="12u">
+                                            <input type="text" name="subject" id="subject" placeholder="@i18n.get("contact.subject")" />
+                                        </div>
+                                    </div>
+                                    <div class="row half">
+                                        <div class="12u">
+                                            <textarea name="message" id="message" placeholder="@i18n.get("contact.message")"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="12u">
+                                            <a href="#" class="button form-button-submit">@i18n.get("contact.submit")</a>
+                                            <a href="#"
+                                            class="button button-alt form-button-reset">@i18n.get("contact.reset")</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="wrapper wrapper-style4">
+            <article id="impressum">
+                <div class="row">
+                    <div class="12u">
+                        <hr/>
+                        <h3>@i18n.get("imprint.header")</h3>
+
+                        <p>@i18n.get("imprint.text")</p>
+                        <hr/>
+                    </div>
+                </div>
+                <footer>
+                    <ul id="copyright">
+                        <li>&copy; @utils.currentYear <a href="@i18n.get("website.href")">@i18n.get("website.name")</a></li>
+                    </ul>
+                </footer>
+            </article>
+        </div>
+    </body>
 </html>

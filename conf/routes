@@ -4,6 +4,9 @@
 
 # Home page
 GET     /                           controllers.Application.index
+GET     /moep                       controllers.Moep.moep
+GET     /sendMail                   controllers.Message.sendMessage
+POST    /sendMail                   controllers.Message.sendMessage
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /img/*file               controllers.Assets.at(path="/public/img", file)

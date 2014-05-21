@@ -1,4 +1,83 @@
+seo.title = cameoNet
+seo.description =
+seo.keywords =
+
 navigation.functions = Funktionen
 navigation.business = Business
 navigation.faq = FAQ
 navigation.contact = Kontakt
+
+slider.safer-communicator = Der sichere Communicator!
+slider.all-devices = Auf allen Endgeräten!
+slider.open-for-extern = Offen für externe Nutzer!
+slider.also-business = Auch für Geschäftskunden!
+
+functions.header = Funktionen
+functions.safety.header = Sicherheit - bequem & einfach
+functions.safety.text = Absolute Sicherheit mit Ende zu Ende Verschlüsselung (RSA-4096, AES-256, Perfect Forward Secrecy). Sicherheit kann jeder.
+functions.open-source.header = OpenSource - 100% transparent
+functions.open-source.text = Bewährte Kryptographie ist nicht angreifbar, selbst wenn der Source Code bekannt ist.  Wir halten unsere Versprechen.
+functions.all-devices.header = Alle Endgeräte - perfekte Lösung
+functions.all-devices.text = Parallele Nutzung von allen Endgeräten wie Desktop/Tablet/Smartphone mit einem Account.Immer richtig, in allen Situationen.
+functions.multi-identity.header = Multi Identitäten - richtig Auftreten
+functions.multi-identity.text = Integration aller Lebensbereiche wie Beruf, Familie, Hobby in einem Account. Immer das richtige Profil zeigen.
+functions.anonymity.header = Anonymität - einfach mal inkognito
+functions.anonymity.text = Auch komplett anonyme Nutzung möglich. Es gibt immer mal einen guten Grund, unerkannt bleiben zu wollen.
+functions.unified-messaging.header = Unified Messaging - auf allen Kanälen
+functions.unified-messaging.text = Sämtliche elektronischen Kommunikationswege stehen zur Verfügung: cameoNet, SMS, Email, Twitter oder Facebook. Mit maximaler Sicherheit.
+functions.extern-user.header = Externe Nutzer - herzlich Willkommen
+functions.extern-user.text = Externe Nutzer erhalten Nachrichten und Dateien sogar mit einfachem Sicherheitsniveau, auch ohne sich bei cameoNet registrieren zu müssen.
+functions.free.header = Kostenlos - mehr umsonst geht nicht
+functions.free.text = cameoNet ist in der Basic Version kostenlos und garantiert werbefrei. Für immer und ewig. Mehr geht nicht.
+functions.business.header = Zusatzfunktionen fürs Business kostenpflichtig & profitabel
+functions.business.text = Organisationen präsentieren sich und die eigenen Mitarbeiter. Verschlüsselte Kommunikation mit anderen teilen. Und vieles andere Mehr.
+functions.apps.header = Demnächst hier erhältlich!
+
+business.header = Business und Organisationen
+business.text = cameoNet bietet für Geschäftskunden viele gewinnbringende Zusatzfeatures und ist kostenpflichtig.
+business.cameocard-pro.header = cameoCard Pro
+business.cameocard-pro.text = Unternehmensprofil mit allgemeinen Kontaktdaten und Mitarbeiterverknüpfung
+business.coworker-identity.header = Mitarbeiter Identitäten
+business.coworker-identity.text = Mitarbeiter haben interne und externe Profile
+business.document-authenticity.header = Dokumentenechtheit
+business.document-authenticity.text = Mit Sicherheit wissen, dass das Dokument echt ist
+business.authentication.header = Authentifizierung
+business.authentication.text = Schön, wenn man weiß, mit wem man spricht
+business.external-customer.header = Externe Kundeneinbindung
+business.external-customer.text = Einfache integration externer Kunden in Kommunikation
+business.archives.header = Archiv
+business.archives.text = Variable Speichergröße Aufbewahrungszeit bis zu 10 Jahre
+business.delegation-management.header = Delegationsmanagement
+business.delegation-management.text = Für sichere Kommunikation auch bei Delegation oder Vertretung
+business.sms.header = SMS
+business.sms.text = Günstige Pakete für erweiterte Auslandskommunikation
+business.presence-detection.header = Präsenzerkennung
+business.presence-detection.text = Erkennen, wann die Gegenseite anwesend ist
+business.footer = Die detaillierten Konditionen werden im Frühsommer bekannt gegeben. <br> Geschäftskunden, die Interesse an einem Beta-Test haben, melden sich bitte hier.
+
+faq.header = FAQ
+faq.why-were-safe.header = Warum is cameoNet sicherer?
+faq.why-were-safe.text = cameoNet nutzt bewährte Kryptologie und beweist mit Open Source, das es auch seine Versprechen hält. cameoNet ist so sicher, das selbst wir die Nachrichten und Anhänge nicht lesen können.
+faq.what-about-files.header = Kann ich mit cameoNet auch Dateien versenden?
+faq.what-about-files.text = Mit cameoNet können Sie auch sicher, einfach und unkompliziert Dateien versenden.
+faq.how-to-sign-in.header = Wie melde ich mich an?
+faq.how-to-sign-in.text = Schon bald können Sie an einem BetaTest teilnehmen. Wenn Sie informiert werden wollen, tragen Sie sich hier ein.
+faq.who-is-behind.header = Wer steht hinter cameoNet?
+faq.who-is-behind.text = Ein Team erfahrener Unternehmer und Entwickler, denen selbstbestimmte Kommunikation mehr als wichtig ist.
+faq.how-to-join-anonymous.header = Anonym anmelden, wie geht das?
+faq.how-to-join-anonymous.text = Sie können sich ohne Mobilnummer oder Mailadresse anmelden. Nachteil ist, dass wir Ihnen natürlich niemals Ihr Paßwort zurückstellen können, wenn Sie es verloren haben sollten.
+faq.footer = Wenn Sie weitere Fragen haben, dann senden Sie uns diese bitte hier.
+
+contact.header = Kontakt
+contact.name = Name
+contact.email = E-Mail
+contact.subject = Betreff
+contact.message = Nachricht
+contact.submit = Nachricht versenden
+contact.reset = Formular zurücksetzen
+
+imprint.header = Impressum
+imprint.text = Cameo ein Dienst der:<br />memo Connect GmbH<br />Große Nikolaistraße 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Geschäftsführer: Dr. Holger Haedrich, Michael Merz
+
+website.href = http://cameo.io
+website.name = cameoNet

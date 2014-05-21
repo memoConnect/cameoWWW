@@ -20,9 +20,17 @@
 		window.setInterval(function(){ navigate( 'next' )}, 5000);
 
 	function init() {
-		navNext.addEventListener( 'click', function( ev ) { ev.preventDefault(); navigate( 'next' ); } );
-		navPrev.addEventListener( 'click', function( ev ) { ev.preventDefault(); navigate( 'prev' ); } );
-		effectSel.addEventListener( 'change', changeEffect );
+        if (navNext != undefined){
+            navNext.addEventListener('click', function (ev) {
+                ev.preventDefault();
+                navigate('next');
+            });
+            navPrev.addEventListener('click', function (ev) {
+                ev.preventDefault();
+                navigate('prev');
+            });
+            effectSel.addEventListener( 'change', changeEffect );
+        }
 	}
 
 	function hideNav() {

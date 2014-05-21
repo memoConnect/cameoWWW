@@ -1,4 +1,83 @@
+seo.title = cameoNet
+seo.description =
+seo.keywords =
+
 navigation.functions = Functions
 navigation.business = Business
 navigation.faq = FAQ
 navigation.contact = Contact
+
+slider.safer-communicator =
+slider.all-devices =
+slider.open-for-extern =
+slider.also-business =
+
+functions.header =
+functions.safety.header =
+functions.safety.text =
+functions.open-source.header =
+functions.open-source.text =
+functions.all-devices.header =
+functions.all-devices.text =
+functions.multi-identity.header =
+functions.multi-identity.text =
+functions.anonymity.header =
+functions.anonymity.text =
+functions.unified-messaging.header =
+functions.unified-messaging.text =
+functions.extern-user.header =
+functions.extern-user.text =
+functions.free.header =
+functions.free.text =
+functions.business.header =
+functions.business.text =
+functions.apps.header =
+
+business.header =
+business.text =
+business.cameocard-pro.header =
+business.cameocard-pro.text =
+business.coworker-identity.header =
+business.coworker-identity.text =
+business.document-authenticity.header =
+business.document-authenticity.text =
+business.authentication.header =
+business.authentication.text =
+business.external-customer.header =
+business.external-customer.text =
+business.archives.header =
+business.archives.text =
+business.delegation-management.header =
+business.delegation-management.text =
+business.sms.header =
+business.sms.text =
+business.presence-detection.header =
+business.presence-detection.text =
+business.footer =
+
+faq.header =
+faq.why-were-safe.header =
+faq.why-were-safe.text =
+faq.what-about-files.header =
+faq.what-about-files.text =
+faq.how-to-sign-in.header =
+faq.how-to-sign-in.text =
+faq.who-is-behind.header =
+faq.who-is-behind.text =
+faq.how-to-join-anonymous.header =
+faq.how-to-join-anonymous.text =
+faq.footer =
+
+contact.header =
+contact.name =
+contact.email =
+contact.subject =
+contact.message =
+contact.submit =
+contact.reset =
+
+imprint.header =
+imprint.text =
+
+website.href =
+website.name =

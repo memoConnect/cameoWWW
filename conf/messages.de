@@ -6,6 +6,8 @@ navigation.functions = Funktionen
 navigation.business = Business
 navigation.faq = FAQ
 navigation.contact = Kontakt
+navigation.language.de = de
+navigation.language.en = en
 
 slider.safer-communicator = Der sichere Communicator!
 slider.all-devices = Auf allen Endger&auml;ten!

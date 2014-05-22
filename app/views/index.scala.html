@@ -1,5 +1,6 @@
 @import _root_.helper.utils
 @import _root_.helper.i18n
+@(ab: Antibot)
 
 <!DOCTYPE HTML>
 <html>
@@ -391,6 +392,10 @@
                                             <textarea name="message" id="message" placeholder="@i18n.get("contact.message")"></textarea>
                                         </div>
                                     </div>
+                                    <div class="ab_form">
+                                        @i18n.get("ab_form.message")
+                                        <input type="text" name="ab_form" value="" />
+                                    </div>
                                     <div class="row">
                                         <div class="12u">
                                             <a href="#" class="button form-button-submit">@i18n.get("contact.submit")</a>
@@ -399,6 +404,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <input class="hidden-inp" type="text" name="@ab.name" value="@ab.value">
                             </form>
                         </div>
                     </div>

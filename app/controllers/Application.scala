@@ -4,6 +4,7 @@ import play.api.mvc._
 import _root_.helper.i18n
 
 import models.Antibot
+import play.Logger
 
 object Application extends Controller {
   def redirect(url: String) = Action {
@@ -15,9 +16,9 @@ object Application extends Controller {
 
     i18n.setLang(lang)
 
-    val ab: new Antibot("moep", "moep-value")
-    Logger.debug(ab.name)
+    val ab = new Antibot("moep", "moep-value")
+//    Logger.debug(ab.name)
 
-    Ok(views.html.index())
+    Ok(views.html.index(ab))
   }
 }

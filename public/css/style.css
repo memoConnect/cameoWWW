@@ -540,6 +540,9 @@
 			font-family: 'Open Sans', 'sans-serif';
 			font-weight: 400;
 		}
+        #nav .i18n a {
+            display:inline-block;
+        }
 		
 			#nav a:hover
 			{

@@ -3,14 +3,13 @@
 # ~~~~
 
 # Home page
-GET        /                      controllers.Application.redirect(url = "/w/")
-GET        /w                     controllers.Application.redirect(url = "/w/")
-GET        /w/                    controllers.Application.index
-
-GET     /                           controllers.Application.index
-GET     /moep                       controllers.Moep.moep
-GET     /sendMail                   controllers.Message.sendMessage
-POST    /sendMail                   controllers.Message.sendMessage
-
+GET         /                   controllers.Application.redirect(url = "/w/de")
 # Map static resources from the /public folder to the /assets URL path
-GET     /w/static/*file           controllers.Assets.at(path="/public/", file)
+GET         /w/static/*file     controllers.Assets.at(path="/public/", file)
+GET         /w                  controllers.Application.redirect(url = "/w/de")
+GET         /w/                 controllers.Application.redirect(url = "/w/de")
+GET         /w/*lang            controllers.Application.index(lang)
+
+GET         /moep               controllers.Moep.moep
+GET         /sendMail           controllers.Message.sendMessage
+POST        /sendMail           controllers.Message.sendMessage

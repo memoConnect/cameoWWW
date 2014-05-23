@@ -16,9 +16,11 @@ object Application extends Controller {
 
     i18n.setLang(lang)
 
-    val ab = new Antibot("moep", "moep-value")
+//    val ab = new Antibot
 //    Logger.debug(ab.name)
+//    println(ab)
 
-    Ok(views.html.index(ab))
+//    Ok(views.html.index(ab))
+    Ok(views.html.index())
   }
 }

@@ -12,6 +12,6 @@ object i18n {
   }
 
   def get(index: String) = {
-    Html(HtmlEntities(Messages(index)(Lang(lang))))
+    Html(Messages(index)(Lang(lang)))
   }
 }

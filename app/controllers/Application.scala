@@ -11,15 +11,10 @@ object Application extends Controller {
     Redirect(url)
   }
 
-  def index(lang: String = "de") = Action {
+  def index(lang: String = "de") = Action { request =>
     // set lang
     i18n.setLang(lang)
 
-//    val ab = new Antibot
-//    Logger.debug(ab.name)
-//    println(ab)
-
-//    Ok(views.html.index(ab))
-    Ok(views.html.index())
+    Ok(views.html.index(Antibot.create(request)))
   }
 }

@@ -11,5 +11,5 @@ GET         /w/                 controllers.Application.redirect(url = "/w/de")
 GET         /w/*lang            controllers.Application.index(lang)
 
 GET         /moep               controllers.Moep.moep
-GET         /sendMail           controllers.Message.sendMessage
-POST        /sendMail           controllers.Message.sendMessage
+GET         /sendMail           controllers.Message.validate
+POST        /sendMail           controllers.Message.validate

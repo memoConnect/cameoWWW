@@ -6,13 +6,16 @@ navigation.functions = Functions
 navigation.business = Business
 navigation.faq = FAQ
 navigation.contact = Contact
+navigation.language.select = select language
+navigation.language.de = de
+navigation.language.en = en
 
-slider.safer-communicator =
-slider.all-devices =
-slider.open-for-extern =
-slider.also-business =
+slider.safer-communicator = The safe Communicator!
+slider.all-devices = On all devices!
+slider.open-for-extern = Open for extern users!
+slider.also-business = Even for business customers!
 
-functions.header =
+functions.header = Functions
 functions.safety.header =
 functions.safety.text =
 functions.open-source.header =
@@ -33,7 +36,7 @@ functions.business.header =
 functions.business.text =
 functions.apps.header =
 
-business.header =
+business.header = Business
 business.text =
 business.cameocard-pro.header =
 business.cameocard-pro.text =
@@ -55,7 +58,7 @@ business.presence-detection.header =
 business.presence-detection.text =
 business.footer =
 
-faq.header =
+faq.header = FAQ
 faq.why-were-safe.header =
 faq.why-were-safe.text =
 faq.what-about-files.header =
@@ -68,7 +71,7 @@ faq.how-to-join-anonymous.header =
 faq.how-to-join-anonymous.text =
 faq.footer =
 
-contact.header =
+contact.header = Contact
 contact.name =
 contact.email =
 contact.subject =
@@ -76,10 +79,10 @@ contact.message =
 contact.submit =
 contact.reset =
 
-imprint.header =
+imprint.header = Imprint
 imprint.text =
 
-website.href =
-website.name =
+website.href = http://cameo.io
+website.name = cameoNet
 
 ab_form.message =

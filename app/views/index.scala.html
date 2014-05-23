@@ -17,7 +17,7 @@
         <link rel="stylesheet" type="text/css" href="@utils.getFile("css/normalize.css")"/>
         <link rel="stylesheet" type="text/css" href="@utils.getFile("css/component.css")"/>
         <link rel="stylesheet" type="text/css" href="@utils.getFile("css/fxfullwidth.css")"/>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <script src="@utils.getFile("js/modernizr.custom.js")"></script>
         <noscript>
             <link rel="stylesheet" type="text/css" href="@utils.getFile("css/skel-noscript.css")"/>
@@ -52,6 +52,11 @@
                 <li><a href="#business">@i18n.get("navigation.business")</a></li>
                 <li><a href="#faq">@i18n.get("navigation.faq")</a></li>
                 <li><a href="#contact">@i18n.get("navigation.contact")</a></li>
+                <li class="i18n">
+                    @i18n.get("navigation.language.select"):
+                    <a href="/w/de">@i18n.get("navigation.language.de")</a>
+                    <a href="/w/en">@i18n.get("navigation.language.en")</a>
+                </li>
             </ul>
         </nav>
 
@@ -194,7 +199,7 @@
                         <div class="image image-full"><img src="@utils.getFile("images/playStore.png")" alt=""/></div>
                     </div>
                     <div class="storelink">
-                        <div class="image image-full"><img src="@utils.getFile("images/winStore.png")" alt=""/></div>
+                        <div class="image image-full"><img src="@utils.getFile("images/webSite.png")" alt=""/></div>
                     </div>
                 </div>
                 <a href="#business" class="button button-big">@i18n.get("navigation.business")</a>
@@ -397,10 +402,10 @@
                                         <input type="text" name="ab_form" value="" />
                                     </div>
                                     <div class="row">
+                                        <br>
                                         <div class="12u">
                                             <a href="#" class="button form-button-submit">@i18n.get("contact.submit")</a>
-                                            <a href="#"
-                                            class="button button-alt form-button-reset">@i18n.get("contact.reset")</a>
+                                            <a href="#" class="button button-alt form-button-reset">@i18n.get("contact.reset")</a>
                                         </div>
                                     </div>
                                 </div>

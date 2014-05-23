@@ -11,9 +11,8 @@ object Application extends Controller {
     Redirect(url)
   }
 
-  def index = Action {
-    val lang: String = "de"
-
+  def index(lang: String = "de") = Action {
+    // set lang
     i18n.setLang(lang)
 
 //    val ab = new Antibot

@@ -10,4 +10,4 @@ GET         /w                  controllers.Application.redirect(url = "/w/de")
 GET         /w/                 controllers.Application.redirect(url = "/w/de")
 GET         /w/*lang            controllers.Application.index(lang)
 
-POST        /sendMail           controllers.FormSubmit.submit
+POST        /w/sendMail           controllers.FormSubmit.submit

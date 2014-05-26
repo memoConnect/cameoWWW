@@ -19,4 +19,4 @@ WORKDIR /opt/app/
 
 ENTRYPOINT ["bin/cameowww"]
 
-CMD ["-Dconfig.file=conf/application.conf"]
+CMD ["-Dconfig.file=conf/secret.conf"]

@@ -31,6 +31,10 @@
         <link rel="stylesheet" href="@utils.getFile("css/ie8.css")"/><![endif]-->
         <!--[if lte IE 7]>
         <link rel="stylesheet" href="@utils.getFile("css/ie7.css")"/><![endif]-->
+
+        <link rel="stylesheet" href="@utils.getFile("css/flexslider.css")" type="text/css">
+        <script src="@utils.getFile("js/jquery.flexslider.js")"></script>
+
     </head>
     <body>
 
@@ -53,8 +57,8 @@
                 <li><a href="#faq">@i18n.get("navigation.faq")</a></li>
                 <li><a href="#contact">@i18n.get("navigation.contact")</a></li>
                 <li class="i18n">
-                    @i18n.get("navigation.language.select"):
                     <a href="/w/de">@i18n.get("navigation.language.de")</a>
+                    |
                     <a href="/w/en">@i18n.get("navigation.language.en")</a>
                 </li>
             </ul>
@@ -62,30 +66,34 @@
 
         <!-- Home -->
         <div class="wrapper wrapper-style1 wrapper-first">
-            <article class="container_top" id="top">
-                <section>
-                    <div id="component" class="component component-fullwidth fxSoftScale">
-                        <ul class="itemwrap">
-                            <li class="current"><img src="@utils.getFile("img/8.jpg")" alt="@i18n.get("slider.safer-communicator")"/>
-                                <div class="logo">@i18n.get("slider.safer-communicator")</div>
-                            </li>
-                            <li><img src="@utils.getFile("img/6.jpg")" alt="@i18n.get("slider.all-devices")"/>
-                                <div class="logo">@i18n.get("slider.all-devices")</div>
-                            </li>
-                            <li><img src="@utils.getFile("img/7.jpg")" alt="@i18n.get("slider.open-for-extern")"/>
-                                <div class="logo">@i18n.get("slider.open-for-extern")</div>
-                            </li>
-                            <li><img src="@utils.getFile("img/9.jpg")" alt="@i18n.get("slider.also-business")"/>
-                                <div class="logo">@i18n.get("slider.also-business")</div>
-                            </li>
-                        </ul>
-                        <nav>
-
-                        </nav>
-                    </div>
-                </section>
-                <script src="@utils.getFile("js/classie.js")"></script>
-                <script src="@utils.getFile("js/main.js")"></script>
+            <article>
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="@utils.getFile("img/8.jpg")" alt="@i18n.get("slider.safer-communicator")"/>
+                            <div class="logo">@i18n.get("slider.safer-communicator")</div>
+                        </li>
+                        <li>
+                            <img src="@utils.getFile("img/6.jpg")" alt="@i18n.get("slider.all-devices")"/>
+                            <div class="logo">@i18n.get("slider.all-devices")</div>
+                        </li>
+                        <li>
+                            <img src="@utils.getFile("img/7.jpg")" alt="@i18n.get("slider.open-for-extern")"/>
+                            <div class="logo">@i18n.get("slider.open-for-extern")</div>
+                        </li>
+                        <li>
+                            <img src="@utils.getFile("img/9.jpg")" alt="@i18n.get("slider.also-business")"/>
+                            <div class="logo">@i18n.get("slider.also-business")</div>
+                        </li>
+                    </ul>
+                </div>
+                <script type="text/javascript" charset="utf-8">
+                    $(window).load(function() {
+                        $('.flexslider').flexslider({
+                            animation:'slide'
+                        });
+                    });
+                </script>
             </article>
         </div>
 

@@ -440,8 +440,9 @@
 
 	.wrapper-first
 	{
+        padding:0px;
+        padding-top:58px;
 		box-shadow: none;
-
 	}
 
 	.wrapper-style1
@@ -490,7 +491,7 @@
 	font-weight: 300;
 	line-height: 1.2em;
   	position: absolute;
-  	top: 110px;
+  	top: 60px;
  	left: 50%;
 	text-align: center;
 	-webkit-transform: translateX(-50%);
@@ -563,10 +564,16 @@
 			}
 #git {
   	position: fixed;
-	top: 0; 
+	top: 57px;
 	right: 0; 
 	border: 0;
 	z-index: 10001;
+    width:120px;
+    height:120px;
+}
+#git img{
+    height:100%;
+    width:100%;
 }
 			
 /*********************************************************************************/

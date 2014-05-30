@@ -122,7 +122,8 @@
 	
 		.wrapper-first
 		{
-			padding: 0em;
+            padding:0px;
+            padding-top:58px;
 			height: 600px;
 		}
 

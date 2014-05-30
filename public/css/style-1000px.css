@@ -18,7 +18,7 @@
 	min-width: 890px;
 	font-size: 2.6em;
 	line-height: 1.2em;
-  	top: 98px;
+  	top: 30px;
  	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -32,6 +32,10 @@
 	top: 60%;
 }
 
+
+#git {
+    top: 49px;
+}
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
@@ -44,8 +48,9 @@
 	
 		.wrapper-first
 		{
-			padding-top: 0em;
-			height: 500px;
+            padding:0px;
+            padding-top:48px;
+			height:380px;
 		}
 
 		.wrapper-style4 .row-special

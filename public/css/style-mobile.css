@@ -144,9 +144,9 @@
 		}
 .logo {
 	min-width: 450px;
-	font-size: 1.8em;
+	font-size: 1.2em;
 	line-height: 0.6em;
-  	top: 35px;
+  	top: 15px;
  	left: 52%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -162,28 +162,36 @@
 		text-align: center;
 	}
 
-		.wrapper-first
-		{
-			padding: 0em;
-			height: 230px;
-		}
+    .wrapper-first
+    {
+        padding:0px;
+        padding-top:145px;
+        height:280px;
+    }
 	
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
+.flex-direction-nav{
+    display:none;
+}
 
-			font-size: 0.8em;
-	}
-	
-		#nav a
-		{
-			padding: 0.5em;
-		}
+#nav
+{
+
+        font-size: 0.8em;
+}
+
+#nav a
+{
+    padding: 0.5em;
+}
+
 #git {
-			top: 33px; 
+    top:70px;
+    width:80px;
+    height:80px;
 }
 		
 /*********************************************************************************/

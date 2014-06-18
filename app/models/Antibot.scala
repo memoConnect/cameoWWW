@@ -10,13 +10,13 @@ case class Antibot(name: String, value: String)
 
 object Antibot {
 
-  def createName(request: Request[AnyContent]) : String = {
+  def createName[A](request: Request[A]) : String = {
     val ip : String = request.remoteAddress
 
     Crypto.encryptAES(ip)
   }
 
-  def createValue(request: Request[AnyContent]) : String  = {
+  def createValue[A](request: Request[A]) : String  = {
     val ip : String = request.remoteAddress
     val ua : String = request.headers.get("User-Agent") match {
       case None => ""
@@ -27,7 +27,7 @@ object Antibot {
   }
 
 
-  def create (request: Request[AnyContent]) : Antibot = {
+  def create[A](request: Request[A]) : Antibot = {
     val name : String = createName(request)
     val value: String = createValue(request)
 

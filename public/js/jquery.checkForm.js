@@ -13,24 +13,32 @@
         return this.each(function() {
             var $form = $(this),
                 $inputs = $form.find(settings.selector),
-                $responseMessage = $form.find('.response-message').hide();
+                $sendFail = $form.find('.send-fail');
+                $sendSuccess = $form.find('.send-success');
 
             function sendMessage(json){
                 $.ajax({
-                    type:'POST',
-                    url:'/w/sendMail',
-                    data:json
+                    type: 'POST',
+                    url: '/w/sendMail',
+                    data: JSON.stringify(json)
                 })
-                .success(function(){
-                    $form.reset();
-                }).error(function(response){
-                    $responseMessage
-                        .html(response)
+                .done(function(){
+                    $form[0].reset();
+                    $sendSuccess
+                        .show();
+                })
+                .fail(function(res){
+                    $sendFail
+                        .html(res.responseText)
                         .show();
                 });
             }
 
-            $responseMessage.click(function(){
+            // message clicker
+            $sendFail.click(function(){
+                $(this).hide();
+            });
+            $sendSuccess.click(function(){
                 $(this).hide();
             });
 

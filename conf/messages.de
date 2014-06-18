@@ -78,6 +78,8 @@ contact.subject = Betreff
 contact.message = Nachricht
 contact.submit = Nachricht versenden
 contact.reset = Formular zur&uuml;cksetzen
+contact.fail = Das abschicken war nicht erfolgreich.
+contact.success = Das abschicken war erfolgreich.
 
 imprint.header = Impressum
 imprint.text = Cameo ein Dienst der:<br />memo Connect GmbH<br />Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Gesch&auml;ftsf&uuml;hrer: Dr. Holger Haedrich, Michael Merz

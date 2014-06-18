@@ -166,6 +166,11 @@
             background: #02BED2 !important;
         }
 
+        form .send-message-hide{display:none}
+        form .send-fail, form .send-success{border-radius:8px;padding:5px;font-size:12px}
+        form .send-fail{background:#ff7146;color:#650000}
+        form .send-success{background:#02BED2;color:#555}
+
 	br.clear
 	{
 		clear: both;

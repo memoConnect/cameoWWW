@@ -78,6 +78,8 @@ contact.subject =
 contact.message =
 contact.submit =
 contact.reset =
+contact.fail = Sending failed.
+contact.success = Sending succeed.
 
 imprint.header = Imprint
 imprint.text =

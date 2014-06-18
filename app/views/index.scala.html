@@ -383,6 +383,12 @@
         </div>
 
         <!-- Contact -->
+        <script src="@utils.getFile("js/jquery.checkForm.js")"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('#contactForm').checkForm();
+            });
+        </script>
         <div class="wrapper wrapper-style4">
             <article id="contact" class="container small">
                 <header>
@@ -393,40 +399,42 @@
                 <div>
                     <div class="row">
                         <div class="12u">
-                            <form method="post" action="/w/sendMail">
+                            <form id="contactForm">
                                 <div>
                                     <div class="row half">
                                         <div class="6u">
-                                            <input type="text" name="name" id="name" placeholder="@i18n.get("contact.name")" />
+                                            <input type="text" name="name" id="name" placeholder="@i18n.get("contact.name")*" />
                                         </div>
                                         <div class="6u">
-                                            <input type="text" name="email" id="email" placeholder="@i18n.get("contact.email")"
+                                            <input type="text" name="email" id="email" placeholder="@i18n.get("contact.email")*"
                                             />
                                         </div>
                                     </div>
                                     <div class="row half">
                                         <div class="12u">
-                                            <input type="text" name="subject" id="subject" placeholder="@i18n.get("contact.subject")" />
+                                            <input type="text" name="subject" id="subject" placeholder="@i18n.get("contact.subject")*" />
                                         </div>
                                     </div>
                                     <div class="row half">
                                         <div class="12u">
-                                            <textarea name="message" id="message" placeholder="@i18n.get("contact.message")"></textarea>
+                                            <textarea name="message" id="message" placeholder="@i18n.get("contact.message")*"></textarea>
                                         </div>
                                     </div>
                                     <div class="ab_form">
                                         @i18n.get("ab_form.message")
-                                        <input type="text" name="ab_form" value="" />
+                                        <input type="text" name="abForm" value="" />
                                     </div>
                                     <div class="row">
                                         <br>
                                         <div class="12u">
                                             <a href="#" class="button form-button-submit">@i18n.get("contact.submit")</a>
                                             <a href="#" class="button button-alt form-button-reset">@i18n.get("contact.reset")</a>
+                                            <div class="attention-response hide"></div>
                                         </div>
                                     </div>
                                 </div>
-                                <input class="hidden-inp" type="text" name="@ab.name" value="@ab.value">
+                                <input class="hidden-inp" type="text" name="abName" value="@ab.name">
+                                <input class="hidden-inp" type="text" name="abValue" value="@ab.value">
                             </form>
                         </div>
                     </div>

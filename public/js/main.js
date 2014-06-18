@@ -1,4 +1,4 @@
-(function() {
+(function(){
 	var support = { animations : Modernizr.cssanimations },
 		animEndEventNames = {
 			'WebkitAnimation' : 'webkitAnimationEnd',

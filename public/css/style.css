@@ -160,6 +160,12 @@
 			border: 0;
 		}
 
+        form textarea.attention,
+        form input.attention{
+            color: #555 !important;
+            background: #02BED2 !important;
+        }
+
 	br.clear
 	{
 		clear: both;

@@ -2,61 +2,88 @@ seo.title = cameoNet
 seo.description =
 seo.keywords =
 
-navigation.functions = Funktionen
-navigation.business = Business
-navigation.faq = FAQ
-navigation.contact = Kontakt
+navigation.links.link01 = Funktionen
+navigation.links.link02 = Business
+navigation.links.link03 = Registrieren
+navigation.links.link04 = FAQ
+navigation.links.link05 = Kontakt
+navigation.links.link06 = Impressum 
 navigation.language.select = Sprache w&auml;hlen
 navigation.language.de = de
 navigation.language.en = en
 
-slider.safer-communicator = Der sichere Communicator!
-slider.all-devices = Auf allen Endger&auml;ten!
-slider.open-for-extern = Offen f&uuml;r externe Nutzer!
-slider.also-business = Auch f&uuml;r Gesch&auml;ftskunden!
+slider.slider01.text = cameoNet: Einfach grenzenlos sicher kommunizieren!
+slider.slider01.img = img/8.jpg
+slider.slider02.text = Auf allen Endger&auml;ten!
+slider.slider02.img = img/6.jpg
+slider.slider03.text = Offen f&uuml;r externe Nutzer!
+slider.slider03.img = img/7.jpg
+slider.slider04.text = F&uuml;r Organisationen und Unternehmen!
+slider.slider04.img = img/9.jpg
 
 functions.header = Funktionen
-functions.safety.header = Sicherheit - bequem & einfach
-functions.safety.text = Absolute Sicherheit mit Ende zu Ende Verschl&uuml;sselung (RSA-4096, AES-256, Perfect Forward Secrecy). Sicherheit kann jeder.
-functions.open-source.header = OpenSource - 100% transparent
-functions.open-source.text = Bew&auml;hrte Kryptographie ist nicht angreifbar, selbst wenn der Source Code bekannt ist.  Wir halten unsere Versprechen.
-functions.all-devices.header = Alle Endger&auml;te - perfekte L&ouml;sung
-functions.all-devices.text = Parallele Nutzung von allen Endger&auml;ten wie Desktop/Tablet/Smartphone mit einem Account.Immer richtig, in allen Situationen. &nbsp;&nbsp;&nbsp;
-functions.multi-identity.header = Multi Identit&auml;ten - richtig Auftreten
-functions.multi-identity.text = Integration aller Lebensbereiche wie Beruf, Familie, Hobby in einem Account. Immer das richtige Profil zeigen.
-functions.anonymity.header = Anonymit&auml;t - einfach mal inkognito
-functions.anonymity.text = Auch komplett anonyme Nutzung m&ouml;glich. Es gibt immer mal einen guten Grund, unerkannt bleiben zu wollen.
-functions.unified-messaging.header = Unified Messaging - auf allen Kan&auml;len
-functions.unified-messaging.text = S&auml;mtliche elektronischen Kommunikationswege stehen zur Verf&uuml;gung: cameoNet, SMS, Email, Twitter oder Facebook. Mit maximaler Sicherheit.
-functions.extern-user.header = Externe Nutzer - herzlich Willkommen
-functions.extern-user.text = Externe Nutzer erhalten Nachrichten und Dateien sogar mit einfachem Sicherheitsniveau, auch ohne sich bei cameoNet registrieren zu m&uuml;ssen.
-functions.free.header = Kostenlos - mehr umsonst geht nicht
-functions.free.text = cameoNet ist in der Basic Version kostenlos und garantiert werbefrei. F&uuml;r immer und ewig. Mehr geht nicht.
-functions.business.header = Zusatzfunktionen f&uuml;rs Business kostenpflichtig & profitabel
-functions.business.text = Organisationen pr&auml;sentieren sich und die eigenen Mitarbeiter. Verschl&uuml;sselte Kommunikation mit anderen teilen. Und vieles andere Mehr.
+functions.text =
+
+functions.feature01.header = Verschl&uuml;sselt - einfach sicher!
+functions.feature01.text = Ende-zu-Ende Verschl&uuml;sselung f&uuml;r alle. 
+
+functions.feature02.header = OpenSource - 100% transparent
+functions.feature02.text = Keine Hintert&uuml;ren, offengelegte Software.
+
+functions.feature03.header = Alle Endger&auml;te - gleichzeitig nutzen!
+functions.feature03.text = Desktop/Tablet/Smartphone mit einem Account.
+
+functions.feature04.header = Multi Identit&auml;ten - richtig Auftreten! 
+functions.feature04.text = Immer das richtige Profil zeigen.
+
+functions.feature05.header = Offene Kommunikation - Unified Messaging!
+functions.feature05.text = Auch SMS und EMail &uuml;ber cameoNet direkt versenden.
+
+functions.feature06.header = Anonymit&auml;t - einfach mal inkognito!
+functions.feature06.text = Auch komplett anonyme Nutzung m&ouml;glich.
+
+functions.feature07.header = Keiner liest mit - auch wir nicht!
+functions.feature07.text = Selbst bestimmen, mit wem man kommuniziert.
+
+functions.feature08.header = Kostenlos -  und umsonst!
+functions.feature08.text = cameoNet Basic ist kostenlos werbefrei. 
+
+functions.feature09.header = Extras - f&uuml;r Organisationen und Unternehmen!
+functions.feature09.text = Sichere Kommunikation in Teams einfach und sicher.
+
 functions.apps.header = Demn&auml;chst hier erh&auml;ltlich!
 
-business.header = Business und Organisationen
-business.text = cameoNet bietet f&uuml;r Gesch&auml;ftskunden viele gewinnbringende Zusatzfeatures und ist kostenpflichtig.
-business.cameocard-pro.header = cameoCard Pro
-business.cameocard-pro.text = Unternehmensprofil mit allgemeinen Kontaktdaten und Mitarbeiterverkn&uuml;pfung
-business.coworker-identity.header = Mitarbeiter Identit&auml;ten
-business.coworker-identity.text = Mitarbeiter haben interne und externe Profile
-business.document-authenticity.header = Dokumentenechtheit
-business.document-authenticity.text = Mit Sicherheit wissen, dass das Dokument echt ist
-business.authentication.header = Authentifizierung
-business.authentication.text = Sch&ouml;n, wenn man wei&szlig;, mit wem man spricht
-business.external-customer.header = Externe Kundeneinbindung
-business.external-customer.text = Einfache integration externer Kunden in Kommunikation
-business.archives.header = Archiv
-business.archives.text = Variable Speichergr&ouml;&szlig;e Aufbewahrungszeit bis zu 10 Jahre
-business.delegation-management.header = Delegationsmanagement
-business.delegation-management.text = F&uuml;r sichere Kommunikation auch bei Delegation oder Vertretung
-business.sms.header = SMS
-business.sms.text = G&uuml;nstige Pakete f&uuml;r erweiterte Auslandskommunikation
-business.presence-detection.header = Pr&auml;senzerkennung
-business.presence-detection.text = Erkennen, wann die Gegenseite anwesend ist
-business.footer = Die detaillierten Konditionen werden im Fr&uuml;hsommer bekannt gegeben. <br> Gesch&auml;ftskunden, die Interesse an einem Beta-Test haben, melden sich bitte hier.
+business.header = Business 
+business.text = Organisationen und Unternehmen - viele gewinnbringende Zusatzfeatures!
+
+business.feature01.header = cameoNet Profil - professionell auftreten!
+business.feature01.text = Mit Unternehmensprofil perfekt kommunizieren.
+
+business.feature02.header = Mitarbeiter - mit Identit&auml;ten!
+business.feature02.text = Eindeutiges Profil und Adresse pro Mitarbeiter.
+
+business.feature03.header = Dokumentenechtheit -  keine F&auml;lschungen!
+business.feature03.text = Mit Sicherheit wissen, dass das Dokument echt ist.
+
+business.feature04.header = Authentifizierung - vertrauen k&ouml;nnen!
+business.feature04.text = Sch&ouml;n, wenn man wei&slig;, mit wem man spricht.
+ 
+business.feature05.header = Kundeneinbindung - grenzenlos kommunizieren!
+business.feature05.text = infache Integration externer Kunden in Kommunikation.
+ 
+business.feature06.header = Archiv - viel und jahrelang!
+business.feature06.text = Variable Speichergr&ouml;&slig;e Aufbewahrungszeit bis zu 10 Jahre
+
+business.feature07.header = Delegationsmanagement - Stellvertretung m&ouml;glich!
+business.feature07.text = F&uuml;r sichere Kommunikation auch bei Delegation oder Vertretung.
+ 
+business.feature08.header = SMS - kostenoptimiert!
+business.feature08.text = G&uuml;nstige Pakete f&uuml;r erweiterte Auslandskommunikation.
+ 
+business.feature09.header = Pr&auml;senzerkennung - in Reichweite!
+business.feature09.text = Erkennen, wann die Gegenseite anwesend ist.
+
+business.footer = Die detaillierten Konditionen werden bald bekannt gegeben.
 
 faq.header = FAQ
 faq.why-were-safe.header = Warum is cameoNet sicherer?
@@ -78,6 +105,8 @@ contact.subject = Betreff
 contact.message = Nachricht
 contact.submit = Nachricht versenden
 contact.reset = Formular zur&uuml;cksetzen
+
+register.header = Registrieren
 
 imprint.header = Impressum
 imprint.text = Cameo ein Dienst der:<br />memo Connect GmbH<br />Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Gesch&auml;ftsf&uuml;hrer: Dr. Holger Haedrich, Michael Merz

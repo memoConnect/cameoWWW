@@ -105,6 +105,8 @@ contact.subject = Betreff
 contact.message = Nachricht
 contact.submit = Nachricht versenden
 contact.reset = Formular zur&uuml;cksetzen
+contact.fail = Das abschicken war nicht erfolgreich.
+contact.success = Das abschicken war erfolgreich.
 
 register.header = Registrieren
 

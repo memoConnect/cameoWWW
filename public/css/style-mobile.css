@@ -189,7 +189,7 @@
 }
 
 #git {
-    top:70px;
+    top:67px;
     width:80px;
     height:80px;
 }
@@ -217,7 +217,10 @@
 		{
 			margin: 0;
 		}
-		
+
+
+.container.big-tiles .row > div{min-height:300px}
+.container.small-tiles .row > div{min-height:240px}
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/

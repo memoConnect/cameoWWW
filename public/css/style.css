@@ -598,7 +598,7 @@
 			}
 #git {
   	position: fixed;
-	top: 57px;
+	top: 56px;
 	right: 0; 
 	border: 0;
 	z-index: 10001;
@@ -677,3 +677,17 @@
 /*********************************************************************************/
 .hidden-inp {display:none !important}
 .ab_form {display:none !important}
+
+.container .table-header > div {background:#02BED2;color:#ffffff}
+.container .table-body .row{margin:0}
+.container .table-body .row-label{text-align:left}
+.container .table-body .row:nth-child(even) > div {background: #f1f1f1}
+.container .table-body .row:nth-child(odd) > div {background: #e2e2e2}
+.container .table-body .row:nth-child(even) > div.row-label {background: #dddddd}
+.container .table-body .row:nth-child(odd) > div.row-label {background: #d3d3d3}
+.container .red-xmark{color:#990000}
+.container .green-checkmark{color:#216f00}
+.container.table-container .row > div{padding:0.5em;text-shadow:none}
+
+.container.big-tiles .row > div{min-height:440px}
+.container.small-tiles .row > div{min-height:320px}

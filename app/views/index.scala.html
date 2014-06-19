@@ -113,13 +113,8 @@
             <article id="product">
                 <header>
                     <h2>@i18n.get("functions.header")</h2>
-
                 </header>
-                <div class="container">
-                    <div class="row">
-                        <div class="12u">
-                        </div>
-                    </div>
+                <div class="container big-tiles">
                     <div class="row">
                         <div class="4u">
                             <article class="box box-style2">
@@ -230,11 +225,7 @@
                     <h2>@i18n.get("business.header")</h2>
                     <span>@i18n.get("business.text")</span>
                 </header>
-                <div class="container">
-                    <div class="row">
-                        <div class="11u">
-                        </div>
-                    </div>
+                <div class="container small-tiles">
                     <div class="row">
                         <div class="4u">
                             <article class="box box-style2">
@@ -315,59 +306,141 @@
                         </div>
                     </div>
                 </div>
-				<div class=container>
-					<table></td>
-						<td>
-					<tr>
-						<td></td>
-						<td>cameoNet</td>
-						<td>Competitors</td
-					</tr><tr>
-						<td>Anonymous usage</td>
-						<td>&#x2713;</td>
-						<td>&#x2717;</td>
-					</tr><tr>
-						<td>Option for full identification (trust center) </td>
-						<td>&#x2713;</td>
-						<td>&#x2717;</td>
-					</tr><tr>
-						<td>Open source</td>
-						<td>&#x2713;</td>
-						<td>just one (only partially)
-					</tr><tr>
-						<td>Multiple identities</td>
-						<td>&#x2713;</td>
-						<td>&#x2717;</td>
-					</tr><tr>
-						<td>Multiple devices</td>
-						<td>&#x2713;</td>
-						<td>&#x2717;</td>
-					</tr><tr>
-						<td>Specific organizational features</td>
-						<td>&#x2713;</td>
-						<td>&#x2717;</td>
-					</tr><tr>
-						<td>End-to-end encryption</td>
-						<td>&#x2713;</td>
-						<td>some</td>
-					</tr><tr>
-						<td>Open eco-system</td>
-						<td>&#x2713;</td>
-						<td>&#x2717;</td>
-					</tr><tr>
-						<td>Secure group chat</td>
-						<td>&#x2713;</td>
-						<td>some</td>
-					</tr><tr>
-						<td>No ads displayed to users</td>
-						<td>&#x2713;</td>
-						<td>some</td>
-					</tr><tr>
-						<td>No collection or selling of user data</td>
-						<td>&#x2713;</td>
-						<td>some</td>
-					</tr>
-					</table>
+				<div class="container table-container">
+				    <div class="row table-header">
+                        <div class="4u table-cell">
+                            &nbsp;
+                        </div>
+                        <div class="4u">
+                            cameoNet
+                        </div>
+                        <div class="4u">
+                            Competitors
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="row">
+                            <div class="4u row-label">
+                                Anonymous usage
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Option for full identification (trust center)
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Open source
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                just one (only partially)
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Multiple identities
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Multiple devices
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Specific organizational features
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                End-to-end encryption
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Open eco-system
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Secure group chat
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                No ads displayed to users
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                No collection or selling of user data
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                    </div>
 				</div>
                 <footer>
                     <p>@i18n.get("business.footer")</p>
@@ -492,6 +565,9 @@
                         </div>
                     </div>
                 </div>
+                <footer>
+                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                </footer>
             </article>
         </div>
 		<!-- Registrieren -->

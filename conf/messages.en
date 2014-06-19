@@ -129,7 +129,7 @@ register.platforms.checkbox.blackberry = Blackberry
 imprint.header = Impressum
 imprint.text = Cameo ein Dienst der:<br />memo Connect GmbH<br />Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Gesch&auml;ftsf&uuml;hrer: Dr. Holger Haedrich, Michael Merz
 
-website.href = http://cameo.io
+website.href = http://www.cameonet.de
 website.name = cameoNet
 
 ab_form.message = Bitte f&uuml;llen Sie das folgende Feld nicht aus, Danke.

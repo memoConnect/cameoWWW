@@ -120,12 +120,12 @@
 		text-align: center;
 	}
 	
-		.wrapper-first
-		{
-            padding:0px;
-            padding-top:58px;
-			height: 600px;
-		}
+    .wrapper-first
+    {
+        padding:0px;
+        padding-top:55px;
+        height: 600px;
+    }
 
 /*********************************************************************************/
 /* Nav                                                                           */

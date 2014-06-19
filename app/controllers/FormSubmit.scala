@@ -42,7 +42,7 @@ object FormSubmit extends Controller {
     import com.typesafe.plugin._
 
     val mail = use[MailerPlugin].email
-    mail.setSubject("[Kontaktformular] " + messageSubmit.subject)
+    mail.setSubject(messageSubmit.subject)
     mail.setRecipient("Support <support@cameo.io>") //todo: put this in config
     mail.setFrom("noreply@cameo.io")
     mail.setReplyTo(messageSubmit.name + " <" + messageSubmit.email + ">")

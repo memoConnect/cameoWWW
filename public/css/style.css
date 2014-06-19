@@ -99,7 +99,8 @@
 		form input[type=text],
 		form input[type=password],
 		form select,
-		form textarea
+		form textarea,
+        form label
 		{
 			border: 0;
 			padding: 0.75em;
@@ -129,7 +130,7 @@
 		{
 			height: 15em;
 		}
-		
+
 		form .formerize-placeholder
 		{
 			color: #555 !important;
@@ -170,6 +171,28 @@
         form .send-fail, form .send-success{border-radius:8px;padding:5px;font-size:12px}
         form .send-fail{background:#ff7146;color:#650000}
         form .send-success{background:#02BED2;color:#555}
+
+
+    form .checkbox-list {
+        text-align:left;
+    }
+    form label {
+        margin-right: 0.75em;
+        margin-bottom: 0.75em;
+        cursor: pointer;
+        display: inline-block;
+        width: auto;
+    }
+    form label.checked {
+        background:#02BED2;
+        color:#555;
+        text-shadow: -1px -1px 0px #AEAEAE;
+    }
+    form input[type=checkbox] {
+        -webkit-appearance: checkbox;
+        padding: 0.75em;
+        background: #282828;
+    }
 
 	br.clear
 	{

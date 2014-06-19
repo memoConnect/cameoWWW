@@ -99,6 +99,7 @@ faq.how-to-join-anonymous.text = Sie k&ouml;nnen sich ohne Mobilnummer oder Mail
 faq.footer = Wenn Sie weitere Fragen haben, dann senden Sie uns diese bitte hier.
 
 contact.header = Kontakt
+contact.presubject = [Kontaktformular]
 contact.name = Name
 contact.email = E-Mail
 contact.subject = Betreff
@@ -109,10 +110,21 @@ contact.fail = Das abschicken war nicht erfolgreich.
 contact.success = Das abschicken war erfolgreich.
 
 register.header = Registrieren
+register.subject = [Registrierungsformular]
+register.name = Name
+register.email = E-Mail
 register.submit = jetzt registrieren
 register.reset = Formular zur&uuml;cksetzen
 register.fail = Die Registrierung war nicht erfolgreich.
 register.success = Die Registrierung war erfolgreich.
+register.using = Nutzung
+register.using.checkbox.private = Privat
+register.using.checkbox.business = gesch&auml;ftlich
+register.platforms = Genutzte Plattformen
+register.platforms.checkbox.android = Android
+register.platforms.checkbox.ios = iOS
+register.platforms.checkbox.winphone = Windows Phone
+register.platforms.checkbox.blackberry = Blackberry
 
 imprint.header = Impressum
 imprint.text = Cameo ein Dienst der:<br />memo Connect GmbH<br />Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Gesch&auml;ftsf&uuml;hrer: Dr. Holger Haedrich, Michael Merz

@@ -43,7 +43,7 @@
 
         <link rel="stylesheet" href="@utils.getFile("css/flexslider.css")" type="text/css">
         <script src="@utils.getFile("js/jquery.flexslider.js")"></script>
-
+        <script src="@utils.getFile("js/jquery.cameo.js")"></script>
     </head>
     <body>
 
@@ -432,10 +432,11 @@
         </div>
 
         <!-- Contact -->
-        <script src="@utils.getFile("js/jquery.checkForm.js")"></script>
         <script type="text/javascript" charset="utf-8">
             $(window).load(function() {
-                $('#contactForm').checkForm();
+                $('#contactForm').checkForm({
+                    preSubject: '@i18n.get("contact.presubject")'
+                });
             });
         </script>
         <div class="wrapper wrapper-style4">
@@ -494,6 +495,16 @@
             </article>
         </div>
 		<!-- Registrieren -->
+		<script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('#registerForm')
+                    .checkForm({
+                        additionalFields: ['platforms','using'],
+                        optionalFields: ['message']
+                    })
+                    .checkboxLabelChecker();
+            });
+        </script>
         <div class="wrapper wrapper-style4">
             <article id="register" class="container small">
                 <header>
@@ -504,42 +515,74 @@
                 <div>
                     <div class="row">
                         <div class="12u">
-                            <form method="post" action="/w/sendMail">
+                            <form id="registerForm">
                                 <div>
                                     <div class="row half">
                                         <div class="6u">
-                                            <input type="text" name="name" id="name" placeholder="@i18n.get("contact.name")" />
+                                            <input type="text" name="name" id="name" placeholder="@i18n.get("register.name")" />
                                         </div>
                                         <div class="6u">
-                                            <input type="text" name="email" id="email" placeholder="@i18n.get("contact.email")"
+                                            <input type="text" name="email" id="email" placeholder="@i18n.get("register.email")"
                                             />
                                         </div>
                                     </div>
                                     <div class="row half">
-                                        <div class="6u">
-                                            Nutzung
+                                        <div class="4u">
+                                            @i18n.get("register.using")
                                         </div>
-                                        <div class="6u">
-                                            Checkboxen: Privat/gesch&auml;ftlich
+                                        <div class="8u checkbox-list">
+                                            <label>
+                                                <input type="checkbox" name="using" value="private" />
+                                                @i18n.get("register.using.checkbox.private")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="using" value="business" />
+                                                @i18n.get("register.using.checkbox.business")
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="row half">
-                                        <div class="6u">
-                                            Genutzte Plattforme
+                                        <div class="4u">
+                                            @i18n.get("register.platforms")
                                         </div>
-                                        <div class="6u">
-                                            Checkboxen: Android/iOS/Windows Phone/Blackberry
+                                        <div class="8u checkbox-list">
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="android" />
+                                                @i18n.get("register.platforms.checkbox.android")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="ios" />
+                                                @i18n.get("register.platforms.checkbox.ios")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="winphone" />
+                                                @i18n.get("register.platforms.checkbox.winphone")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="blackberry" />
+                                                @i18n.get("register.platforms.checkbox.blackberry")
+                                            </label>
                                         </div>
+                                    </div>
+                                    <div class="ab_form">
+                                        @i18n.get("ab_form.message")
+                                        <input type="text" name="abForm" value="" />
                                     </div>
                                     <div class="row">
                                         <br>
                                         <div class="12u">
+                                            <br>
+                                            <div class="send-fail send-message-hide"></div>
+                                            <div class="send-success send-message-hide">@i18n.get("register.success")</div>
                                             <a href="#" class="button form-button-submit">@i18n.get("register.submit")</a>
                                             <a href="#" class="button button-alt form-button-reset">@i18n.get("register.reset")</a>
                                         </div>
                                     </div>
                                 </div>
-                                <input class="hidden-inp" type="text" name="@ab.name" value="@ab.value">
+                                <input class="hidden-inp" type="text" name="subject" value="@i18n.get("register.subject")">
+                                <input class="hidden-inp" type="text" name="message" value="">
+                                <input class="hidden-inp" type="text" name="abName" value="@ab.name">
+                                <input class="hidden-inp" type="text" name="abValue" value="@ab.value">
                             </form>
                         </div>
                     </div>

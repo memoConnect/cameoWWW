@@ -56,7 +56,7 @@ object FormSubmit extends Controller {
 
     val messageBody = maybeAppend match {
       case None => messageSubmit.message
-      case Some(text) => messageSubmit.message + "\n\nAdditional Values:\n"+ text
+      case Some(text) => messageSubmit.message + messageSubmit.name + ", " + messageSubmit.email + "\n\nAdditional Values:\n"+ text
     }
 
     try {

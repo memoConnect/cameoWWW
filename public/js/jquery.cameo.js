@@ -48,28 +48,29 @@
                 var json = {},
                     isValid = true;
 
-                function addToJson(inpName, value, isArray){
+                function addToJson(inpName, value, isMultiple){
                     if(settings.additionalFields.length > 0 && !('additionalFields' in json)){
                         json.additionalFields = {};
                     }
-
-                    if(isArray) {
+                    // like an array
+                    if(isMultiple) {
                         // set normal
                         if (settings.additionalFields.indexOf(inpName) == -1){
                             // create array
                             if (!(inpName in json)) {
-                                json[inpName] = [];
+                                json[inpName] = "";
                             }
                             // push to array
-                            json[inpName].push(value);
+                            json[inpName]+= (json[inpName] != ''?',':'') + value;
                         // set to additionalFields
                         } else {
                             if (!(inpName in json.additionalFields)) {
-                                json.additionalFields[inpName] = [];
+                                json.additionalFields[inpName] = "";
                             }
                             // push to array
-                            json.additionalFields[inpName].push(value);
+                            json.additionalFields[inpName]+= (json.additionalFields[inpName] != ''?',':'') + value;
                         }
+                    // strings
                     } else {
                         // set normal
                         if (settings.additionalFields.indexOf(inpName) == -1)

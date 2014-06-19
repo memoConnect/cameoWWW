@@ -138,8 +138,9 @@
 
                 });
 
-                if(isValid && $form.find('.'+settings.attentionClass).length == 0){
+                if(isValid && $form.find('.'+settings.attentionClass).length == 0) {
                     sendMessage(json);
+                    $form.reset();
                 }
 
                 return false;
@@ -158,6 +159,10 @@
         return this.each(function(){
             var $form = $(this),
                 $labels = $form.find(settings.selector);
+
+            $form.on('reset', function(){
+                $labels.removeClass(settings.checkedClass);
+            });
 
             $labels.each(function(){
                 var $element = $(this),

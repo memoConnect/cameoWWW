@@ -77,33 +77,43 @@
         <!-- Home -->
         <div class="wrapper wrapper-style1 wrapper-first">
             <article>
-                <div class="flexslider">
-                    <ul class="slides">
-                        <li>
-                            <img src="@utils.getFile("img/8.jpg")" alt="@i18n.get("slider.slider01.text")"/>
-                            <div class="logo">@i18n.get("slider.slider01.text")</div>
-                        </li>
-                        <li>
-                            <img src="@utils.getFile("img/6.jpg")" alt="@i18n.get("slider.slider02.text")"/>
-                            <div class="logo">@i18n.get("slider.slider01.text")</div>
-                        </li>
-                        <li>
-                            <img src="@utils.getFile("img/7.jpg")" alt="@i18n.get("slider.slider03.text")"/>
-                            <div class="logo">@i18n.get("slider.slider03.text")</div>
-                        </li>
-                        <li>
-                            <img src="@utils.getFile("img/9.jpg")" alt="@i18n.get("slider.slider04.text")"/>
-                            <div class="logo">@i18n.get("slider.slider04.text")</div>
-                        </li>
-                    </ul>
-                </div>
-                <script type="text/javascript" charset="utf-8">
-                    $(window).load(function() {
-                        $('.flexslider').flexslider({
-                            animation:'slide'
-                        });
-                    });
-                </script>
+                <div class="container full-width">
+                    <div class="row">
+                        <div class="8u">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="@utils.getFile("img/8.jpg")" alt="@i18n.get("slider.slider01.text")"/>
+                                        <div class="logo">@i18n.get("slider.slider01.text")</div>
+                                    </li>
+                                    <li>
+                                        <img src="@utils.getFile("img/6.jpg")" alt="@i18n.get("slider.slider02.text")"/>
+                                        <div class="logo">@i18n.get("slider.slider01.text")</div>
+                                    </li>
+                                    <li>
+                                        <img src="@utils.getFile("img/7.jpg")" alt="@i18n.get("slider.slider03.text")"/>
+                                        <div class="logo">@i18n.get("slider.slider03.text")</div>
+                                    </li>
+                                    <li>
+                                        <img src="@utils.getFile("img/9.jpg")" alt="@i18n.get("slider.slider04.text")"/>
+                                        <div class="logo">@i18n.get("slider.slider04.text")</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <script type="text/javascript" charset="utf-8">
+                                $(window).load(function() {
+                                    $('.flexslider').flexslider({
+                                        animation:'slide'
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="4u side-text">
+                            <div class="padding-wrapper">
+                                @i18n.get("slider.side_text")
+                            <div>
+                        </div>
+                    </div>
             </article>
         </div>
 

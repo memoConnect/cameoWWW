@@ -520,7 +520,7 @@
 .logo {
   	color: #666;
 	min-width: 1240px;
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Open Sans', 'sans-serif';
 	font-weight: 300;
 	line-height: 1.2em;
@@ -538,13 +538,24 @@
 	text-shadow: 1px 1px 0px #fff;
 	font-size: 1em;
 }
+.side-text{
+    font-size: 2em;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #ffffff;
+    background: #02BED2;
+    height: 390px;
+    line-height: 1.5em;
+}
+.side-text .padding-wrapper{
+    padding-top: 80px;
+}
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
 
 	#nav
 	{
-		background-color: rgba(0,0,0,1);
+		background-color: #000;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -679,6 +690,7 @@
 .ab_form {display:none !important}
 
 .container .table-header > div {background:#02BED2;color:#ffffff}
+.container .table-header.row,
 .container .table-body .row{margin:0}
 .container .table-body .row-label{text-align:left}
 .container .table-body .row:nth-child(even) > div {background: #f1f1f1}
@@ -688,6 +700,7 @@
 .container .red-xmark{color:#990000}
 .container .green-checkmark{color:#216f00}
 .container.table-container .row > div{padding:0.5em;text-shadow:none}
+.container.full-width {width:100%;margin:0}
 
-.container.big-tiles .row > div{min-height:440px}
+.container.big-tiles .row > div{min-height:370px}
 .container.small-tiles .row > div{min-height:320px}

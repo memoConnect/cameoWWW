@@ -114,7 +114,7 @@
 	.box
 	{
 		padding: 30px 20px 30px 20px;
-		margin: 0 0 20px 0 !important;
+		margin: 0 !important;
 	}
 
 		.box h3
@@ -135,6 +135,12 @@
 			margin: -50px 0 50px -40px;
 			width: auto;
 		}
+        .box .image-full img,
+        .box .image-small img{
+            width:50%;
+            margin: 0 auto;
+        }
+
 		.component-fullwidth li img {
 			height: 200px;
 		}
@@ -143,9 +149,9 @@
 			height: 200px;
 		}
 .logo {
-	min-width: 450px;
+	min-width: 360px;
 	font-size: 1.2em;
-	line-height: 0.6em;
+	line-height: 1em;
   	top: 15px;
  	left: 52%;
 	-webkit-transform: translateX(-50%);
@@ -156,19 +162,27 @@
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
-	.wrapper
-	{
-		padding: 3em 15px 3em 15px;
-		text-align: center;
-	}
+.wrapper {
+    padding: 3em 15px 3em 15px;
+    text-align: center;
+}
 
-    .wrapper-first
-    {
-        padding:0px;
-        padding-top:145px;
-        height:280px;
-    }
-	
+.wrapper-first {
+    padding:0px;
+    padding-top:63px;
+}
+
+.flexslider{
+    height:150px;
+}
+.side-text{
+    font-size: 1.5em;
+    height: 140px;
+    line-height: 1.5em;
+}
+.side-text .padding-wrapper{
+    padding-top: 15px;
+}
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
@@ -189,9 +203,7 @@
 }
 
 #git {
-    top:67px;
-    width:80px;
-    height:80px;
+    display:none;
 }
 		
 /*********************************************************************************/
@@ -219,8 +231,9 @@
 		}
 
 
-.container.big-tiles .row > div{min-height:300px}
-.container.small-tiles .row > div{min-height:240px}
+.container.big-tiles .row > div{min-height:215px}
+.container.small-tiles .row > div{min-height:175px}
+.storelink{margin:0}
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/

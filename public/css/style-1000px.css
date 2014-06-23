@@ -15,8 +15,8 @@
 		height: 500px;
 	}
 .logo {
-	min-width: 890px;
-	font-size: 2.6em;
+	min-width: 660px;
+	font-size: 2em;
 	line-height: 1.2em;
   	top: 30px;
  	left: 50%;
@@ -46,18 +46,25 @@
 		text-align: center;
 	}
 	
-		.wrapper-first
-		{
-            padding:0px;
-            padding-top:48px;
-			height:380px;
-		}
+    .wrapper-first
+    {
+        padding:0px;
+        padding-top:95px;
+        height:450px;
+    }
 
-		.wrapper-style4 .row-special
-		{
-			margin: 2em 0 0 0;
-			padding: 2em 0 2em 0;
-		}
+    .flexslider {
+        height:333px;
+    }
+
+    .wrapper-style4 .row-special
+    {
+        margin: 2em 0 0 0;
+        padding: 2em 0 2em 0;
+    }
+
+.wrapper-first .side-text{height: 333px;}
+.wrapper-first .side-text .padding-wrapper{padding-top:55px}
 
 /*********************************************************************************/
 /* Articles                                                                      */

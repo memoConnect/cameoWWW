@@ -15,11 +15,15 @@ navigation.language.select = Language
 navigation.language.de = de
 navigation.language.en = en
 
-slider.header = First integrated mailing and messaging app. Easy and secure.<br/>Top extra business features.
+slider.header = First integrated mailing and messaging app.<br/>Easy and secure. Top extra business features.
 slider.slider01.text =cameoNet: Accessible Secure Communication!
+slider.slider01.image = images/slider/secure.jpg
 slider.slider02.text = On All Devices!
+slider.slider02.image = images/slider/alldevices.jpg
 slider.slider03.text = Open Access for All Users!
+slider.slider03.image = images/slider/extern.jpg
 slider.slider04.text =For Organizations and Business!
+slider.slider04.image = images/slider/business.jpg
 
 functions.header = Functions
 functions.text =

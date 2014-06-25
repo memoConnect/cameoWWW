@@ -2,6 +2,9 @@ seo.title = cameoNet
 seo.description =
 seo.keywords =
 
+unicode.xmark = &#x2717;
+unicode.checkmark = &#x2713;
+
 navigation.links.link01 = Funktionen
 navigation.links.link02 = Business
 navigation.links.link03 = Registrieren

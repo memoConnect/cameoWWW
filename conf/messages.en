@@ -12,7 +12,7 @@ navigation.language.select = Language
 navigation.language.de = de
 navigation.language.en = en
 
-slider.header = Erste, integrierte mailing und messaging App:<br/> Einfach, sicher, offen. Auch f&uuml;r Business.
+slider.header = First integrated mailing and messaging app. Easy and secure.<br/>Top extra business features.
 slider.slider01.text =cameoNet: Accessible Secure Communication!
 slider.slider02.text = On All Devices!
 slider.slider03.text = Open Access for All Users!
@@ -104,7 +104,7 @@ contact.fail = Contact fail
 contact.success = Contact success
 
 register.header = Register
-register.text = Ja, ich m&ouml;chte als einer der ersten dabei sein, wenn CameoNet online geht und schon als Betatester mitmachen.
+register.text = Register now! To be one of the first beta testers.
 
 register.subject = [Registrierungsformular]
 register.name = Name

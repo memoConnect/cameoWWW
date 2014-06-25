@@ -6,28 +6,17 @@ navigation.links.link01 = Functions
 navigation.links.link02 = Business
 navigation.links.link03 = Register
 navigation.links.link04 = FAQ
-eo.title = cameoNet
-seo.description =
-seo.keywords =
-
-navigation.links.link01 = Functions
-navigation.links.link02 = Business
-navigation.links.link03 = Register
-navigation.links.link04 = FAQ
 navigation.links.link05 = Contact
 navigation.links.link06 = Impressum 
 navigation.language.select = Language
 navigation.language.de = de
 navigation.language.en = en
 
+slider.header = Erste, integrierte mailing und messaging App:<br/> Einfach, sicher, offen. Auch f&uuml;r Business.
 slider.slider01.text =cameoNet: Accessible Secure Communication!
-slider.slider01.img = img/8.jpg
 slider.slider02.text = On All Devices!
-slider.slider02.img = img/6.jpg
 slider.slider03.text = Open Access for All Users!
-slider.slider03.img = img/7.jpg
 slider.slider04.text =For Organizations and Business!
-slider.slider04.img = img/9.jpg
 
 functions.header = Functions
 functions.text =
@@ -115,6 +104,8 @@ contact.fail = Contact fail
 contact.success = Contact success
 
 register.header = Register
+register.text = Ja, ich m&ouml;chte als einer der ersten dabei sein, wenn CameoNet online geht und schon als Betatester mitmachen.
+
 register.subject = [Registrierungsformular]
 register.name = Name
 register.email = E-Mail

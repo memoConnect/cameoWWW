@@ -15,8 +15,7 @@
 		height: 500px;
 	}
 .logo {
-	min-width: 890px;
-	font-size: 2.6em;
+	font-size: 2em;
 	line-height: 1.2em;
   	top: 30px;
  	left: 50%;
@@ -40,24 +39,19 @@
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
-	.wrapper
-	{
+	.wrapper{
 		padding: 5em 0 5em 0;
 		text-align: center;
 	}
 	
-		.wrapper-first
-		{
-            padding:0px;
-            padding-top:48px;
-			height:380px;
-		}
+    .wrapper-first {
+        padding:0px;
+    }
 
-		.wrapper-style4 .row-special
-		{
-			margin: 2em 0 0 0;
-			padding: 2em 0 2em 0;
-		}
+    .wrapper-style4 .row-special {
+        margin: 2em 0 0 0;
+        padding: 2em 0 2em 0;
+    }
 
 /*********************************************************************************/
 /* Articles                                                                      */

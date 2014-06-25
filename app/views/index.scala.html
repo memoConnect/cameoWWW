@@ -49,7 +49,7 @@
 
         <div id="git">
             <a href="https://github.com/memoConnect/cameoServer/fork">
-                <img                src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
+                <img src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
                 alt="Fork me on GitHub"
                 data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
             </a>
@@ -73,26 +73,34 @@
                 </li>
             </ul>
         </nav>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('body').checkForFixed();
+            });
+        </script>
 
         <!-- Home -->
         <div class="wrapper wrapper-style1 wrapper-first">
             <article>
+                <header>
+                    <h1>@i18n.get("slider.header")</h1>
+                </header>
                 <div class="flexslider">
                     <ul class="slides">
                         <li>
-                            <img src="@utils.getFile("img/8.jpg")" alt="@i18n.get("slider.slider01.text")"/>
+                            <img src="@utils.getFile("images/slider/1.jpg")" alt="@i18n.get("slider.slider01.text")"/>
                             <div class="logo">@i18n.get("slider.slider01.text")</div>
                         </li>
                         <li>
-                            <img src="@utils.getFile("img/6.jpg")" alt="@i18n.get("slider.slider02.text")"/>
-                            <div class="logo">@i18n.get("slider.slider01.text")</div>
+                            <img src="@utils.getFile("images/slider/2.jpg")" alt="@i18n.get("slider.slider02.text")"/>
+                            <div class="logo">@i18n.get("slider.slider02.text")</div>
                         </li>
                         <li>
-                            <img src="@utils.getFile("img/7.jpg")" alt="@i18n.get("slider.slider03.text")"/>
+                            <img src="@utils.getFile("images/slider/3.jpg")" alt="@i18n.get("slider.slider03.text")"/>
                             <div class="logo">@i18n.get("slider.slider03.text")</div>
                         </li>
                         <li>
-                            <img src="@utils.getFile("img/9.jpg")" alt="@i18n.get("slider.slider04.text")"/>
+                            <img src="@utils.getFile("images/slider/4.jpg")" alt="@i18n.get("slider.slider04.text")"/>
                             <div class="logo">@i18n.get("slider.slider04.text")</div>
                         </li>
                     </ul>
@@ -104,6 +112,7 @@
                         });
                     });
                 </script>
+            </div>
             </article>
         </div>
 
@@ -117,7 +126,8 @@
                     <div class="row">
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio05.jpg")" alt="@i18n.get("functions.feature01.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/verschluesselt-sicher.jpg")" alt="@i18n.get("functions.feature01.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature01.header")</h3>
 
@@ -126,7 +136,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio06.jpg")" alt="@i18n.get("functions.feature02.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/open-source.jpg")" alt="@i18n.get("functions.feature02.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature02.header")</h3>
 
@@ -135,7 +146,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio01.jpg")" alt="@i18n.get("functions.feature03.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/endgeraete.jpg")" alt="@i18n.get("functions.feature03.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature03.header")</h3>
 
@@ -144,7 +156,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio12.jpg")" alt="@i18n.get("functions.feature04.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/multi-identity.jpg")" alt="@i18n.get("functions.feature04.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature04.header")</h3>
 
@@ -153,7 +166,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio13.jpg")" alt="@i18n.get("functions.feature05.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/unified-messaging.jpg")" alt="@i18n.get("functions.feature05.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature05.header")</h3>
 
@@ -162,7 +176,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio07.jpg")" alt="@i18n.get("functions.feature06.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/anonymitaet.jpg")" alt="@i18n.get("functions.feature06.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature06.header")</h3>
 
@@ -171,7 +186,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio14.jpg")" alt="@i18n.get("functions.feature07.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/keiner-liest-mit.jpg")" alt="@i18n.get("functions.feature07.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature07.header")</h3>
                                 <p>@i18n.get("functions.feature07.text")</p>
@@ -179,7 +195,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio11.jpg")" alt="@i18n.get("functions.feature08.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/kostenlos.jpg")" alt="@i18n.get("functions.feature08.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature08.header")</h3>
                                 <p>@i18n.get("functions.feature08.text")</p>
@@ -187,7 +204,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio10.jpg")" alt="@i18n.get("functions.feature09.header")"/></div>
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/organisationen-extras.jpg")" alt="@i18n.get("functions.feature09.header")"/></div>
                                 <h3>@i18n.get("functions.feature09.header")</h3>
 
                                 <p>@i18n.get("functions.feature09.text")</p>
@@ -213,7 +231,7 @@
                         <div class="image image-full"><img src="@utils.getFile("images/webSite.png")" alt=""/></div>
                     </div>
                 </div>
-                <a href="#business" class="button button-big">@i18n.get("navigation.links.link02")</a>
+                <a href="#register" class="button button-big">@i18n.get("register.header")</a>
             </footer>
         </div>
 
@@ -228,7 +246,7 @@
                     <div class="row">
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business01.png")" alt="@i18n.get("business.feature01.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/cameo-net-profile.png")" alt="@i18n.get("business.feature01.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature01.header")</h3>
 
@@ -237,7 +255,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business02.png")" alt="@i18n.get("business.feature02.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/mitarbeiter-identitaeten.png")" alt="@i18n.get("business.feature02.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature02.header")</h3>
 
@@ -246,7 +264,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business03.png")" alt="@i18n.get("business.feature03.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/dokumentenecht.png")" alt="@i18n.get("business.feature03.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature03.header")</h3>
 
@@ -255,7 +273,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business04.png")" alt="@i18n.get("business.feature04.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/autentifizierung.png")" alt="@i18n.get("business.feature04.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature04.header")</h3>
 
@@ -264,7 +282,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business06.png")" alt="@i18n.get("business.feature05.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/grenzenlos.png")" alt="@i18n.get("business.feature05.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature05.header")</h3>
                                 <p>@i18n.get("business.feature05.text")</p>
@@ -272,7 +290,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business07.png")" alt="@i18n.get("business.feature06.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/archiv.png")" alt="@i18n.get("business.feature06.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature06.header")</h3>
                                 <p>@i18n.get("business.feature06.text")</p>
@@ -280,7 +298,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business08.png")" alt="@i18n.get("business.feature07.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/delegations-management.png")" alt="@i18n.get("business.feature07.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature07.header")</h3>
                                 <p>@i18n.get("business.feature07.text")</p>
@@ -288,7 +306,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business09.png")" alt="@i18n.get("business.feature08.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/sms-kosten.png")" alt="@i18n.get("business.feature08.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature08.header")</h3>
                                 <p>@i18n.get("business.feature08.text")</p>
@@ -296,7 +314,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business05.png")" alt="@i18n.get("business.feature09.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/praesenz-erkennung.png")" alt="@i18n.get("business.feature09.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature09.header")</h3>
 
@@ -443,7 +461,7 @@
 				</div>
                 <footer>
                     <p>@i18n.get("business.footer")</p>
-                    <a href="#faq" class="button button-big">@i18n.get("navigation.links.link04")</a>
+                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
@@ -498,7 +516,7 @@
 				
                 <footer>
                     <h3>@i18n.get("faq.footer")</h3>
-                    <a href="#contact" class="button button-big">@i18n.get("navigation.links.link05")</a>
+                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
@@ -584,12 +602,15 @@
             <article id="register" class="container small">
                 <header>
                     <h2><span>@i18n.get("register.header")</span></h2>
+                    <h3><span>@i18n.get("register.text")</span></h2>
+
                 </header>
                 <br>
 
                 <div>
                     <div class="row">
                         <div class="12u">
+
                             <form id="registerForm">
                                 <div>
                                     <div class="row half">

@@ -2,9 +2,6 @@ seo.title = cameoNet
 seo.description =
 seo.keywords =
 
-unicode.xmark = &#x2717;
-unicode.checkmark = &#x2713;
-
 navigation.links.link01 = Funktionen
 navigation.links.link02 = Business
 navigation.links.link03 = Registrieren
@@ -15,14 +12,11 @@ navigation.language.select = Sprache w&auml;hlen
 navigation.language.de = de
 navigation.language.en = en
 
+slider.header = Erste, integrierte mailing und messaging App:<br/> Einfach, sicher, offen. Auch f&uuml;r Business.
 slider.slider01.text = cameoNet: Einfach grenzenlos sicher kommunizieren!
-slider.slider01.img = img/8.jpg
 slider.slider02.text = Auf allen Endger&auml;ten!
-slider.slider02.img = img/6.jpg
 slider.slider03.text = Offen f&uuml;r externe Nutzer!
-slider.slider03.img = img/7.jpg
 slider.slider04.text = F&uuml;r Organisationen und Unternehmen!
-slider.slider04.img = img/9.jpg
 
 functions.header = Funktionen
 functions.text =
@@ -69,13 +63,13 @@ business.feature03.header = Dokumentenechtheit -  keine F&auml;lschungen!
 business.feature03.text = Mit Sicherheit wissen, dass das Dokument echt ist.
 
 business.feature04.header = Authentifizierung - vertrauen k&ouml;nnen!
-business.feature04.text = Sch&ouml;n, wenn man weiß, mit wem man spricht.
+business.feature04.text = Sch&ouml;n, wenn man wei&slig;, mit wem man spricht.
  
 business.feature05.header = Kundeneinbindung - grenzenlos kommunizieren!
 business.feature05.text = infache Integration externer Kunden in Kommunikation.
  
 business.feature06.header = Archiv - viel und jahrelang!
-business.feature06.text = Variable Speichergr&ouml;ße Aufbewahrungszeit bis zu 10 Jahre
+business.feature06.text = Variable Speichergr&ouml;&slig;e Aufbewahrungszeit bis zu 10 Jahre
 
 business.feature07.header = Delegationsmanagement - Stellvertretung m&ouml;glich!
 business.feature07.text = F&uuml;r sichere Kommunikation auch bei Delegation oder Vertretung.
@@ -88,15 +82,13 @@ business.feature09.text = Erkennen, wann die Gegenseite anwesend ist.
 
 business.footer = Die detaillierten Konditionen werden bald bekannt gegeben.
 
-
-
 faq.header = FAQ
 faq.why-were-safe.header = Warum is cameoNet sicherer?
 faq.why-were-safe.text = cameoNet nutzt bew&auml;hrte Kryptologie und beweist mit Open Source, das es auch seine Versprechen h&auml;lt. cameoNet ist so sicher, das selbst wir die Nachrichten und Anh&auml;nge nicht lesen k&ouml;nnen.
 faq.what-about-files.header = Kann ich mit cameoNet auch Dateien versenden?
 faq.what-about-files.text = Mit cameoNet k&ouml;nnen Sie auch sicher, einfach und unkompliziert Dateien versenden.
 faq.how-to-sign-in.header = Wie melde ich mich an?
-faq.how-to-sign-in.text = Schon bald k&ouml;nnen Sie an einem BetaTest teilnehmen. Wenn Sie informiert werden wollen, tragen Sie sich hier ein.
+faq.how-to-sign-in.text = Schon bald k&ouml;nnen Sie an einem BetaTest teilnehmen. Wenn Sie informiert werden wollen, tragen Sie sich <a href="#register">hier</a> ein.
 faq.who-is-behind.header = Wer steht hinter cameoNet?
 faq.who-is-behind.text = Ein Team erfahrener Unternehmer und Entwickler, denen selbstbestimmte Kommunikation mehr als wichtig ist.
 faq.how-to-join-anonymous.header = Anonym anmelden, wie geht das?
@@ -115,6 +107,8 @@ contact.fail = Das abschicken war nicht erfolgreich.
 contact.success = Das abschicken war erfolgreich.
 
 register.header = Registrieren
+register.text = Ja, ich m&ouml;chte als einer der ersten dabei sein, wenn CameoNet online geht und schon als Betatester mitmachen.
+
 register.subject = [Registrierungsformular]
 register.name = Name
 register.email = E-Mail

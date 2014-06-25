@@ -15,14 +15,16 @@
 
 	h1
 	{
-		font-size: 3.25em;
+		font-size: 3.25em !important;
 		letter-spacing: -0.025em;
+        line-height: 1em;
 	}
 
 	h2
 	{
 		font-size: 3em;
 		letter-spacing: 0em;
+        line-height: 1em;
 	}
 	
 	h3
@@ -110,23 +112,24 @@
 			width: auto;
 		}
 
+        .box .image-full img,
+        .box .image-small img{
+            width: 75%;
+            margin: 0 auto;
+        }
+
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
-	.wrapper
-	{
+	.wrapper{
 		padding: 5em 0 5em 0;
 		text-align: center;
 	}
 	
-    .wrapper-first
-    {
-        padding:0px;
-        padding-top:55px;
-        height: 600px;
+    .wrapper-first {
+        padding: 0px;
     }
-
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
@@ -135,29 +138,29 @@
 	{
 	}
 
-		#nav a:hover
-		{
-			background: #383838;
-		}
-		
-		#nav a:active
-		{
-			background: #484848;
-		}
-	
-		#nav a
-		{
-			padding: 0.5em 1em 0.6em 1em;
-			margin: 0.1em 0.2em 0.1em 0.2em;
+    #nav a:hover
+    {
+        background: #383838;
+    }
 
-			border-radius: 1px;
-			-moz-transition: background-color .2s ease-in-out;
-			-webkit-transition: background-color .2s ease-in-out;
-			-o-transition: background-color .2s ease-in-out;
-			-ms-transition: background-color .2s ease-in-out;
-			transition: background-color .2s ease-in-out;
-			color: #02BED2;
-		}
+    #nav a:active
+    {
+        background: #484848;
+    }
+
+    #nav a
+    {
+        padding: 0.5em 1em 0.6em 1em;
+        margin: 0.1em 0.2em 0.1em 0.2em;
+
+        border-radius: 1px;
+        -moz-transition: background-color .2s ease-in-out;
+        -webkit-transition: background-color .2s ease-in-out;
+        -o-transition: background-color .2s ease-in-out;
+        -ms-transition: background-color .2s ease-in-out;
+        transition: background-color .2s ease-in-out;
+        color: #02BED2;
+    }
 		
 /*********************************************************************************/
 /* Articles                                                                      */

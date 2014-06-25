@@ -106,8 +106,8 @@
 			padding: 0.75em;
 			font-size: 1em;
 			border-radius: 8px;
-			background: #282828;
-			color: #bbb;
+			background: #666;
+			color: #303030;
 			box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025);
 			width: 100%;
 			-moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
@@ -122,7 +122,6 @@
 		form select:focus,
 		form textarea:focus
 		{
-			background: #252525;
 			box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025), inset 0px 0px 2px 1px #74CAEE;
 		}
 
@@ -133,27 +132,27 @@
 
 		form .formerize-placeholder
 		{
-			color: #555 !important;
+			color: #303030 !important;
 		}
 
 		form ::-webkit-input-placeholder
 		{
-			color: #555 !important;
+			color: #303030 !important;
 		}
 
 		form :-moz-placeholder
 		{
-			color: #555 !important;
+			color: #303030 !important;
 		}
 
 		form ::-moz-placeholder
 		{
-			color: #555 !important;
+			color: #303030 !important;
 		}
 
 		form :-ms-input-placeholder
 		{
-			color: #555 !important;
+			color: #303030 !important;
 		}
 
 		form ::-moz-focus-inner
@@ -182,11 +181,10 @@
         cursor: pointer;
         display: inline-block;
         width: auto;
+        text-shadow: none;
     }
     form label.checked {
         background:#02BED2;
-        color:#555;
-        text-shadow: -1px -1px 0px #AEAEAE;
     }
     form input[type=checkbox] {
         -webkit-appearance: checkbox;
@@ -518,8 +516,8 @@
 /* logo                                                                           */
 /*********************************************************************************/
 .logo {
+    width:100%;
   	color: #666;
-	min-width: 1240px;
 	font-size: 3em;
 	font-family: 'Open Sans', 'sans-serif';
 	font-weight: 300;
@@ -538,21 +536,35 @@
 	text-shadow: 1px 1px 0px #fff;
 	font-size: 1em;
 }
+.side-text{
+    font-size: 2em;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #ffffff;
+    background: #02BED2;
+    height: 390px;
+    line-height: 1.5em;
+}
+.side-text .padding-wrapper{
+    padding-top: 80px;
+}
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
 
 	#nav
 	{
-		background-color: rgba(0,0,0,1);
+		background-color: #000;
 		text-align: center;
-		position: fixed;
-		left: 0;
-		top: 0;
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
 	}
+
+    .fix-fixed #nav{
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
 	
 		#nav ul
 		{
@@ -641,12 +653,10 @@
 	display: inline-block;
 	margin: 0 1px 50px 1px;
 }
-.faqtext
-	{
-		margin: 0 5em 0 5em;
-		text-align: justify;
-
-	}
+.faqtext{
+    margin: 0 5em 0 5em;
+    text-align: center;
+}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
@@ -657,20 +667,20 @@
 		color: #666;
 	}
 	
-		#copyright a
-		{
-			color: inherit;
-			-moz-transition: color .2s ease-in-out;
-			-webkit-transition: color .2s ease-in-out;
-			-o-transition: color .2s ease-in-out;
-			-ms-transition: color .2s ease-in-out;
-			transition: color .2s ease-in-out;
-		}
-		
-		#copyright a:hover
-		{
-			color: #777;
-		}
+    #copyright a
+    {
+        color: inherit;
+        -moz-transition: color .2s ease-in-out;
+        -webkit-transition: color .2s ease-in-out;
+        -o-transition: color .2s ease-in-out;
+        -ms-transition: color .2s ease-in-out;
+        transition: color .2s ease-in-out;
+    }
+
+    #copyright a:hover
+    {
+        color: #777;
+    }
 
 /*********************************************************************************/
 /* own Styles                                                                    */
@@ -679,6 +689,7 @@
 .ab_form {display:none !important}
 
 .container .table-header > div {background:#02BED2;color:#ffffff}
+.container .table-header.row,
 .container .table-body .row{margin:0}
 .container .table-body .row-label{text-align:left}
 .container .table-body .row:nth-child(even) > div {background: #f1f1f1}
@@ -688,6 +699,7 @@
 .container .red-xmark{color:#990000}
 .container .green-checkmark{color:#216f00}
 .container.table-container .row > div{padding:0.5em;text-shadow:none}
+.container.full-width {width:100%;margin:0}
 
-.container.big-tiles .row > div{min-height:440px}
+.container.big-tiles .row > div{min-height:370px}
 .container.small-tiles .row > div{min-height:320px}

@@ -15,7 +15,6 @@
 		height: 500px;
 	}
 .logo {
-	min-width: 660px;
 	font-size: 2em;
 	line-height: 1.2em;
   	top: 30px;
@@ -40,31 +39,19 @@
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
-	.wrapper
-	{
+	.wrapper{
 		padding: 5em 0 5em 0;
 		text-align: center;
 	}
 	
-    .wrapper-first
-    {
+    .wrapper-first {
         padding:0px;
-        padding-top:95px;
-        height:450px;
     }
 
-    .flexslider {
-        height:333px;
-    }
-
-    .wrapper-style4 .row-special
-    {
+    .wrapper-style4 .row-special {
         margin: 2em 0 0 0;
         padding: 2em 0 2em 0;
     }
-
-.wrapper-first .side-text{height: 333px;}
-.wrapper-first .side-text .padding-wrapper{padding-top:55px}
 
 /*********************************************************************************/
 /* Articles                                                                      */

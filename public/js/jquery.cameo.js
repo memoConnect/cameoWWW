@@ -1,5 +1,33 @@
 ;
 (function ($) {
+    $.fn.checkForFixed = function(options){
+        var defaultOptions = {
+            className: 'fix-fixed'
+        };
+
+        var settings = $.extend({}, defaultOptions, options||{});
+
+        return this.each(function() {
+            var $body = $(this),
+                $window = $(window);
+
+            function checkOffset(){
+                var offset = $window.scrollTop();
+                if(offset > 0){
+                    $body.addClass(settings.className);
+                } else {
+                    $body.removeClass(settings.className);
+                }
+            }
+
+            $window.scroll(function(){
+                checkOffset();
+            });
+
+            checkOffset();
+        });
+    };
+
     $.fn.checkForm = function(options) {
         var defaultOptions = {
             preSubject: '',
@@ -136,6 +164,10 @@
                             addToJson(inpName, inpValue);
                     }
 
+                });
+
+                $form.on('reset',function(){
+                    $inputs.removeClass(settings.attentionClass);
                 });
 
                 if(isValid && $form.find('.'+settings.attentionClass).length == 0) {

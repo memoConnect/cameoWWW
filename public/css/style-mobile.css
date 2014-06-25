@@ -149,7 +149,6 @@
 			height: 200px;
 		}
 .logo {
-	min-width: 360px;
 	font-size: 1.2em;
 	line-height: 1em;
   	top: 15px;
@@ -166,22 +165,8 @@
     padding: 3em 15px 3em 15px;
     text-align: center;
 }
-
 .wrapper-first {
     padding:0px;
-    padding-top:63px;
-}
-
-.flexslider{
-    height:150px;
-}
-.side-text{
-    font-size: 1.5em;
-    height: 140px;
-    line-height: 1.5em;
-}
-.side-text .padding-wrapper{
-    padding-top: 15px;
 }
 /*********************************************************************************/
 /* Nav                                                                           */

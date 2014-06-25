@@ -15,14 +15,16 @@
 
 	h1
 	{
-		font-size: 3.25em;
+		font-size: 3.25em !important;
 		letter-spacing: -0.025em;
+        line-height: 1em;
 	}
 
 	h2
 	{
 		font-size: 3em;
 		letter-spacing: 0em;
+        line-height: 1em;
 	}
 	
 	h3
@@ -120,23 +122,14 @@
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
-	.wrapper
-	{
+	.wrapper{
 		padding: 5em 0 5em 0;
 		text-align: center;
 	}
 	
     .wrapper-first {
         padding: 0px;
-        padding-top: 55px;
-        height: 490px;
     }
-
-    .flexslider {
-        height:430px;
-    }
-
-
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/

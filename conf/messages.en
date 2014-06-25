@@ -12,14 +12,11 @@ navigation.language.select = Sprache w&auml;hlen
 navigation.language.de = de
 navigation.language.en = en
 
+slider.header = Erste, integrierte mailing und messaging App:<br/> Einfach, sicher, offen. Auch f&uuml;r Business.
 slider.slider01.text = cameoNet: Einfach grenzenlos sicher kommunizieren!
-slider.slider01.img = img/8.jpg
 slider.slider02.text = Auf allen Endger&auml;ten!
-slider.slider02.img = img/6.jpg
 slider.slider03.text = Offen f&uuml;r externe Nutzer!
-slider.slider03.img = img/7.jpg
 slider.slider04.text = F&uuml;r Organisationen und Unternehmen!
-slider.slider04.img = img/9.jpg
 
 functions.header = Funktionen
 functions.text =
@@ -91,7 +88,7 @@ faq.why-were-safe.text = cameoNet nutzt bew&auml;hrte Kryptologie und beweist mi
 faq.what-about-files.header = Kann ich mit cameoNet auch Dateien versenden?
 faq.what-about-files.text = Mit cameoNet k&ouml;nnen Sie auch sicher, einfach und unkompliziert Dateien versenden.
 faq.how-to-sign-in.header = Wie melde ich mich an?
-faq.how-to-sign-in.text = Schon bald k&ouml;nnen Sie an einem BetaTest teilnehmen. Wenn Sie informiert werden wollen, tragen Sie sich hier ein.
+faq.how-to-sign-in.text = Schon bald k&ouml;nnen Sie an einem BetaTest teilnehmen. Wenn Sie informiert werden wollen, tragen Sie sich <a href="#register">hier</a> ein.
 faq.who-is-behind.header = Wer steht hinter cameoNet?
 faq.who-is-behind.text = Ein Team erfahrener Unternehmer und Entwickler, denen selbstbestimmte Kommunikation mehr als wichtig ist.
 faq.how-to-join-anonymous.header = Anonym anmelden, wie geht das?

@@ -42,7 +42,7 @@
         return this.each(function() {
             var $form = $(this),
                 $inputs = $form.find(settings.selector),
-                $sendFail = $form.find('.send-fail');
+                $sendFail = $form.find('.send-fail'),
                 $sendSuccess = $form.find('.send-success');
 
             function sendMessage(json){
@@ -172,7 +172,7 @@
 
                 if(isValid && $form.find('.'+settings.attentionClass).length == 0) {
                     sendMessage(json);
-                    $form.reset();
+                    $form[0].reset();
                 }
 
                 return false;

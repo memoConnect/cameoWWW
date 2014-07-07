@@ -136,7 +136,7 @@ register.platforms.checkbox.mac = Mac OS
 register.platforms.checkbox.windows = Windows
 
 imprint.header = Impressum
-imprint.text = Cameo ein Dienst der:<br />memo Connect GmbH<br />Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Gesch&auml;ftsf&uuml;hrer: Dr. Holger Haedrich, Michael Merz
+imprint.text = cameoNet ein Dienst der:<br />memo Connect GmbH<br />Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Gesch&auml;ftsf&uuml;hrer: Michael Merz, Dr. Holger Haedrich
 
 website.href = https://www.cameonet.de
 website.name = cameoNet

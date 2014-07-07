@@ -28,7 +28,7 @@ slider.slider04.image = images/slider/business.jpg
 functions.header = Functions
 functions.text =
 
-functions.feature01.header = Encrypted ñ Easy and Secure to Use!
+functions.feature01.header = Encrypted - Easy and Secure to Use!
 functions.feature01.text = End-to-end encryption for all users!
 
 functions.feature02.header = OpenSource - 100% Transparent!
@@ -46,13 +46,14 @@ functions.feature05.text = Send SMS and Mail directly with cameoNet.
 functions.feature06.header = Anonymous - Simply, Being Inkognito!
 functions.feature06.text = Complete anonymous use possiblity.
  
-functions.feature07.header = No One Can Read It ñ Including Us!
+functions.feature07.header = No One Can Read It - Including Us!
 functions.feature07.text = Only you decide, who can receive your communications.
 
 functions.feature08.header = Free -  with a Big Bang!
 functions.feature08.text = cameoNet Basic is free and without ads. 
 
-functions.feature09.header = Extra Functions ñ for Businesses and Organizations! functions.feature09.text = Simple and secure communication for teams.
+functions.feature09.header = Extra Functions - for Businesses and Organizations! 
+functions.feature09.text = Simple and secure communication for teams.
 
 functions.apps.header = Coming Soon!
 
@@ -62,27 +63,28 @@ business.text = Organizations and Businesses -  Many Highly Advatageous Extra Fe
 business.feature01.header = cameoNet Profil - Professionell Presentation!
 business.feature01.text = Communicate using your company profile .
 
-business.feature02.header = Team Members ñ with Identies!
+business.feature02.header = Team Members - with Identies!
 business.feature02.text = Unique profile and adress for each team member.
 
-business.feature03.header = Document Authentification ñ Falsification Proof! business.feature03.text = Secure knowledge that all your documents are genuine. 
+business.feature03.header = Document Authentification - Falsification Proof! 
+business.feature03.text = Secure knowledge that all your documents are genuine. 
 
-business.feature04.header = Authentification ñ You Can Trust!
+business.feature04.header = Authentification - You Can Trust!
 business.feature04.text = Good to know who you are communicating with.
  
-business.feature05.header = Client Integration ñ Unlimited Communications!
+business.feature05.header = Client Integration - Unlimited Communications!
 business.feature05.text = Simply integrating your clients in your communications. 
  
 business.feature06.header = Archiving - Unlimited!
 business.feature06.text = Variable storage capacity and time, up to 10 years or more.
 
-business.feature07.header = Communication  Delegation ñ Simple & Secure!
+business.feature07.header = Communication  Delegation - Simple & Secure!
 business.feature07.text = Unlimited aiblity to manage delegation.
  
-business.feature08.header = SMS ñ Low Cost!
+business.feature08.header = SMS - Low Cost!
 business.feature08.text = Customized packages for international communications. 
  
-business.feature09.header = User Presence Status ñ Visiblity Choices! 
+business.feature09.header = User Presence Status - Visiblity Choices! 
 business.feature09.text = Seeing who is available.
 
 business.footer = Terms and conditions will be forthcoming. 
@@ -95,7 +97,7 @@ faq.how-to-sign-in.header = How can I access cameoNet?
 faq.how-to-sign-in.text = There will be a Beta Test soon. For more information please, register here.
 faq.who-is-behind.header = Who are the faces behind cameoNet?
 faq.who-is-behind.text = A team of experienced etrepreneurs and developpers, for whom secure, self determined communication is esssential.
-faq.how-to-join-anonymous.header = Anonymous registration ñ how does this work??
+faq.how-to-join-anonymous.header = Anonymous registration - how does this work??
 faq.how-to-join-anonymous.text = Registration is possible without telephone or mailing address. Be aware we cannot help you with, for example, a lost password.
 faq.footer = For further questions;
 
@@ -132,8 +134,8 @@ register.platforms.checkbox.linux = Linux
 register.platforms.checkbox.mac = Mac OS
 register.platforms.checkbox.windows = Windows
 
-imprint.header = Impressum
-imprint.text = Cameo ein Dienst der:<br />memo Connect GmbH<br />Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br>Fon: +49 345 213 79 66 5<br>Fax: +49 345 213 79 66 59<br>Amtsgericht Stendal HRB 20018<br>Gesch&auml;ftsf&uuml;hrer: Dr. Holger Haedrich, Michael Merz
+imprint.header = Imprint
+imprint.text = cameoNet is provided by:<br/>memo Connect GmbH<br/>Gro&szlig;e Nikolaistra&szlig;e 7 06108 Halle (Saale) Germany<br/>Fon: +49 345 213 79 66 5<br/>Fax: +49 345 213 79 66 59<br/>Amtsgericht Stendal HRB 20018<br/>Gesch&auml;ftsf&uuml;hrer: Michael Merz, Dr. Holger Haedrich
 
 website.href = https://www.cameonet.de
 website.name = cameoNet

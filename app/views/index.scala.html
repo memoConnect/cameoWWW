@@ -43,14 +43,13 @@
 
         <link rel="stylesheet" href="@utils.getFile("css/flexslider.css")" type="text/css">
         <script src="@utils.getFile("js/jquery.flexslider.js")"></script>
-
+        <script src="@utils.getFile("js/jquery.cameo.js")"></script>
     </head>
     <body>
 
         <div id="git">
-            <a href="https://github.com/memoConnect">
-                <img
-                src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
+            <a href="https://github.com/memoConnect/cameoServer/fork">
+                <img src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
                 alt="Fork me on GitHub"
                 data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
             </a>
@@ -74,26 +73,34 @@
                 </li>
             </ul>
         </nav>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('body').checkForFixed();
+            });
+        </script>
 
         <!-- Home -->
         <div class="wrapper wrapper-style1 wrapper-first">
             <article>
+                <header>
+                    <h1>@i18n.get("slider.header")</h1>
+                </header>
                 <div class="flexslider">
                     <ul class="slides">
                         <li>
-                            <img src="@utils.getFile("img/8.jpg")" alt="@i18n.get("slider.slider01.text")"/>
+                            <img src="@utils.getFile(i18n.get("slider.slider01.image").toString())" alt="@i18n.get("slider.slider01.text")"/>
                             <div class="logo">@i18n.get("slider.slider01.text")</div>
                         </li>
                         <li>
-                            <img src="@utils.getFile("img/6.jpg")" alt="@i18n.get("slider.slider02.text")"/>
-                            <div class="logo">@i18n.get("slider.slider01.text")</div>
+                            <img src="@utils.getFile(i18n.get("slider.slider02.image").toString())" alt="@i18n.get("slider.slider02.text")"/>
+                            <div class="logo">@i18n.get("slider.slider02.text")</div>
                         </li>
                         <li>
-                            <img src="@utils.getFile("img/7.jpg")" alt="@i18n.get("slider.slider03.text")"/>
+                            <img src="@utils.getFile(i18n.get("slider.slider03.image").toString())" alt="@i18n.get("slider.slider03.text")"/>
                             <div class="logo">@i18n.get("slider.slider03.text")</div>
                         </li>
                         <li>
-                            <img src="@utils.getFile("img/9.jpg")" alt="@i18n.get("slider.slider04.text")"/>
+                            <img src="@utils.getFile(i18n.get("slider.slider04.image").toString())" alt="@i18n.get("slider.slider04.text")"/>
                             <div class="logo">@i18n.get("slider.slider04.text")</div>
                         </li>
                     </ul>
@@ -105,6 +112,7 @@
                         });
                     });
                 </script>
+            </div>
             </article>
         </div>
 
@@ -113,17 +121,13 @@
             <article id="product">
                 <header>
                     <h2>@i18n.get("functions.header")</h2>
-
                 </header>
-                <div class="container">
-                    <div class="row">
-                        <div class="12u">
-                        </div>
-                    </div>
+                <div class="container big-tiles">
                     <div class="row">
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio05.jpg")" alt="@i18n.get("functions.feature01.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/verschluesselt-sicher.jpg")" alt="@i18n.get("functions.feature01.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature01.header")</h3>
 
@@ -132,7 +136,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio06.jpg")" alt="@i18n.get("functions.feature02.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/open-source.jpg")" alt="@i18n.get("functions.feature02.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature02.header")</h3>
 
@@ -141,7 +146,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio01.jpg")" alt="@i18n.get("functions.feature03.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/endgeraete.jpg")" alt="@i18n.get("functions.feature03.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature03.header")</h3>
 
@@ -150,7 +156,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio12.jpg")" alt="@i18n.get("functions.feature04.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/multi-identity.jpg")" alt="@i18n.get("functions.feature04.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature04.header")</h3>
 
@@ -159,7 +166,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio13.jpg")" alt="@i18n.get("functions.feature05.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/unified-messaging.jpg")" alt="@i18n.get("functions.feature05.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature05.header")</h3>
 
@@ -168,7 +176,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio07.jpg")" alt="@i18n.get("functions.feature06.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/anonymitaet.jpg")" alt="@i18n.get("functions.feature06.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature06.header")</h3>
 
@@ -177,7 +186,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio14.jpg")" alt="@i18n.get("functions.feature07.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/keiner-liest-mit.jpg")" alt="@i18n.get("functions.feature07.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature07.header")</h3>
                                 <p>@i18n.get("functions.feature07.text")</p>
@@ -185,7 +195,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio11.jpg")" alt="@i18n.get("functions.feature08.header")" />
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/kostenlos.jpg")" alt="@i18n.get("functions.feature08.header")" />
                                 </div>
                                 <h3>@i18n.get("functions.feature08.header")</h3>
                                 <p>@i18n.get("functions.feature08.text")</p>
@@ -193,7 +204,8 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-full"><img src="@utils.getFile("images/portfolio10.jpg")" alt="@i18n.get("functions.feature09.header")"/></div>
+                                <div class="image image-full">
+                                    <img src="@utils.getFile("images/functions/organisationen-extras.jpg")" alt="@i18n.get("functions.feature09.header")"/></div>
                                 <h3>@i18n.get("functions.feature09.header")</h3>
 
                                 <p>@i18n.get("functions.feature09.text")</p>
@@ -219,7 +231,7 @@
                         <div class="image image-full"><img src="@utils.getFile("images/webSite.png")" alt=""/></div>
                     </div>
                 </div>
-                <a href="#business" class="button button-big">@i18n.get("navigation.links.link02")</a>
+                <a href="#register" class="button button-big">@i18n.get("register.header")</a>
             </footer>
         </div>
 
@@ -230,15 +242,11 @@
                     <h2>@i18n.get("business.header")</h2>
                     <span>@i18n.get("business.text")</span>
                 </header>
-                <div class="container">
-                    <div class="row">
-                        <div class="11u">
-                        </div>
-                    </div>
+                <div class="container small-tiles">
                     <div class="row">
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business01.png")" alt="@i18n.get("business.feature01.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/cameo-net-profile.png")" alt="@i18n.get("business.feature01.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature01.header")</h3>
 
@@ -247,7 +255,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business02.png")" alt="@i18n.get("business.feature02.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/mitarbeiter-identitaeten.png")" alt="@i18n.get("business.feature02.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature02.header")</h3>
 
@@ -256,7 +264,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business03.png")" alt="@i18n.get("business.feature03.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/dokumentenecht.png")" alt="@i18n.get("business.feature03.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature03.header")</h3>
 
@@ -265,7 +273,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business04.png")" alt="@i18n.get("business.feature04.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/autentifizierung.png")" alt="@i18n.get("business.feature04.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature04.header")</h3>
 
@@ -274,7 +282,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business06.png")" alt="@i18n.get("business.feature05.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/grenzenlos.png")" alt="@i18n.get("business.feature05.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature05.header")</h3>
                                 <p>@i18n.get("business.feature05.text")</p>
@@ -282,7 +290,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business07.png")" alt="@i18n.get("business.feature06.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/archiv.png")" alt="@i18n.get("business.feature06.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature06.header")</h3>
                                 <p>@i18n.get("business.feature06.text")</p>
@@ -290,7 +298,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business08.png")" alt="@i18n.get("business.feature07.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/delegations-management.png")" alt="@i18n.get("business.feature07.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature07.header")</h3>
                                 <p>@i18n.get("business.feature07.text")</p>
@@ -298,7 +306,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business09.png")" alt="@i18n.get("business.feature08.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/sms-kosten.png")" alt="@i18n.get("business.feature08.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature08.header")</h3>
                                 <p>@i18n.get("business.feature08.text")</p>
@@ -306,7 +314,7 @@
                         </div>
                         <div class="4u">
                             <article class="box box-style2">
-                                <div class="image image-small"><img src="@utils.getFile("images/business05.png")" alt="@i18n.get("business.feature09.header")" />
+                                <div class="image image-small"><img src="@utils.getFile("images/business/praesenz-erkennung.png")" alt="@i18n.get("business.feature09.header")" />
                                 </div>
                                 <h3>@i18n.get("business.feature09.header")</h3>
 
@@ -315,9 +323,145 @@
                         </div>
                     </div>
                 </div>
+				<div class="container table-container">
+				    <div class="row table-header">
+                        <div class="4u table-cell">
+                            &nbsp;
+                        </div>
+                        <div class="4u">
+                            cameoNet
+                        </div>
+                        <div class="4u">
+                            Competitors
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="row">
+                            <div class="4u row-label">
+                                Anonymous usage
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Option for full identification (trust center)
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Open source
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                just one (only partially)
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Multiple identities
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Multiple devices
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Specific organizational features
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                End-to-end encryption
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Open eco-system
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u red-xmark">
+                                @i18n.get("unicode.xmark")
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                Secure group chat
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                No ads displayed to users
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="4u row-label">
+                                No collection or selling of user data
+                            </div>
+                            <div class="4u green-checkmark">
+                                @i18n.get("unicode.checkmark")
+                            </div>
+                            <div class="4u">
+                                some
+                            </div>
+                        </div>
+                    </div>
+				</div>
                 <footer>
                     <p>@i18n.get("business.footer")</p>
-                    <a href="#faq" class="button button-big">@i18n.get("navigation.links.link04")</a>
+                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
@@ -369,18 +513,20 @@
                         </div>
                     </div>
                 </div>
+				
                 <footer>
                     <h3>@i18n.get("faq.footer")</h3>
-                    <a href="#contact" class="button button-big">@i18n.get("navigation.links.link05")</a>
+                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
 
         <!-- Contact -->
-        <script src="@utils.getFile("js/jquery.checkForm.js")"></script>
         <script type="text/javascript" charset="utf-8">
             $(window).load(function() {
-                $('#contactForm').checkForm();
+                $('#contactForm').checkForm({
+                    preSubject: '@i18n.get("contact.presubject")'
+                });
             });
         </script>
         <div class="wrapper wrapper-style4">
@@ -389,7 +535,6 @@
                     <h2><span>@i18n.get("contact.header")</span></h2>
                 </header>
                 <br>
-
                 <div>
                     <div class="row">
                         <div class="12u">
@@ -427,7 +572,6 @@
 
                                             <a href="#" class="button form-button-submit">@i18n.get("contact.submit")</a>
                                             <a href="#" class="button button-alt form-button-reset">@i18n.get("contact.reset")</a>
-
                                         </div>
                                     </div>
                                 </div>
@@ -437,53 +581,115 @@
                         </div>
                     </div>
                 </div>
+                <footer>
+                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                </footer>
             </article>
         </div>
 		<!-- Registrieren -->
+		<script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('#registerForm')
+                    .checkForm({
+                        additionalFields: ['platforms','using'],
+                        optionalFields: ['message']
+                    })
+                    .checkboxLabelChecker();
+            });
+        </script>
         <div class="wrapper wrapper-style4">
             <article id="register" class="container small">
                 <header>
                     <h2><span>@i18n.get("register.header")</span></h2>
+                    <h3><span>@i18n.get("register.text")</span></h2>
+
                 </header>
                 <br>
 
                 <div>
                     <div class="row">
                         <div class="12u">
-                            <form method="post" action="/w/sendMail">
+
+                            <form id="registerForm">
                                 <div>
                                     <div class="row half">
                                         <div class="6u">
-                                            <input type="text" name="name" id="name" placeholder="@i18n.get("contact.name")" />
+                                            <input type="text" name="name" id="name" placeholder="@i18n.get("register.name")" />
                                         </div>
                                         <div class="6u">
-                                            <input type="text" name="email" id="email" placeholder="@i18n.get("contact.email")"
+                                            <input type="text" name="email" id="email" placeholder="@i18n.get("register.email")"
                                             />
                                         </div>
                                     </div>
                                     <div class="row half">
-                                        <div class="12u">
-                                            <input type="text" name="subject" id="subject" placeholder="@i18n.get("contact.subject")" />
+                                        <div class="4u">
+                                            @i18n.get("register.using")
+                                        </div>
+                                        <div class="8u checkbox-list">
+                                            <label>
+                                                <input type="checkbox" name="using" value="private" />
+                                                @i18n.get("register.using.checkbox.private")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="using" value="business" />
+                                                @i18n.get("register.using.checkbox.business")
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="row half">
-                                        <div class="12u">
-                                            <textarea name="message" id="message" placeholder="@i18n.get("contact.message")"></textarea>
+                                        <div class="4u">
+                                            @i18n.get("register.platforms")
+                                        </div>
+                                        <div class="8u checkbox-list">
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="android" />
+                                                @i18n.get("register.platforms.checkbox.android")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="ios" />
+                                                @i18n.get("register.platforms.checkbox.ios")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="winphone" />
+                                                @i18n.get("register.platforms.checkbox.winphone")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="blackberry" />
+                                                @i18n.get("register.platforms.checkbox.blackberry")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="windows" />
+                                                @i18n.get("register.platforms.checkbox.windows")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="linux" />
+                                                @i18n.get("register.platforms.checkbox.linux")
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" name="platforms" value="mac" />
+                                                @i18n.get("register.platforms.checkbox.mac")
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="ab_form">
                                         @i18n.get("ab_form.message")
-                                        <input type="text" name="ab_form" value="" />
+                                        <input type="text" name="abForm" value="" />
                                     </div>
                                     <div class="row">
                                         <br>
                                         <div class="12u">
-                                            <a href="#" class="button form-button-submit">@i18n.get("contact.submit")</a>
-                                            <a href="#" class="button button-alt form-button-reset">@i18n.get("contact.reset")</a>
+                                            <br>
+                                            <div class="send-fail send-message-hide"></div>
+                                            <div class="send-success send-message-hide">@i18n.get("register.success")</div>
+                                            <a href="#" class="button form-button-submit">@i18n.get("register.submit")</a>
+                                            <a href="#" class="button button-alt form-button-reset">@i18n.get("register.reset")</a>
                                         </div>
                                     </div>
                                 </div>
-                                <input class="hidden-inp" type="text" name="@ab.name" value="@ab.value">
+                                <input class="hidden-inp" type="text" name="subject" value="@i18n.get("register.subject")">
+                                <input class="hidden-inp" type="text" name="message" value="">
+                                <input class="hidden-inp" type="text" name="abName" value="@ab.name">
+                                <input class="hidden-inp" type="text" name="abValue" value="@ab.value">
                             </form>
                         </div>
                     </div>

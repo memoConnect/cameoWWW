@@ -2,3 +2,4 @@
 .idea_modules/
 /target/
 /logs/
+/atlassian-ide-plugin.xml

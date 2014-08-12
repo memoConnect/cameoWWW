@@ -113,7 +113,7 @@ contact.reset = Contact reset
 contact.fail = Contact fail
 contact.success = Contact success
 
-register.header = Register
+register.header = Register/Login
 register.text = Register now! To be one of the first beta testers.
 
 register.subject = [Registrierungsformular]

@@ -114,7 +114,7 @@ contact.reset = Formular zur&uuml;cksetzen
 contact.fail = Das abschicken war nicht erfolgreich.
 contact.success = Das abschicken war erfolgreich.
 
-register.header = Registrieren
+register.header = Registrieren/Login
 register.text = Ja, ich m&ouml;chte als einer der ersten dabei sein, wenn CameoNet online geht und schon als Betatester mitmachen.
 
 register.subject = [Registrierungsformular]

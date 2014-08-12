@@ -232,7 +232,7 @@
                         <div class="image image-full"><img src="@utils.getFile("images/webSite.png")" alt=""/></div>
                     </div>
                 </div>
-                <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                <a href="/m" class="button button-big">@i18n.get("register.header")</a>
             </footer>
         </div>
 
@@ -462,7 +462,7 @@
 				</div>
                 <footer>
                     <p>@i18n.get("business.footer")</p>
-                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                    <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
@@ -517,7 +517,7 @@
 				
                 <footer>
                     <h3>@i18n.get("faq.footer")</h3>
-                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                    <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
@@ -583,14 +583,14 @@
                     </div>
                 </div>
                 <footer>
-                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                    <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
 		<!-- Registrieren -->
 		<script type="text/javascript" charset="utf-8">
             $(window).load(function() {
-                $('#registerForm')
+                $('/mForm')
                     .checkForm({
                         additionalFields: ['platforms','using'],
                         optionalFields: ['message']
@@ -598,105 +598,6 @@
                     .checkboxLabelChecker();
             });
         </script>
-        <div class="wrapper wrapper-style4">
-            <article id="register" class="container small">
-                <header>
-                    <h2><span>@i18n.get("register.header")</span></h2>
-                    <h3><span>@i18n.get("register.text")</span></h2>
-
-                </header>
-                <br>
-
-                <div>
-                    <div class="row">
-                        <div class="12u">
-
-                            <form id="registerForm">
-                                <div>
-                                    <div class="row half">
-                                        <div class="6u">
-                                            <input type="text" name="name" id="name" placeholder="@i18n.get("register.name")" />
-                                        </div>
-                                        <div class="6u">
-                                            <input type="text" name="email" id="email" placeholder="@i18n.get("register.email")"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row half">
-                                        <div class="4u">
-                                            @i18n.get("register.using")
-                                        </div>
-                                        <div class="8u checkbox-list">
-                                            <label>
-                                                <input type="checkbox" name="using" value="private" />
-                                                @i18n.get("register.using.checkbox.private")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="using" value="business" />
-                                                @i18n.get("register.using.checkbox.business")
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="row half">
-                                        <div class="4u">
-                                            @i18n.get("register.platforms")
-                                        </div>
-                                        <div class="8u checkbox-list">
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="android" />
-                                                @i18n.get("register.platforms.checkbox.android")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="ios" />
-                                                @i18n.get("register.platforms.checkbox.ios")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="winphone" />
-                                                @i18n.get("register.platforms.checkbox.winphone")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="blackberry" />
-                                                @i18n.get("register.platforms.checkbox.blackberry")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="windows" />
-                                                @i18n.get("register.platforms.checkbox.windows")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="linux" />
-                                                @i18n.get("register.platforms.checkbox.linux")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="mac" />
-                                                @i18n.get("register.platforms.checkbox.mac")
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="ab_form">
-                                        @i18n.get("ab_form.message")
-                                        <input type="text" name="abForm" value="" />
-                                    </div>
-                                    <div class="row">
-                                        <br>
-                                        <div class="12u">
-                                            <br>
-                                            <div class="send-fail send-message-hide"></div>
-                                            <div class="send-success send-message-hide">@i18n.get("register.success")</div>
-                                            <a href="#" class="button form-button-submit">@i18n.get("register.submit")</a>
-                                            <a href="#" class="button button-alt form-button-reset">@i18n.get("register.reset")</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input class="hidden-inp" type="text" name="subject" value="@i18n.get("register.subject")">
-                                <input class="hidden-inp" type="text" name="message" value="">
-                                <input class="hidden-inp" type="text" name="abName" value="@ab.name">
-                                <input class="hidden-inp" type="text" name="abValue" value="@ab.value">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </div>
         <div class="wrapper wrapper-style4">
             <article id="impressum">
                 <div class="row">

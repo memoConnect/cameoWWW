@@ -7,10 +7,11 @@ unicode.checkmark = &#x2713;
 
 navigation.links.link01 = Functions
 navigation.links.link02 = Business
-navigation.links.link03 = Register
+navigation.links.link03 = Register/Login
 navigation.links.link04 = FAQ
 navigation.links.link05 = Contact
-navigation.links.link06 = Impressum 
+navigation.links.link06 = Impressum
+navigation.links.link07 = Download
 navigation.language.select = Language
 navigation.language.de = de
 navigation.language.en = en

@@ -7,11 +7,12 @@ unicode.checkmark = &#x2713;
 
 navigation.links.link01 = Functions
 navigation.links.link02 = Business
-navigation.links.link03 = Register/Login
+navigation.links.link03 = Register
 navigation.links.link04 = FAQ
 navigation.links.link05 = Contact
 navigation.links.link06 = Impressum
 navigation.links.link07 = Download
+navigation.links.link08 = Support
 navigation.language.select = Language
 navigation.language.de = de
 navigation.language.en = en
@@ -100,7 +101,8 @@ faq.who-is-behind.header = Who are the faces behind cameoNet?
 faq.who-is-behind.text = A team of experienced etrepreneurs and developpers, for whom secure, self determined communication is esssential.
 faq.how-to-join-anonymous.header = Anonymous registration - how does this work??
 faq.how-to-join-anonymous.text = Registration is possible without telephone or mailing address. Be aware we cannot help you with, for example, a lost password.
-faq.footer = For further questions;
+faq.footer = More FAQs and further documentation you can find here:
+faq.footer.link = cameoNet Helpdesk
 
 contact.header = Contact
 contact.presubject = [Kontaktformular]

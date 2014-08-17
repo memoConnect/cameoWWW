@@ -5,18 +5,18 @@
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('fonts/cameoawesome-webfont.eot?v=4.0.3');
-  src: url('fonts/cameoawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),
-  url('fonts/cameoawesome-webfont.woff?v=4.0.3') format('woff'),
-  url('fonts/cameoawesome-webfont.ttf?v=4.0.3') format('truetype'),
-  url('fonts/cameoawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-family: 'CameoFont';
+  src: url('fonts/cameofont-webfont.eot?v=4.0.3');
+  src: url('fonts/cameofont-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),
+  url('fonts/cameofont-webfont.woff?v=4.0.3') format('woff'),
+  url('fonts/cameofont-webfont.ttf?v=4.0.3') format('truetype'),
+  url('fonts/cameofont-webfont.svg?v=4.0.3#cameofontregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 .fa {
   display: inline-block;
-  font-family: FontAwesome;
+  font-family: CameoFont;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -40,9 +40,6 @@
 }
 .fa-5x {
   font-size: 5em;
-}
-.cm-startx {
-  font-size: 8em;
 }
 .cm-weilyx {
   font-size: 15em;
@@ -233,6 +230,7 @@
 .cm-checkbox-right:before{content:'\f010'}
 .cm-checkbox-wrong:before{content:'\f02a'}
 .cm-checkbox-add:before{content:'\f04e'}
+.cm-checkbox-minus:before{content:'\f058'}
 .cm-lock:before{content:'\f011'}
 .cm-unlock:before{content:'\f012'}
 .cm-fix:before{content:'\f013'}
@@ -252,10 +250,13 @@
 .cm-logo-o:before{content:'\f04a'}
 .cm-logo-net:before{content:'\f04b'}
 .cm-logout:before{content:'\f01d'}
-.cm-menu:before{content:'\f01e'}
+.cm-menu:before{content:'\f056'}
+.cm-menu-right-close:before{content:'\f01e'}
+.cm-menu-right-open:before{content:'\f057'}
+.cm-menu-weight:before{content:'\f021'}
+.cm-menu-weight-bell:before{content:'\f067'}
 .cm-post:before{content:'\f020'}
 .cm-post-attention:before{content:'\f038'}
-.cm-search:before{content:'\f021'}
 .cm-settings:before{content:'\f022'}
 .cm-smile-negative:before{content:'\f023'}
 .cm-smile-positive:before{content:'\f024'}
@@ -284,6 +285,28 @@
 .cm-visible:before{content:'\f04c'}
 .cm-hidden:before{content:'\f04d'}
 .cm-clipboard:before{content:'\f051'}
-.cm-search-cl:before{content:'\f052'}
+.cm-search:before{content:'\f052'}
 .cm-reject:before{content:'\f053'}
 .cm-ignore:before{content:'\f054'}
+.cm-register:before{content:'\f055'}
+.cm-write:before{content:'\f059'}
+.cm-attachment:before{content:'\f060'}
+.cm-new-contact:before{content:'\f061'}
+.cm-new-talk:before{content:'\f062'}
+.cm-notification:before{content:'\f063'}
+.cm-notification-on:before{content:'\f064'}
+.cm-add-recipient:before{content:'\f065'}
+.cm-post-idle:before{content:'\f066'}
+.cm-list:before{content:'\f068'}
+.cm-cancel-key:before{content:'\f069'}
+.cm-create-key:before{content:'\f070'}
+.cm-export-key:before{content:'\f071'}
+.cm-import-key:before{content:'\f072'}
+.cm-handshake:before{content:'\f073'}
+.cm-beta:before{content:'\f074'}
+.cm-key-request:before{content:'\f075'}
+.cm-key-response:before{content:'\f076'}
+.cm-export:before{content:'\f077'}
+.cm-cameo-beta:before{content:'\f078'}
+.cm-key-plus:before{content:'\f079'}
+.cm-key-minus:before{content:'\f080'}

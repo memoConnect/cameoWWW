@@ -599,14 +599,29 @@
             });
         </script>
         <div class="wrapper wrapper-style4">
-            <article id="impressum">
+
+            <article id="dataprivacy">
+                <hr/>
+                <header>
+                <h4>@i18n.get("dataprivacy.header")</h4>
+                </header>
                 <div class="row">
                     <div class="12u">
-                        <hr/>
-                        <h3>@i18n.get("imprint.header")</h3>
-
-                        <p>@i18n.get("imprint.text")</p>
-                        <hr/>
+                        @i18n.get("dataprivacy.text")
+                    </div>
+                </div>
+                <footer></footer>
+            </article>
+        </div>
+        <div class="wrapper wrapper-style4">
+            <article id="impressum">
+                <hr/>
+                <header>
+                <h4>@i18n.get("imprint.header")</h4>
+                </header>
+                <div class="row">
+                    <div class="12u">
+                        @i18n.get("imprint.text")
                     </div>
                 </div>
                 <footer>

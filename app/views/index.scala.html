@@ -46,7 +46,6 @@
         <script src="@utils.getFile("js/jquery.cameo.js")"></script>
     </head>
     <body>
-
         <div id="git">
             <a href="https://github.com/memoConnect/cameoServer/fork">
                 <img src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
@@ -54,18 +53,23 @@
                 data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
             </a>
         </div>
-
+        <div id="beta">
+            <img src="@utils.getFile("images/betaribbon.png")" alt="">
+        </div>
         <!-- Nav -->
         <nav id="nav">
             <ul class="container">
-                <li><a href="#top"><span class="fa-toplogo fa cm-logo"></span><span
-                class="fa-toprhino fa cm-rhino-positive"></span></a></li>
+                <li><a href="/"><span class="fa-toplogo fa cm-cameo-beta"></span></a></li>
                 <li><a href="#product">@i18n.get("navigation.links.link01")</a></li>
                 <li><a href="#business">@i18n.get("navigation.links.link02")</a></li>
+<<<<<<< HEAD
                 <li><a href="#register">@i18n.get("navigation.links.link03")</a></li>
+=======
+                <li class="inverse"><a href="/m">@i18n.get("navigation.links.link03")</a></li>
+>>>>>>> dev
                 <li><a href="#faq">@i18n.get("navigation.links.link04")</a></li>
+                <li><a href="http://support.cameonet.de">@i18n.get("navigation.links.link08")</a></li>
                 <li><a href="#contact">@i18n.get("navigation.links.link05")</a></li>
-                <li><a href="#impressum">@i18n.get("navigation.links.link06")</a></li>
                 <li class="i18n">
                     <a href="/w/de">@i18n.get("navigation.language.de")</a>
                     |
@@ -82,9 +86,6 @@
         <!-- Home -->
         <div class="wrapper wrapper-style1 wrapper-first">
             <article>
-                <header>
-                    <h1>@i18n.get("slider.header")</h1>
-                </header>
                 <div class="flexslider">
                     <ul class="slides">
                         <li>
@@ -112,12 +113,29 @@
                         });
                     });
                 </script>
-            </div>
+                <h2>@i18n.get("slider.header")</h2>
+                <div class="store">
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/playStore_aktiv.png")" alt=""/></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppHandy_aktiv.png")" alt=""/></a></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/appStore.png")" alt=""/></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/winStore.png")" alt=""/></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppPc.png")" alt=""/></a></div>
+                    </div>
+                </div>
             </article>
         </div>
 
         <!-- Product -->
-        <div class="wrapper wrapper-style1">
+        <div class="wrapper wrapper-style1 pt2">
             <article id="product">
                 <header>
                     <h2>@i18n.get("functions.header")</h2>
@@ -218,20 +236,7 @@
 
             </article>
             <footer>
-                <p>@i18n.get("functions.apps.header")</p>
-
-                <div class="store">
-                    <div class="storelink">
-                        <div class="image image-full"><img src="@utils.getFile("images/appStore.png")" alt=""/></div>
-                    </div>
-                    <div class="storelink">
-                        <div class="image image-full"><img src="@utils.getFile("images/playStore.png")" alt=""/></div>
-                    </div>
-                    <div class="storelink">
-                        <div class="image image-full"><img src="@utils.getFile("images/webSite.png")" alt=""/></div>
-                    </div>
-                </div>
-                <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                <a href="/m" class="button button-big">@i18n.get("register.header")</a>
             </footer>
         </div>
 
@@ -366,7 +371,7 @@
                                 @i18n.get("unicode.checkmark")
                             </div>
                             <div class="4u">
-                                just one (only partially)
+                                a few
                             </div>
                         </div>
                         <div class="row">
@@ -461,7 +466,7 @@
 				</div>
                 <footer>
                     <p>@i18n.get("business.footer")</p>
-                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                    <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
@@ -516,7 +521,7 @@
 				
                 <footer>
                     <h3>@i18n.get("faq.footer")</h3>
-                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                    <a href="http://support.cameonet.de" class="button button-big">@i18n.get("faq.footer.link")</a>
                 </footer>
             </article>
         </div>
@@ -582,14 +587,14 @@
                     </div>
                 </div>
                 <footer>
-                    <a href="#register" class="button button-big">@i18n.get("register.header")</a>
+                    <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
 		<!-- Registrieren -->
 		<script type="text/javascript" charset="utf-8">
             $(window).load(function() {
-                $('#registerForm')
+                $('/mForm')
                     .checkForm({
                         additionalFields: ['platforms','using'],
                         optionalFields: ['message']
@@ -598,118 +603,35 @@
             });
         </script>
         <div class="wrapper wrapper-style4">
-            <article id="register" class="container small">
+
+            <article id="dataprivacy">
+                <hr/>
                 <header>
-                    <h2><span>@i18n.get("register.header")</span></h2>
-                    <h3><span>@i18n.get("register.text")</span></h2>
-
+                <h4>@i18n.get("dataprivacy.header")</h4>
                 </header>
-                <br>
-
-                <div>
-                    <div class="row">
-                        <div class="12u">
-
-                            <form id="registerForm">
-                                <div>
-                                    <div class="row half">
-                                        <div class="6u">
-                                            <input type="text" name="name" id="name" placeholder="@i18n.get("register.name")" />
-                                        </div>
-                                        <div class="6u">
-                                            <input type="text" name="email" id="email" placeholder="@i18n.get("register.email")"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row half">
-                                        <div class="4u">
-                                            @i18n.get("register.using")
-                                        </div>
-                                        <div class="8u checkbox-list">
-                                            <label>
-                                                <input type="checkbox" name="using" value="private" />
-                                                @i18n.get("register.using.checkbox.private")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="using" value="business" />
-                                                @i18n.get("register.using.checkbox.business")
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="row half">
-                                        <div class="4u">
-                                            @i18n.get("register.platforms")
-                                        </div>
-                                        <div class="8u checkbox-list">
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="android" />
-                                                @i18n.get("register.platforms.checkbox.android")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="ios" />
-                                                @i18n.get("register.platforms.checkbox.ios")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="winphone" />
-                                                @i18n.get("register.platforms.checkbox.winphone")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="blackberry" />
-                                                @i18n.get("register.platforms.checkbox.blackberry")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="windows" />
-                                                @i18n.get("register.platforms.checkbox.windows")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="linux" />
-                                                @i18n.get("register.platforms.checkbox.linux")
-                                            </label>
-                                            <label>
-                                                <input type="checkbox" name="platforms" value="mac" />
-                                                @i18n.get("register.platforms.checkbox.mac")
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="ab_form">
-                                        @i18n.get("ab_form.message")
-                                        <input type="text" name="abForm" value="" />
-                                    </div>
-                                    <div class="row">
-                                        <br>
-                                        <div class="12u">
-                                            <br>
-                                            <div class="send-fail send-message-hide"></div>
-                                            <div class="send-success send-message-hide">@i18n.get("register.success")</div>
-                                            <a href="#" class="button form-button-submit">@i18n.get("register.submit")</a>
-                                            <a href="#" class="button button-alt form-button-reset">@i18n.get("register.reset")</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input class="hidden-inp" type="text" name="subject" value="@i18n.get("register.subject")">
-                                <input class="hidden-inp" type="text" name="message" value="">
-                                <input class="hidden-inp" type="text" name="abName" value="@ab.name">
-                                <input class="hidden-inp" type="text" name="abValue" value="@ab.value">
-                            </form>
-                        </div>
+                <div class="row">
+                    <div class="12u">
+                        @i18n.get("dataprivacy.text")
                     </div>
                 </div>
+                <footer></footer>
             </article>
         </div>
         <div class="wrapper wrapper-style4">
             <article id="impressum">
+                <hr/>
+                <header>
+                <h4>@i18n.get("imprint.header")</h4>
+                </header>
                 <div class="row">
                     <div class="12u">
-                        <hr/>
-                        <h3>@i18n.get("imprint.header")</h3>
-
-                        <p>@i18n.get("imprint.text")</p>
-                        <hr/>
+                        @i18n.get("imprint.text")
                     </div>
                 </div>
                 <footer>
                     <ul id="copyright">
-                        <li>&copy; @utils.currentYear <a href="@i18n.get("website.href")">@i18n.get("website.name")</a></li>
+                        <li>&copy; @utils.currentYear <a href="/)">@i18n.get("website.name")</a></li>
+                        <li><a href="#impressum">@i18n.get("navigation.links.link06")</a></li>
                     </ul>
                 </footer>
             </article>

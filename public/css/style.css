@@ -651,7 +651,7 @@
 .storelink {
 	width: 200px;
 	display: inline-block;
-	margin: 0 1px 50px 1px;
+	margin: 0 1px;
 }
 .faqtext{
     margin: 0 5em 0 5em;
@@ -688,6 +688,16 @@
 .hidden-inp {display:none !important}
 .ab_form {display:none !important}
 
+#beta {width:100px;height:100px;position:fixed;left:0;top:56px;z-index:10001}
+#beta img {width:150px;height:150px;}
+
+.inverse {background-color:#02bed2}
+.inverse:hover {background-color:#000}
+.inverse a {color:#fff !important}
+
+.flexslider {margin-bottom: 2em !important}
+.flex-viewport {background: url('../images/slider/bg.jpg') no-repeat !important;}
+
 .container .table-header > div {background:#02BED2;color:#ffffff}
 .container .table-header.row,
 .container .table-body .row{margin:0}
@@ -703,3 +713,5 @@
 
 .container.big-tiles .row > div{min-height:370px}
 .container.small-tiles .row > div{min-height:320px}
+
+.pt2 {padding-top: 2em !important;}

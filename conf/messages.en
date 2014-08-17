@@ -10,7 +10,7 @@ navigation.links.link02 = Business
 navigation.links.link03 = Register
 navigation.links.link04 = FAQ
 navigation.links.link05 = Contact
-navigation.links.link06 = Impressum
+navigation.links.link06 = Imprint
 navigation.links.link07 = Download
 navigation.links.link08 = Support
 navigation.language.select = Language
@@ -34,7 +34,7 @@ functions.feature01.header = Encrypted - Easy and Secure to Use!
 functions.feature01.text = End-to-end encryption for all users!
 
 functions.feature02.header = OpenSource - 100% Transparent!
-functions.feature02.text = No backdoors - open software.
+functions.feature02.text = No back doors - open software.
 
 functions.feature03.header = On all Devices - At the Same Time!
 functions.feature03.text = Desktop/Tablet/Smartphone with one account.
@@ -45,13 +45,13 @@ functions.feature04.text =.Always, show the right profile.
 functions.feature05.header = Open Communication - Unified Messaging!
 functions.feature05.text = Send SMS and Mail directly with cameoNet.
 
-functions.feature06.header = Anonymous - Simply, Being Inkognito!
-functions.feature06.text = Complete anonymous use possiblity.
+functions.feature06.header = Anonymous - Simply, Being Incognito!
+functions.feature06.text = Complete anonymous use possibility.
  
 functions.feature07.header = No One Can Read It - Including Us!
 functions.feature07.text = Only you decide, who can receive your communications.
 
-functions.feature08.header = Free -  and complete undisturbed !
+functions.feature08.header = Free -  and complete undisturbed!
 functions.feature08.text = cameoNet Basic is free and without any ads.
 
 functions.feature09.header = Extra Functions - for Businesses and Organizations! 
@@ -60,18 +60,18 @@ functions.feature09.text = Simple and secure communication for teams.
 functions.apps.header = Coming Soon!
 
 business.header = Business 
-business.text = Organizations and Businesses -  Many Highly Advatageous Extra Features!
+business.text = Organizations and Businesses -  Many Highly Advantageous Extra Features!
 
-business.feature01.header = cameoNet Profil - Professionell Presentation!
+business.feature01.header = cameoNet Profile - Professional Presentation!
 business.feature01.text = Communicate using your company profile .
 
-business.feature02.header = Team Members - with Identies!
-business.feature02.text = Unique profile and adress for each team member.
+business.feature02.header = Team Members - with Identities!
+business.feature02.text = Unique profile and address for each team member.
 
-business.feature03.header = Document Authentification - Falsification Proof! 
+business.feature03.header = Document Authentication - Falsification Proof! 
 business.feature03.text = Secure knowledge that all your documents are genuine. 
 
-business.feature04.header = Authentification - You Can Trust!
+business.feature04.header = Authentication - You Can Trust!
 business.feature04.text = Good to know who you are communicating with.
  
 business.feature05.header = Client Integration - Unlimited Communications!
@@ -81,28 +81,28 @@ business.feature06.header = Archiving - Unlimited!
 business.feature06.text = Variable storage capacity and time, up to 10 years or more.
 
 business.feature07.header = Communication  Delegation - Simple & Secure!
-business.feature07.text = Unlimited aiblity to manage delegation.
+business.feature07.text = Unlimited ability to manage delegation.
  
 business.feature08.header = SMS - Low Cost!
 business.feature08.text = Customized packages for international communications. 
  
-business.feature09.header = User Presence Status - Visiblity Choices! 
+business.feature09.header = User Presence Status - Visibility Choices! 
 business.feature09.text = Seeing who is available.
 
 business.footer = Terms and conditions will be forthcoming. 
 faq.header = FAQ
 faq.why-were-safe.header = Why is cameNet Secure?
-faq.why-were-safe.text = cameoNet uses established, approved means of incryption. Open Source guarantees that we fulfill our comittments . cameoNet is so secure that even we cannot read your communications and attachments. 
+faq.why-were-safe.text = cameoNet uses established, approved means of encryption. Open Source guarantees that we fulfill our commitments . cameoNet is so secure that even we cannot read your communications and attachments. 
 faq.what-about-files.header = Can I transfer files with cameoNet?
 faq.what-about-files.text = With cameoNet you can easily and securely transfer files .
 faq.how-to-sign-in.header = How can I access cameoNet?
 faq.how-to-sign-in.text = There will be a Beta Test soon. For more information please, register here.
 faq.who-is-behind.header = Who are the faces behind cameoNet?
-faq.who-is-behind.text = A team of experienced etrepreneurs and developpers, for whom secure, self determined communication is esssential.
+faq.who-is-behind.text = A team of experienced entrepreneurs and developers, for whom secure, self determined communication is essential.
 faq.how-to-join-anonymous.header = Anonymous registration - how does this work??
 faq.how-to-join-anonymous.text = Registration is possible without telephone or mailing address. Be aware we cannot help you with, for example, a lost password.
 faq.footer = More FAQs and further documentation you can find here:
-faq.footer.link = cameoNet Helpdesk
+faq.footer.link = cameoNet Help desk
 
 contact.header = Contact
 contact.presubject = [Kontaktformular]
@@ -138,7 +138,7 @@ register.platforms.checkbox.mac = Mac OS
 register.platforms.checkbox.windows = Windows
 
 imprint.header = Imprint
-imprint.text = <h4>cameoNet</h4>ein Service der<br/>memo Connect GmbH (V.i.S.  § 5 TMG)<br/>Gro&szlig;e Nikolaistra&szlig;e 7, D-06108 Halle (Saale)<br/><br/>Gesch&auml;ftsf&uuml;hrer: Michael Merz, Dr. Holger Haedrich<h5>Kontakt:</h5>Telefon:	+49-345-21379665 <br/>Telefax:	+49-345-213796659<br/> E-Mail:	kontakt@cameonet.de<br/><br/>PGP Fingerprint: 1E26 38C8 271C 66A5 2806 16CA 29DF 8C76 0B9A 34FB<br/>Steuernummer: 110/105/46046<br/>USt.-IdNr.: DE293144732<br/>Amtsgericht Stendal HRB 20018<br/><h4>Haftungsausschluss (Disclaimer)</h4><h5>Haftung f&uuml;r Inhalte</h5>Als Diensteanbieter sind wir gem&auml;&szlig; § 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<h5>Haftung f&uuml;r Links</h5>Unser Angebot enth&auml;lt Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf m&ouml;gliche Rechtsverst&ouml;&szlig;e &uuml;berpr&uuml;ft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<h5>Urheberrecht</h5>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechtes bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.<br/> Datenschutzerkl&auml;rung (Link setzen zur Dateschutzerkl&auml;rung)
+imprint.text = <h4>cameoNet</h4>a service of<br/> memo Connect GmbH (V.i.S.  § 5 TMG)<br/>Gro&szlig;e Nikolaistra&szlig;e 7, D-06108 Halle (Saale)<br/><br/>Directors: Michael Merz, Dr. Holger Haedrich<h5>Contact:</h5>Phone:	+49-345-21379665 <br/>Fax:	+49-345-213796659<br/> E-Mail:	kontakt@cameonet.de<br/><br/>PGP Fingerprint: 1E26 38C8 271C 66A5 2806 16CA 29DF 8C76 0B9A 34FB<br/>tax no.: 110/105/46046<br/>VAT-ID: DE293144732<br/>Amtsgericht Stendal HRB 20018<br/><h4>Exclusion of Liability (Disclaimer)</h4><h5>Liability for content</h5> According to § 7 Abs.1 TMG we are liable for own content. According to §§ 8 to 10 TMG we are not obliged to survey external information or search after circumstances, that can indicate an illegal act. Obligations to delete  or block information according to general laws are left untouched. In any case we are accountable not before our first notice of the wrongdoing.<h5>Liability for web links</h5>Our offering may contain web links to external web sites on which we don't have an influence. Therefore we can not been taken accountable. .<h5>Copy right</h5>All content is published under German copyright. Duplication, adaption, distribution and exploitation have to be authorized by us.<br/> Statement of data security (Link setzen zur Dateschutzerklärung)
 
 dataprivacy.header = Data Privacy Statement cameoNet
 dataprivacy.text = <h4>Privacy Policy</h4>cameoNet takes data privacy seriously. All data is treated in accordance with German law, this includes the Federal Data Proctection Act (BDSG) and the Telemedia Act (TMG). <br/>The collection, processing and use of data as described hereafter is carried out to operate cameoNet. We are not interested in profiling of users,  advertising or creating consumer profiles for commercial purposes. The collection of data is carried out as sparingly as possible; the saving of data is limited to the extent necessary for service delivery and accounting. <h4>Data Handling</h4>cameoNet collects and uses information, in particular of the following categories:<br/>(a) Identification data (e.g. name, user name, phone number, mobile phone number, e-mail address); every cameoNet user is free to decide whether he wants to link his cameoNet ID to his e-mail address or his phone number. The services can also be used without linking, provided they are offered by cameoNet. <br/>(b) Profile information (e.g. the preferred language and other information which you make available to other users in the context of your cameoNet identity). <br/>(c) Communication content, attachments, media, voice messages and geodata are saved on our servers. If this data is transmitted by the user in encrypted form, it is – especially in case of asymmetric encryption – impossible for us to decrypt the data. This also applies to third parties, in case they should gain access to our servers illicitly.<br/>We offer our users to use our service anonymously or through a pseudonym, provided this is possible.<br/>Group conversations can only be accessed by the users involved as well as the group administrator. cameoNet does not analyze any connection data. The connection data is not being collated or enriched with the personal profiles of users.<h4>Log files/ no IP addresses</h4>When the websites of cameoNet are visited, our web server saves certain data in so-called log files. The nature of this data is dependent on browser and operating system used. Typically, the following data is involved:<br/>Browser type/ version, operating system, referral URL (meaning the address of the previously visited web site) and the time of the server query. <br/>The host name of the accessing computer, the IP address which is assigned to the user's internet connection at the time of visit, is not stored in our log files.<br/>The logged data is only used for statistical evaluation for the purpose of operating the service, security, and the optimization of the service.<h4>Logging of IP Addresses in exceptional cases</h4>We reserve the right, in individual cases, to log and save the IP address during the use of cameoNet for reasons of security. This applies in particular to cases, where we or other participants have reason to believe that a user account is being misused or abused or in case of DoS-attacks and comparable scenarios.<h4>Cookies / local storage/ personal keys</h4>cameoNet uses session cookies or similar future technologies which are deleted after the session is closed. A randomly generated unique identification number, a so-called session ID, is stored within the session cookie. Furthermore a cookie contains information about its origin and storage period. These cookies cannot store any other data.<br/>Because cameoNet is a secure web-based application, cameoNet uses the local memory of the browser for the encrypted storage of the personal communication keys.<h4>Mobile notifications</h4>When you use cameoNet on your mobile phone, cameoNet under some circumstances utilizes the notification services available for your phone to notify you of incoming calls, chats and other messages when the cameoNet application is currently not being actively run or used.<br/>Notifications on Apple devices for example are carried out through Apple's push notification service (APNS).<br/>In case you do not want to use any notification services of a third party provider to be notified of incoming cameoNet calls and messages, you can deactivate the function under Settings>Notifications>cameoNet.<h4>System messages</h4>cameoNet will occasionally ask its users to provide information about their user experience, which is used for quality measurement and improvement. You are at no time obligated to provide this information.<br/>cameoNet may contact you in order to to notify you of errors and problems.<br/>cameoNet may send you messages via e-mail or SMS to inform you that somebody has tried to contact you.<br/>You have the possibility to deactivate these messages. For e-mails, click on the "unsubscribe"-link inside the e-mail you received or change your notification settings in your profile page at www.cameoNet.io.<h4>Data security</h4>We make every effort to with the utmost care protect our users' data from unauthorized access. For this reason the transfer of user data exclusively takes place in SSL-encrypted form. The server entrusted with data storage is located in an external computer center, to which only authorized personnel has access to. All of our servers are located in Germany.<br/>We draw attention to the fact that the confidentiality of login data is within the area of responsibility of the user and that during communication via e-mail unauthorized access through third parties cannot be entirely ruled out.<br/>For reasons of security we reserve to the right to run your unencrypted communication and attachments through automated virus scans and similar technical means. Unencrypted communication which contains viruses or typical applications which are used for the spreading of viruses will not be forwarded by our system. Encrypted communication is explicitly exempt from this procedure.<h4>Change of data privacy notice</h4>We reserve the right to update this data privacy statement. In case of changes we will inform the users in accordance to law. <h4>Contact Information</h4>cameoNet<br/>ein Dienst der memo Connect GmbH<br/>06108 Halle (Saale)/ Germany<br/>Amtsgericht Stendal HRB 20018<br/>Gesch&auml;ftsf&uuml;hrer: Michael Merz<br/>kontakt@cameonet.de<br/>
@@ -146,4 +146,4 @@ dataprivacy.text = <h4>Privacy Policy</h4>cameoNet takes data privacy seriously.
 website.href = https://www.cameonet.de
 website.name = cameoNet
 
-ab_form.message = Bitte f&uuml;llen Sie das folgende Feld nicht aus, Danke.
+ab_form.message = Please don't type in this field. Thank you.

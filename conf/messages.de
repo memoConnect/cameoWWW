@@ -1,4 +1,4 @@
-﻿seo.title = cameoNet
+seo.title = cameoNet
 seo.description =
 seo.keywords =
 
@@ -30,8 +30,9 @@ slider.slider04.image = images/slider/business.png
 functions.header = Funktionen
 functions.text =
 
+
 functions.feature01.header = Verschl&uuml;sselt - einfach sicher!
-functions.feature01.text = Ende-zu-Ende Verschl&uuml;sselung f&uuml;r alle. 
+functions.feature01.text = Ende-zu-Ende Verschl&uuml;sselung f&uuml;r alle.
 
 functions.feature02.header = OpenSource - 100% transparent
 functions.feature02.text = Keine Hintert&uuml;ren, offengelegte Software.
@@ -39,7 +40,7 @@ functions.feature02.text = Keine Hintert&uuml;ren, offengelegte Software.
 functions.feature03.header = Alle Endger&auml;te - gleichzeitig nutzen!
 functions.feature03.text = Desktop/Tablet/Smartphone mit einem Account.
 
-functions.feature04.header = Multi Identit&auml;ten - richtig Auftreten! 
+functions.feature04.header = Multi Identit&auml;ten - richtig Auftreten!
 functions.feature04.text = Immer das richtige Profil zeigen.
 
 functions.feature05.header = Offene Kommunikation - Unified Messaging!
@@ -52,14 +53,15 @@ functions.feature07.header = Keiner liest mit - auch wir nicht!
 functions.feature07.text = Selbst bestimmen, mit wem man kommuniziert.
 
 functions.feature08.header = Kostenlos -  und umsonst!
-functions.feature08.text = cameoNet Basic ist kostenlos werbefrei. 
+functions.feature08.text = cameoNet Basic ist kostenlos werbefrei.
 
 functions.feature09.header = Extras - f&uuml;r Organisationen und Unternehmen!
 functions.feature09.text = Sichere Kommunikation in Teams einfach und sicher.
 
 functions.apps.header = Demn&auml;chst hier erh&auml;ltlich!
 
-business.header = Business 
+
+business.header = Business
 business.text = Organisationen und Unternehmen - viele gewinnbringende Zusatzfeatures!
 
 business.feature01.header = cameoNet Profil - professionell auftreten!
@@ -73,19 +75,19 @@ business.feature03.text = Mit Sicherheit wissen, dass das Dokument echt ist.
 
 business.feature04.header = Authentifizierung - vertrauen k&ouml;nnen!
 business.feature04.text = Sch&ouml;n, wenn man wei&slig;, mit wem man spricht.
- 
+
 business.feature05.header = Kundenintegration - grenzenlos kommunizieren!
 business.feature05.text = einfache Integration externer Kunden in Kommunikation.
- 
+
 business.feature06.header = Archiv - viel und jahrelang!
 business.feature06.text = Variable Speichergr&ouml;&slig;e Aufbewahrungszeit bis zu 10 Jahre
 
 business.feature07.header = Delegationsmanagement - Stellvertretung m&ouml;glich!
 business.feature07.text = F&uuml;r sichere Kommunikation auch bei Delegation oder Vertretung.
- 
+
 business.feature08.header = SMS - kostenoptimiert!
 business.feature08.text = G&uuml;nstige Pakete f&uuml;r erweiterte Auslandskommunikation.
- 
+
 business.feature09.header = Pr&auml;senzerkennung - in Reichweite!
 business.feature09.text = Erkennen, wann die Gegenseite anwesend ist.
 
@@ -104,6 +106,7 @@ faq.how-to-join-anonymous.header = Anonym anmelden, wie geht das?
 faq.how-to-join-anonymous.text = Sie k&ouml;nnen sich ohne Mobilnummer oder Mailadresse anmelden. Nachteil ist, dass wir Ihnen nat&uuml;rlich niemals Ihr Pa&szlig;wort zur&uuml;ckstellen k&ouml;nnen, wenn Sie es verloren haben sollten.
 faq.footer = Ausf&uuml;hrliche FAQs und weitere Dokumentation finden Sie hier:
 faq.footer.link = cameoNet Helpdesk
+
 
 contact.header = Kontakt
 contact.presubject = [Kontaktformular]

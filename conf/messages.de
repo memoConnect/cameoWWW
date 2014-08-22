@@ -91,6 +91,55 @@ business.feature09.text = Erkennen, wann die Gegenseite anwesend ist.
 
 business.footer = Die detaillierten Konditionen werden bald bekannt gegeben.
 
+compare.header = cameoNet im Vergleich mit Mitbewerbern
+
+compare.col1.header = cameoNet
+compare.col2.header = Competitors
+
+compare.row1.header = <div class="4u row-label">Ende-zu-Ende-Verschlüsselung</div>
+compare.row1.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row1.col2 = <div class="4u">some</div>
+
+compare.row2.header = <div class="4u row-label">Open Source (<a target="_blank" href="https://github.com/memoConnect">github</a>)</div>
+compare.row2.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row2.col2 =<div class="4u">a few</div>
+
+compare.row3.header = <div class="4u row-label">Mehrere Endgeräte</div>
+compare.row3.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row3.col2 = <div class="4u red-xmark">&#x2717</div>
+
+compare.row4.header = <div class="4u row-label">Mehrere Identitäten</div>
+compare.row4.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row4.col2 = <div class="4u red-xmark">&#x2717</div>
+
+compare.row5.header = <div class="4u row-label">Sicherer Gruppenchat</div>
+compare.row5.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row5.col2 = <div class="4u">some</div>
+
+compare.row6.header = <div class="4u row-label">Werbefrei</div>
+compare.row6.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row6.col2 = <div class="4u">some</div>
+
+compare.row7.header = <div class="4u row-label">Keine Sammlung oder Verwertung von Nutzerdaten</div>
+compare.row7.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row7.col2 = <div class="4u">some</div>
+
+compare.row8.header = <div class="4u row-label">Anonyme Nutzung</div>
+compare.row8.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row8.col2 = <div class="4u red-xmark">&#x2717</div>
+
+compare.row9.header = <div class="4u row-label">Identifizierung optional möglich (WebIdent)</div>
+compare.row9.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row9.col2 = <div class="4u red-xmark">&#x2717</div>
+
+compare.row10.header = <div class="4u row-label">Besondere Funktionen für Organisationen</div>
+compare.row10.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row10.col2 = <div class="4u red-xmark">&#x2717</div>
+
+compare.row11.header = <div class="4u row-label">Offenes Öko-System</div>
+compare.row11.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row11.col2 = <div class="4u red-xmark">&#x2717</div>
+
 faq.header = FAQ
 faq.why-were-safe.header = Warum ist cameoNet sicherer?
 faq.why-were-safe.text = cameoNet nutzt bew&auml;hrte Kryptologie und beweist mit Open Source, dass es auch seine Versprechen h&auml;lt. cameoNet ist so sicher, dass selbst wir die Nachrichten und Anh&auml;nge nicht lesen k&ouml;nnen.

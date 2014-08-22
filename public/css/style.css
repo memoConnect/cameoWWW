@@ -2,7 +2,6 @@
 
 @font-face{font-family:'cameoawesome';src:url('font/cameoawesome-webfont.eot?v=4.0.1');src:url('font/cameoawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/cameoawesome-webfont.woff?v=4.0.1') format('woff'),url('font/cameoawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/cameoawesome-webfont.svg?v=4.0.1#cameoawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
-
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -711,7 +710,7 @@
 .container.table-container .row > div{padding:0.5em;text-shadow:none}
 .container.full-width {width:100%;margin:0}
 
-.container.big-tiles .row > div{min-height:370px}
-.container.small-tiles .row > div{min-height:320px}
+.container.big-tiles .row > div{min-height:300px}
+.container.small-tiles .row > div{min-height:300px}
 
 .pt2 {padding-top: 2em !important;}

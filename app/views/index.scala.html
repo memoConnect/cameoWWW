@@ -82,33 +82,6 @@
         <!-- Home -->
         <div class="wrapper wrapper-style1 wrapper-first">
             <article>
-                <div class="flexslider">
-                    <ul class="slides">
-                        <li>
-                            <img src="@utils.getFile(i18n.get("slider.slider01.image").toString())" alt="@i18n.get("slider.slider01.text")"/>
-                            <div class="logo">@i18n.get("slider.slider01.text")</div>
-                        </li>
-                        <li>
-                            <img src="@utils.getFile(i18n.get("slider.slider02.image").toString())" alt="@i18n.get("slider.slider02.text")"/>
-                            <div class="logo">@i18n.get("slider.slider02.text")</div>
-                        </li>
-                        <li>
-                            <img src="@utils.getFile(i18n.get("slider.slider03.image").toString())" alt="@i18n.get("slider.slider03.text")"/>
-                            <div class="logo">@i18n.get("slider.slider03.text")</div>
-                        </li>
-                        <li>
-                            <img src="@utils.getFile(i18n.get("slider.slider04.image").toString())" alt="@i18n.get("slider.slider04.text")"/>
-                            <div class="logo">@i18n.get("slider.slider04.text")</div>
-                        </li>
-                    </ul>
-                </div>
-                <script type="text/javascript" charset="utf-8">
-                    $(window).load(function() {
-                        $('.flexslider').flexslider({
-                            animation:'slide'
-                        });
-                    });
-                </script>
                 <h2>@i18n.get("slider.header")</h2>
                 <div class="store">
                     <div class="storelink">
@@ -324,8 +297,15 @@
                         </div>
                     </div>
                 </div>
+            </article>
+            <footer>
+                <a href="/m" class="button button-big">@i18n.get("register.header")</a>
+            </footer>
+        </div>
+        <div class="wrapper wrapper-style1">
+            <article id="compare">
                 <header>
-                    cameoNet im Vergleich mit Mitbewerbern
+                    <h2>@i18n.get("compare.header")</h2>
                 </header>
                 <div class="container table-container">
                     <div class="row table-header">
@@ -333,133 +313,67 @@
                             &nbsp;
                         </div>
                         <div class="4u">
-                            cameoNet
+                            @i18n.get("compare.col1.header")
                         </div>
                         <div class="4u">
-                            Competitors
+                        @i18n.get("compare.col2.header")
                         </div>
                     </div>
                     <div class="table-body">
                         <div class="row">
-                            <div class="4u row-label">
-                                Anonymous usage
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u red-xmark">
-                                @i18n.get("unicode.xmark")
-                            </div>
+                            @i18n.get("compare.row1.header")
+                            @i18n.get("compare.row1.col1")
+                            @i18n.get("compare.row1.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                Option for full identification (trust center)
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u red-xmark">
-                                @i18n.get("unicode.xmark")
-                            </div>
+                            @i18n.get("compare.row2.header")
+                            @i18n.get("compare.row2.col1")
+                            @i18n.get("compare.row2.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                Open source
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u">
-                                a few
-                            </div>
+                            @i18n.get("compare.row3.header")
+                            @i18n.get("compare.row3.col1")
+                            @i18n.get("compare.row3.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                Multiple identities
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u red-xmark">
-                                @i18n.get("unicode.xmark")
-                            </div>
+                            @i18n.get("compare.row4.header")
+                            @i18n.get("compare.row4.col1")
+                            @i18n.get("compare.row4.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                Multiple devices
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u red-xmark">
-                                @i18n.get("unicode.xmark")
-                            </div>
+                            @i18n.get("compare.row5.header")
+                            @i18n.get("compare.row5.col1")
+                            @i18n.get("compare.row5.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                Specific organizational features
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u red-xmark">
-                                @i18n.get("unicode.xmark")
-                            </div>
+                            @i18n.get("compare.row6.header")
+                            @i18n.get("compare.row6.col1")
+                            @i18n.get("compare.row6.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                End-to-end encryption
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u">
-                                some
-                            </div>
+                            @i18n.get("compare.row7.header")
+                            @i18n.get("compare.row7.col1")
+                            @i18n.get("compare.row7.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                Open eco-system
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u red-xmark">
-                                @i18n.get("unicode.xmark")
-                            </div>
+                            @i18n.get("compare.row8.header")
+                            @i18n.get("compare.row8.col1")
+                            @i18n.get("compare.row8.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                Secure group chat
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u">
-                                some
-                            </div>
+                            @i18n.get("compare.row9.header")
+                            @i18n.get("compare.row9.col1")
+                            @i18n.get("compare.row9.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                No ads displayed to users
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u">
-                                some
-                            </div>
+                            @i18n.get("compare.row10.header")
+                            @i18n.get("compare.row10.col1")
+                            @i18n.get("compare.row10.col2")
                         </div>
                         <div class="row">
-                            <div class="4u row-label">
-                                No collection or selling of user data
-                            </div>
-                            <div class="4u green-checkmark">
-                                @i18n.get("unicode.checkmark")
-                            </div>
-                            <div class="4u">
-                                some
-                            </div>
+                            @i18n.get("compare.row11.header")
+                            @i18n.get("compare.row11.col1")
+                            @i18n.get("compare.row11.col2")
                         </div>
                     </div>
 				</div>
@@ -471,7 +385,7 @@
         </div>
 
         <!-- FAQ -->
-        <div class="wrapper wrapper-style2">
+        <div class="wrapper wrapper-style3">
             <article id="faq">
                 <header>
                     <h2>@i18n.get("faq.header")</h2>
@@ -586,21 +500,9 @@
                     </div>
                 </div>
                 <footer>
-                    <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
-		<!-- Registrieren -->
-		<script type="text/javascript" charset="utf-8">
-            $(window).load(function() {
-                $('/mForm')
-                    .checkForm({
-                        additionalFields: ['platforms','using'],
-                        optionalFields: ['message']
-                    })
-                    .checkboxLabelChecker();
-            });
-        </script>
         <div class="wrapper wrapper-style4">
 
             <article id="dataprivacy">

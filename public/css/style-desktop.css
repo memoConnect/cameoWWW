@@ -114,7 +114,7 @@
 
         .box .image-full img,
         .box .image-small img{
-            width: 75%;
+            width: 50%;
             margin: 0 auto;
         }
 

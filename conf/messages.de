@@ -94,15 +94,15 @@ business.footer = Die detaillierten Konditionen werden bald bekannt gegeben.
 compare.header = cameoNet im Vergleich mit Mitbewerbern
 
 compare.col1.header = cameoNet
-compare.col2.header = Competitors
+compare.col2.header = Wettbewerber
 
 compare.row1.header = <div class="4u row-label">Ende-zu-Ende-Verschlüsselung</div>
 compare.row1.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row1.col2 = <div class="4u">some</div>
+compare.row1.col2 = <div class="4u">einige</div>
 
 compare.row2.header = <div class="4u row-label">Open Source (<a target="_blank" href="https://github.com/memoConnect">github</a>)</div>
 compare.row2.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row2.col2 =<div class="4u">a few</div>
+compare.row2.col2 =<div class="4u">wenige</div>
 
 compare.row3.header = <div class="4u row-label">Mehrere Endgeräte</div>
 compare.row3.col1 = <div class="4u green-checkmark">&#x2713</div>
@@ -114,15 +114,15 @@ compare.row4.col2 = <div class="4u red-xmark">&#x2717</div>
 
 compare.row5.header = <div class="4u row-label">Sicherer Gruppenchat</div>
 compare.row5.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row5.col2 = <div class="4u">some</div>
+compare.row5.col2 = <div class="4u">einige</div>
 
 compare.row6.header = <div class="4u row-label">Werbefrei</div>
 compare.row6.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row6.col2 = <div class="4u">some</div>
+compare.row6.col2 = <div class="4u">einige</div>
 
 compare.row7.header = <div class="4u row-label">Keine Sammlung oder Verwertung von Nutzerdaten</div>
 compare.row7.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row7.col2 = <div class="4u">some</div>
+compare.row7.col2 = <div class="4u">einige</div>
 
 compare.row8.header = <div class="4u row-label">Anonyme Nutzung</div>
 compare.row8.col1 = <div class="4u green-checkmark">&#x2713</div>

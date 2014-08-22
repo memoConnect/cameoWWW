@@ -82,24 +82,28 @@
         <!-- Home -->
         <div class="wrapper wrapper-style1 wrapper-first">
             <article>
-                <h2>@i18n.get("slider.header")</h2>
-                <div class="store">
-                    <div class="storelink">
-                        <div class="image image-full"><a href="https://play.google.com/store/apps/details?id=de.cameonet"><img src="@utils.getFile("images/playStore_aktiv.png")" alt=""/></a></div>
+                <header>
+                    <h1>@i18n.get("slider.header")</h1>
+                </header>
+                <footer>
+                    <div class="store">
+                        <div class="storelink">
+                            <div class="image image-full"><a href="https://play.google.com/store/apps/details?id=de.cameonet"><img src="@utils.getFile("images/playStore_aktiv.png")" alt=""/></a></div>
+                        </div>
+                        <div class="storelink">
+                            <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppHandy_aktiv.png")" alt=""/></a></div>
+                        </div>
+                        <div class="storelink">
+                            <div class="image image-full"><img src="@utils.getFile("images/appStore.png")" alt=""/></div>
+                        </div>
+                        <div class="storelink">
+                            <div class="image image-full"><img src="@utils.getFile("images/winStore.png")" alt=""/></div>
+                        </div>
+                        <div class="storelink">
+                            <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppPc.png")" alt=""/></a></div>
+                        </div>
                     </div>
-                    <div class="storelink">
-                        <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppHandy_aktiv.png")" alt=""/></a></div>
-                    </div>
-                    <div class="storelink">
-                        <div class="image image-full"><img src="@utils.getFile("images/appStore.png")" alt=""/></div>
-                    </div>
-                    <div class="storelink">
-                        <div class="image image-full"><img src="@utils.getFile("images/winStore.png")" alt=""/></div>
-                    </div>
-                    <div class="storelink">
-                        <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppPc.png")" alt=""/></a></div>
-                    </div>
-                </div>
+                </footer>
             </article>
         </div>
 
@@ -299,6 +303,7 @@
                 </div>
             </article>
             <footer>
+                <p>@i18n.get("business.footer")</p>
                 <a href="/m" class="button button-big">@i18n.get("register.header")</a>
             </footer>
         </div>
@@ -378,7 +383,6 @@
                     </div>
 				</div>
                 <footer>
-                    <p>@i18n.get("business.footer")</p>
                     <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>

@@ -94,7 +94,7 @@ business.footer = Die detaillierten Konditionen werden bald bekannt gegeben.
 compare.header = cameoNet im Vergleich mit Mitbewerbern
 
 compare.col1.header = cameoNet
-compare.col2.header = Competitors
+compare.col2.header = Wettbewerber
 
 compare.row1.header = <div class="4u row-label">Ende-zu-Ende-Verschlüsselung</div>
 compare.row1.col1 = <div class="4u green-checkmark">&#x2713</div>

@@ -35,13 +35,16 @@
             <link rel="stylesheet" type="text/css" href="@utils.getFile("css/style.css")"/>
             <link rel="stylesheet" type="text/css" href="@utils.getFile("css/style-desktop.css")"/>
         </noscript>
-        <!--[if lte IE 9]>
-        <link rel="stylesheet" href="@utils.getFile("css/ie9.css")"/><![endif]-->
-        <!--[if lte IE 8]>
+            <!--[if lte IE 9]>
+        <link rel="stylesheet" href=" @utils.getFile("css/ie9.css")
+            "/><![endif]-->
+            <!--[if lte IE 8]>
         <script src="js/html5shiv.js"></script>
-        <link rel="stylesheet" href="@utils.getFile("css/ie8.css")"/><![endif]-->
-        <!--[if lte IE 7]>
-        <link rel="stylesheet" href="@utils.getFile("css/ie7.css")"/><![endif]-->
+        <link rel="stylesheet" href=" @utils.getFile("css/ie8.css")
+            "/><![endif]-->
+            <!--[if lte IE 7]>
+        <link rel="stylesheet" href=" @utils.getFile("css/ie7.css")
+            "/><![endif]-->
 
         <link rel="stylesheet" href="@utils.getFile("css/flexslider.css")" type="text/css">
         <script src="@utils.getFile("js/jquery.flexslider.js")"></script>
@@ -58,11 +61,10 @@
         <div id="beta">
             <img src="@utils.getFile("images/betaribbon.png")" alt="">
         </div>
-        <!-- Nav -->
+            <!-- Nav -->
         <nav id="nav">
             <ul class="container">
-                <li><a href="/"><span class="fa-toplogo fa cm-cameo-beta"></span></a></li>
-                <li><a href="#product">@i18n.get("navigation.links.link01")</a></li>
+                <li><a href="#product"><span class="fa-toplogo fa cm-cameo-beta"></span></a></li>
                 <li><a href="#business">@i18n.get("navigation.links.link02")</a></li>
                 <li class="inverse"><a href="/m">@i18n.get("navigation.links.link03")</a></li>
                 <li><a href="#faq">@i18n.get("navigation.links.link04")</a></li>
@@ -76,40 +78,12 @@
             </ul>
         </nav>
         <script type="text/javascript" charset="utf-8">
-            $(window).load(function() {
-                $('body').checkForFixed();
-            });
+        $ ( window ).load ( function ( ) {
+        $ ( 'body' ).checkForFixed ( ) ;
+        } ) ;
         </script>
 
-        <!-- Home -->
-        <div class="wrapper wrapper-style1 wrapper-first">
-            <article>
-                <header>
-                    <h1>@i18n.get("slider.header")</h1>
-                </header>
-                <footer>
-                    <div class="store">
-                        <div class="storelink">
-                            <div class="image image-full"><a href="https://play.google.com/store/apps/details?id=de.cameonet"><img src="@utils.getFile("images/playStore_aktiv.png")" alt=""/></a></div>
-                        </div>
-                        <div class="storelink">
-                            <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppHandy_aktiv.png")" alt=""/></a></div>
-                        </div>
-                        <div class="storelink">
-                            <div class="image image-full"><img src="@utils.getFile("images/appStore.png")" alt=""/></div>
-                        </div>
-                        <div class="storelink">
-                            <div class="image image-full"><img src="@utils.getFile("images/winStore.png")" alt=""/></div>
-                        </div>
-                        <div class="storelink">
-                            <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppPc.png")" alt=""/></a></div>
-                        </div>
-                    </div>
-                </footer>
-            </article>
-        </div>
-
-        <!-- Product -->
+            <!-- Product -->
         <div class="wrapper wrapper-style1 pt2">
             <article id="product">
                 <header>
@@ -211,11 +185,27 @@
 
             </article>
             <footer>
-                <a href="/m" class="button button-big">@i18n.get("register.header")</a>
+                <div class="store">
+                    <div class="storelink">
+                        <div class="image image-full"><a href="https://play.google.com/store/apps/details?id=de.cameonet"><img src="@utils.getFile("images/playStore_aktiv.png")" alt=""/></a></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppHandy_aktiv.png")" alt=""/></a></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/appStore.png")" alt=""/></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><img src="@utils.getFile("images/winStore.png")" alt=""/></div>
+                    </div>
+                    <div class="storelink">
+                        <div class="image image-full"><a href="/m"><img src="@utils.getFile("images/webAppPc.png")" alt=""/></a></div>
+                    </div>
+                </div>
             </footer>
         </div>
 
-        <!-- business -->
+            <!-- business -->
         <div class="wrapper wrapper-style3">
             <article id="business">
                 <header>
@@ -317,10 +307,10 @@
                 <div class="container table-container">
                     <div class="row table-header">
                         <div class="4u table-cell">
-                            &nbsp;
+                                &nbsp;
                         </div>
                         <div class="4u">
-                            @i18n.get("compare.col1.header")
+                        @i18n.get("compare.col1.header")
                         </div>
                         <div class="4u">
                         @i18n.get("compare.col2.header")
@@ -377,20 +367,15 @@
                             @i18n.get("compare.row10.col1")
                             @i18n.get("compare.row10.col2")
                         </div>
-                        <div class="row">
-                            @i18n.get("compare.row11.header")
-                            @i18n.get("compare.row11.col1")
-                            @i18n.get("compare.row11.col2")
-                        </div>
                     </div>
-				</div>
+                </div>
                 <footer>
                     <a href="/m" class="button button-big">@i18n.get("register.header")</a>
                 </footer>
             </article>
         </div>
 
-        <!-- FAQ -->
+            <!-- FAQ -->
         <div class="wrapper wrapper-style3">
             <article id="faq">
                 <header>
@@ -437,7 +422,7 @@
                         </div>
                     </div>
                 </div>
-				
+
                 <footer>
                     <h3>@i18n.get("faq.footer")</h3>
                     <a href="http://support.cameonet.de" class="button button-big">@i18n.get("faq.footer.link")</a>
@@ -445,13 +430,13 @@
             </article>
         </div>
 
-        <!-- Contact -->
+            <!-- Contact -->
         <script type="text/javascript" charset="utf-8">
-            $(window).load(function() {
-                $('#contactForm').checkForm({
-                    preSubject: '@i18n.get("contact.presubject")'
-                });
-            });
+        $ ( window ).load ( function ( ) {
+        $ ( '#contactForm' ).checkForm ( {
+        preSubject : ' @i18n.get("contact.presubject") '
+        } ) ;
+        } ) ;
         </script>
         <div class="wrapper wrapper-style4">
             <article id="contact" class="container small">
@@ -485,7 +470,7 @@
                                     </div>
                                     <div class="ab_form">
                                         @i18n.get("ab_form.message")
-                                        <input type="text" name="abForm" value="" />
+                                    <input type="text" name="abForm" value="" />
                                     </div>
                                     <div class="row">
                                         <div class="12u">
@@ -514,11 +499,11 @@
             <article id="dataprivacy">
                 <hr/>
                 <header>
-                <h4>@i18n.get("dataprivacy.header")</h4>
+                    <h4>@i18n.get("dataprivacy.header")</h4>
                 </header>
                 <div class="row">
                     <div class="12u">
-                        @i18n.get("dataprivacy.text")
+                    @i18n.get("dataprivacy.text")
                     </div>
                 </div>
                 <footer></footer>
@@ -528,11 +513,11 @@
             <article id="impressum">
                 <hr/>
                 <header>
-                <h4>@i18n.get("imprint.header")</h4>
+                    <h4>@i18n.get("imprint.header")</h4>
                 </header>
                 <div class="row">
                     <div class="12u">
-                        @i18n.get("imprint.text")
+                    @i18n.get("imprint.text")
                     </div>
                 </div>
                 <footer>

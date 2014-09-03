@@ -27,7 +27,7 @@ slider.slider03.image = images/slider/extern.png
 slider.slider04.text = F&uuml;r Organisationen und Unternehmen!
 slider.slider04.image = images/slider/business.png
 
-functions.header = Funktionen
+functions.header = Erste, integrierte mailing und messaging App:<br/> Einfach, sicher, offen. Auch f&uuml;r Business.
 functions.text =
 
 functions.feature01.header = Verschl&uuml;sselt - einfach sicher!
@@ -42,7 +42,7 @@ functions.feature03.text = Desktop/Tablet/Smartphone mit einem Account.
 functions.feature04.header = Multi Identit&auml;ten - richtig Auftreten!
 functions.feature04.text = Immer das richtige Profil zeigen.
 
-functions.feature05.header = Offene Kommunikation - Unified Messaging!
+functions.feature05.header = Offene Kommunikation!
 functions.feature05.text = Auch SMS und EMail &uuml;ber cameoNet direkt versenden.
 
 functions.feature06.header = Anonymit&auml;t - einfach mal inkognito!
@@ -89,7 +89,7 @@ business.feature08.text = G&uuml;nstige Pakete f&uuml;r erweiterte Auslandskommu
 business.feature09.header = Pr&auml;senzerkennung - in Reichweite!
 business.feature09.text = Erkennen, wann die Gegenseite anwesend ist.
 
-business.footer = Die detaillierten Konditionen werden bald bekannt gegeben.
+business.footer =
 
 compare.header = cameoNet im Vergleich mit Mitbewerbern
 
@@ -128,17 +128,13 @@ compare.row8.header = <div class="4u row-label">Anonyme Nutzung</div>
 compare.row8.col1 = <div class="4u green-checkmark">&#x2713</div>
 compare.row8.col2 = <div class="4u red-xmark">&#x2717</div>
 
-compare.row9.header = <div class="4u row-label">Identifizierung optional möglich (WebIdent)</div>
-compare.row9.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row9.header = <div class="4u row-label">Besondere Funktionen für Organisationen</div>
+compare.row9.col1 = <div class="4u ">in Vorbereitung</div>
 compare.row9.col2 = <div class="4u red-xmark">&#x2717</div>
 
-compare.row10.header = <div class="4u row-label">Besondere Funktionen für Organisationen</div>
+compare.row10.header = <div class="4u row-label">Offenes Öko-System</div>
 compare.row10.col1 = <div class="4u green-checkmark">&#x2713</div>
 compare.row10.col2 = <div class="4u red-xmark">&#x2717</div>
-
-compare.row11.header = <div class="4u row-label">Offenes Öko-System</div>
-compare.row11.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row11.col2 = <div class="4u red-xmark">&#x2717</div>
 
 faq.header = FAQ
 faq.why-were-safe.header = Warum ist cameoNet sicherer?
@@ -154,7 +150,7 @@ faq.how-to-join-anonymous.text = Sie k&ouml;nnen sich ohne Mobilnummer oder Mail
 faq.footer = Ausf&uuml;hrliche FAQs und weitere Dokumentation finden Sie hier:
 faq.footer.link = cameoNet Support
 
-contact.header = Kontakt
+contact.header = Kontakt-/Support Anfrage
 contact.presubject = [Kontaktformular]
 contact.name = Name
 contact.email = E-Mail

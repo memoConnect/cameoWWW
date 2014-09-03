@@ -17,7 +17,7 @@ navigation.language.select = Language
 navigation.language.de = de
 navigation.language.en = en
 
-slider.header = First integrated mailing and messaging app.<br/>Easy and secure. Top extra business features.
+slider.header =
 slider.slider01.text =cameoNet: Accessible Secure Communication!
 slider.slider01.image = images/slider/secure.png
 slider.slider02.text = On All Devices!
@@ -27,7 +27,7 @@ slider.slider03.image = images/slider/extern.png
 slider.slider04.text =For Organizations and Business!
 slider.slider04.image = images/slider/business.png
 
-functions.header = Features
+functions.header = First integrated mailing and messaging app.<br/>Easy and secure. Top extra business features.
 functions.text =
 
 functions.feature01.header = Encrypted - Easy and Secure to Use!
@@ -42,7 +42,7 @@ functions.feature03.text = Desktop/Tablet/Smartphone with one account.
 functions.feature04.header = Multi Identities - Always in the Best Light! 
 functions.feature04.text = Always show the right profile.
   
-functions.feature05.header = Open Communication - Unified Messaging!
+functions.feature05.header = Open Communication\!
 functions.feature05.text = Send SMS and e-mail directly with cameoNet.
 
 functions.feature06.header = Anonymous - Simply Being Incognito!
@@ -89,7 +89,7 @@ business.feature08.text = Customized packages for international communications.
 business.feature09.header = User Presence Status - Visibility Choices! 
 business.feature09.text = Seeing who is available.
 
-business.footer = Terms and conditions will be forthcoming. 
+business.footer =
 
 compare.header = cameoNet in comparison with our competitors
 
@@ -128,17 +128,13 @@ compare.row8.header = <div class="4u row-label">Anonymous usage</div>
 compare.row8.col1 = <div class="4u green-checkmark">&#x2713</div>
 compare.row8.col2 = <div class="4u red-xmark">&#x2717</div>
 
-compare.row9.header = <div class="4u row-label">Option for full identification</div>
-compare.row9.col1 = <div class="4u green-checkmark">&#x2713</div>
+compare.row9.header = <div class="4u row-label">Specific organizational features</div>
+compare.row9.col1 = <div class="4u">comming soon</div>
 compare.row9.col2 = <div class="4u red-xmark">&#x2717</div>
 
-compare.row10.header = <div class="4u row-label">Specific organizational features</div>
+compare.row10.header = <div class="4u row-label">Open eco-system</div>
 compare.row10.col1 = <div class="4u green-checkmark">&#x2713</div>
 compare.row10.col2 = <div class="4u red-xmark">&#x2717</div>
-
-compare.row11.header = <div class="4u row-label">Open eco-system</div>
-compare.row11.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row11.col2 = <div class="4u red-xmark">&#x2717</div>
 
 faq.header = FAQ
 faq.why-were-safe.header = Why is cameoNet Secure?
@@ -154,7 +150,7 @@ faq.how-to-join-anonymous.text = Registration is possible without telephone or m
 faq.footer = More FAQs and further documentation you can find here:
 faq.footer.link = cameoNet Support
 
-contact.header = Contact
+contact.header = Contact/Support Request
 contact.presubject = [Contact Form]
 contact.name = Name
 contact.email = E-Mail

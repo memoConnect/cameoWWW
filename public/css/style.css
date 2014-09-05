@@ -251,8 +251,7 @@
 	{
 		display: block;
 		width: 100%;
-
-		margin: -3em 0 0 0;
+		margin: -2em 0 0 0;
 	}
 	
 	.image-left
@@ -718,7 +717,8 @@
 .container.full-width {width:100%;margin:0}
 
 .container.big-tiles .row > div{min-height:300px}
-.container.small-tiles .row > div{min-height:300px}
+.container.small-tiles .row > div{min-height:200px}
+.container.small-tiles .row .box{min-height:200px}
 
 .pt2 {padding-top: 2em !important;}
 

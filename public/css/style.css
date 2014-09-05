@@ -701,8 +701,8 @@
 .container .table-header.row,
 .container .table-body .row{margin:0}
 .container .table-body .row-label{text-align:left}
-.container .table-body .row:nth-child(even) > div {background: #f1f1f1}
-.container .table-body .row:nth-child(odd) > div {background: #e2e2e2}
+.container .table-body .row:nth-child(even) {background: #f1f1f1}
+.container .table-body .row:nth-child(odd) {background: #e2e2e2}
 .container .table-body .row:nth-child(even) > div.row-label {background: #dddddd}
 .container .table-body .row:nth-child(odd) > div.row-label {background: #d3d3d3}
 .container .red-xmark{color:#990000}
@@ -714,3 +714,8 @@
 .container.small-tiles .row > div{min-height:300px}
 
 .pt2 {padding-top: 2em !important;}
+
+.text-content h4{font-size: 1.5em;letter-spacing: -0.015em}
+.text-content .row{}
+.text-content .row .\38u{margin:0 auto;float:none}
+.text-content .row h4, .text-content .row h5{margin-top:1em;text-align:center}

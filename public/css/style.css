@@ -620,7 +620,14 @@
     height:100%;
     width:100%;
 }
-			
+
+#nav ul.container{overflow:visible}
+#nav ul.container .submenu{display:none;position:absolute;background-color:#000;top:47px}
+#nav ul.container .submenu li{display:block}
+#nav ul.container .submenu a{display:block}
+#nav ul.container > li{position:relative}
+#nav ul.container > li:hover .submenu{display:block}
+
 /*********************************************************************************/
 /* Articles                                                                      */
 /*********************************************************************************/
@@ -715,7 +722,7 @@
 
 .pt2 {padding-top: 2em !important;}
 
-.text-content h4{font-size: 1.5em;letter-spacing: -0.015em}
-.text-content .row{}
+.text-content h4{font-size:1.5em;letter-spacing: -0.015em}
+.text-content .row{text-align:justify}
 .text-content .row .\38u{margin:0 auto;float:none}
 .text-content .row h4, .text-content .row h5{margin-top:1em;text-align:center}

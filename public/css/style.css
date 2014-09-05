@@ -574,7 +574,8 @@
 			display: inline-block;
 		}
 		
-		#nav a
+		#nav a,
+		#nav span
 		{
 			font-size: 1.1em;
 			position: relative;
@@ -620,10 +621,11 @@
     width:100%;
 }
 
+#nav span{padding:0.5em 0.5em}
 #nav ul.container{overflow:visible}
-#nav ul.container .submenu{display:none;position:absolute;background-color:#000;top:47px}
+#nav ul.container .submenu{display:none;position:absolute;background-color:#000;top:2.5em;left:0;width:8em}
 #nav ul.container .submenu li{display:block}
-#nav ul.container .submenu a{display:block}
+#nav ul.container .submenu a{text-align:left;display:block}
 #nav ul.container > li{position:relative}
 #nav ul.container > li:hover .submenu{display:block}
 

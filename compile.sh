@@ -2,8 +2,10 @@
 
 ./sbt clean compile stage
 
-if [[ ${1} == "--with-secrets" ]]; then
-    cp ../cameoSecrets/www_secret.conf target/universal/stage/conf/secret.conf
+if [[ ${1} == "--dev" ]]; then
+    cp ../cameoSecrets/www_secret_dev.conf target/universal/stage/conf/secret.conf
+elif [[ ${1} == "--prod" ]]; then
+    cp ../cameoSecrets/www_secret_prod.conf target/universal/stage/conf/secret.conf
 else
     echo "include \"application\"" > target/universal/stage/conf/secret.conf
 fi

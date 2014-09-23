@@ -6,13 +6,21 @@ unicode.xmark = &#x2717;
 unicode.checkmark = &#x2713;
 
 navigation.links.link01 = Functions
+navigation.links.link01.sub01 = Basic
+navigation.links.link01.sub02 = Pro
+navigation.links.link01.sub03 = Business
 navigation.links.link02 = Business
 navigation.links.link03 = Register
-navigation.links.link04 = FAQ
-navigation.links.link05 = Contact
-navigation.links.link06 = Imprint
-navigation.links.link07 = Download
-navigation.links.link08 = Support
+navigation.links.link04 = Help
+navigation.links.link04.sub01 = FAQ
+navigation.links.link04.sub02 = Support
+navigation.links.link04.sub03 = Contact
+navigation.links.link05 = Press
+navigation.links.link05.sub01 = Press 1
+navigation.links.link05.sub02 = Press 2
+navigation.links.link05.sub03 = Press 3
+navigation.links.link06 = Partner
+
 navigation.language.select = Language
 navigation.language.de = de
 navigation.language.en = en
@@ -42,7 +50,7 @@ functions.feature03.text = Desktop/Tablet/Smartphone with one account.
 functions.feature04.header = Multi Identities - Always in the Best Light! 
 functions.feature04.text = Always show the right profile.
   
-functions.feature05.header = Open Communication\!
+functions.feature05.header = Open Communication!
 functions.feature05.text = Send SMS and e-mail directly with cameoNet.
 
 functions.feature06.header = Anonymous - Simply Being Incognito!
@@ -54,8 +62,8 @@ functions.feature07.text = Only you decide who can receive your communications.
 functions.feature08.header = Free - and completely undisturbed!
 functions.feature08.text = cameoNet Basic is free and without any ads.
 
-functions.feature09.header = Extra Functions - for Businesses and Organizations! 
-functions.feature09.text = Simple and secure communication for teams.
+functions.feature09.header = Secure file transfer!
+functions.feature09.text = Simple share files, pictures an videos.
 
 functions.apps.header = Coming Soon!
 
@@ -135,6 +143,8 @@ compare.row9.col2 = <div class="4u red-xmark">&#x2717</div>
 compare.row10.header = <div class="4u row-label">Open eco-system</div>
 compare.row10.col1 = <div class="4u green-checkmark">&#x2713</div>
 compare.row10.col2 = <div class="4u red-xmark">&#x2717</div>
+
+partner.header = cameoNet cooperates with these partners
 
 faq.header = FAQ
 faq.why-were-safe.header = Why is cameoNet Secure?

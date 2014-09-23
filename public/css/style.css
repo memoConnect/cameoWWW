@@ -251,8 +251,7 @@
 	{
 		display: block;
 		width: 100%;
-
-		margin: -3em 0 0 0;
+		margin: -2em 0 0 0;
 	}
 	
 	.image-left
@@ -575,7 +574,8 @@
 			display: inline-block;
 		}
 		
-		#nav a
+		#nav a,
+		#nav span
 		{
 			font-size: 1.1em;
 			position: relative;
@@ -620,7 +620,15 @@
     height:100%;
     width:100%;
 }
-			
+
+#nav span{padding:0.5em 0.5em}
+#nav ul.container{overflow:visible}
+#nav ul.container .submenu{display:none;position:absolute;background-color:#000;top:2.5em;left:0;width:8em}
+#nav ul.container .submenu li{display:block}
+#nav ul.container .submenu a{text-align:left;display:block}
+#nav ul.container > li{position:relative}
+#nav ul.container > li:hover .submenu{display:block}
+
 /*********************************************************************************/
 /* Articles                                                                      */
 /*********************************************************************************/
@@ -701,8 +709,8 @@
 .container .table-header.row,
 .container .table-body .row{margin:0}
 .container .table-body .row-label{text-align:left}
-.container .table-body .row:nth-child(even) > div {background: #f1f1f1}
-.container .table-body .row:nth-child(odd) > div {background: #e2e2e2}
+.container .table-body .row:nth-child(even) {background: #f1f1f1}
+.container .table-body .row:nth-child(odd) {background: #e2e2e2}
 .container .table-body .row:nth-child(even) > div.row-label {background: #dddddd}
 .container .table-body .row:nth-child(odd) > div.row-label {background: #d3d3d3}
 .container .red-xmark{color:#990000}
@@ -711,6 +719,12 @@
 .container.full-width {width:100%;margin:0}
 
 .container.big-tiles .row > div{min-height:300px}
-.container.small-tiles .row > div{min-height:300px}
+.container.small-tiles .row > div{min-height:200px}
+.container.small-tiles .row .box{min-height:200px}
 
 .pt2 {padding-top: 2em !important;}
+
+.text-content h4{font-size:1.5em;letter-spacing: -0.015em}
+.text-content .row{text-align:justify}
+.text-content .row .\38u{margin:0 auto;float:none}
+.text-content .row h4, .text-content .row h5{margin-top:1em;text-align:center}

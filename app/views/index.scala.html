@@ -36,14 +36,14 @@
             <link rel="stylesheet" type="text/css" href="@utils.getFile("css/style-desktop.css")"/>
         </noscript>
             <!--[if lte IE 9]>
-        <link rel="stylesheet" href="  @utils.getFile("css/ie9.css")
+        <link rel="stylesheet" href="          @utils.getFile("css/ie9.css")
             "/><![endif]-->
             <!--[if lte IE 8]>
         <script src="js/html5shiv.js"></script>
-        <link rel="stylesheet" href="  @utils.getFile("css/ie8.css")
+        <link rel="stylesheet" href="          @utils.getFile("css/ie8.css")
             "/><![endif]-->
             <!--[if lte IE 7]>
-        <link rel="stylesheet" href="  @utils.getFile("css/ie7.css")
+        <link rel="stylesheet" href="          @utils.getFile("css/ie7.css")
             "/><![endif]-->
 
         <link rel="stylesheet" href="@utils.getFile("css/flexslider.css")" type="text/css">
@@ -69,24 +69,25 @@
                     <span>@i18n.get("navigation.links.link01")</span>
                     <ul class="submenu">
                         <li><a href="#product">@i18n.get("navigation.links.link01.sub01")</a></li>
-                        <li><a href="#contact">@i18n.get("navigation.links.link01.sub02")</a></li>
-                        <li><a href="#busniess">@i18n.get("navigation.links.link01.sub03")</a></li>
-                    </ul>
-                </li>
-                <li class="inverse"><a href="/m">@i18n.get("navigation.links.link03")</a></li>
-                <li>
-                    <span>@i18n.get("navigation.links.link04")</span>
-                    <ul class="submenu">
-                        <li><a href="#faq">@i18n.get("navigation.links.link04.sub01")</a></li>
-                        <li><a href="http://support.cameonet.de">@i18n.get("navigation.links.link04.sub02")</a></li>
-                        <li><a href="#contact">@i18n.get("navigation.links.link04.sub03")</a></li>
-                    </ul>
-                </li>
-                <li class="i18n">
-                    <a href="/w/de">@i18n.get("navigation.language.de")</a>
-                    |
-                    <a href="/w/en">@i18n.get("navigation.language.en")</a>
-                </li>
+                            <!-- <li><a href="#contact">        @i18n.get("navigation.links.link01.sub02") </a></li> -->
+                <li><a href="#business">@i18n.get("navigation.links.link01.sub03")</a></li>
+            </ul>
+            </li>
+            <li class="i18n"><a href="#partner">@i18n.get("navigation.links.link06")</a></li>
+            <li class="inverse"><a href="/m">@i18n.get("navigation.links.link03")</a></li>
+            <li>
+                <span>@i18n.get("navigation.links.link04")</span>
+                <ul class="submenu">
+                    <li><a href="#faq">@i18n.get("navigation.links.link04.sub01")</a></li>
+                    <li><a href="http://support.cameonet.de">@i18n.get("navigation.links.link04.sub02")</a></li>
+                    <li><a href="#contact">@i18n.get("navigation.links.link04.sub03")</a></li>
+                </ul>
+            </li>
+            <li class="i18n">
+                <a href="/w/de">@i18n.get("navigation.language.de")</a>
+                |
+                <a href="/w/en">@i18n.get("navigation.language.en")</a>
+            </li>
             </ul>
         </nav>
         <script type="text/javascript" charset="utf-8">
@@ -95,6 +96,14 @@
         } ) ;
         </script>
 
+            <!-- TeleTrust Seal -->
+        <div class="wrapper wrapper-style1 pt2">
+            <article id="product">
+                <a target="_blank" href="/w/static/resources/TeleTrusT-ITSMIG-Urkunde_memoConnect.pdf">
+                    <img width="50%" src="/w/static/resources/IT-Security-made-in-Germany_TeleTrusT-Quality-Seal_1.jpg"/>
+                </a>
+            </article>
+        </div>
             <!-- Product -->
         <div class="wrapper wrapper-style1 pt2">
             <article id="product">
@@ -184,7 +193,7 @@
                         <div class="4u">
                             <article class="box box-style2">
                                 <div class="image image-full">
-                                    <img src="@utils.getFile("images/functions/organisationen-extras.jpg")" alt="@i18n.get("functions.feature09.header")"/></div>
+                                    <img src="@utils.getFile("images/functions/file-transfer.png")" alt="@i18n.get("functions.feature09.header")"/></div>
                                 <h3>@i18n.get("functions.feature09.header")</h3>
 
                                 <p>@i18n.get("functions.feature09.text")</p>
@@ -386,7 +395,21 @@
                 </footer>
             </article>
         </div>
-
+            <!-- Partner -->
+        <div class="wrapper wrapper-style1 pt2">
+            <article id="partner">
+                <header>
+                    <h2>@i18n.get("partner.header")</h2>
+                </header>
+                <p><a target="_blank" href="http://www.bitkom.org/" ><img alt="Bitkom" src="@utils.getFile("images/partner/bitkom.png")"/></p>
+                <p><a target="_blank" href="https://www.teletrust.de/" ><img alt="TeleTrusT" src="@utils.getFile("images/partner/TeleTrusT.gif")"/></p>
+                <p><a target="_blank" href="http://teuto.net/" ><img alt="teuto.net" src="@utils.getFile("images/partner/teutonet.png")"/></p>
+                <p><a target="_blank" href="http://www.unisg.ch/" ><img alt="Universität St.Gallen" src="@utils.getFile("images/partner/unistgallen.png")"/></p>
+                <footer>
+                    <a href="/m" class="button button-big">@i18n.get("register.header")</a>
+                </footer>
+            </article>
+        </div>
             <!-- FAQ -->
         <div class="wrapper wrapper-style3">
             <article id="faq">
@@ -446,7 +469,7 @@
         <script type="text/javascript" charset="utf-8">
         $ ( window ).load ( function ( ) {
         $ ( '#contactForm' ).checkForm ( {
-        preSubject : '  @i18n.get("contact.presubject") '
+        preSubject : '          @i18n.get("contact.presubject") '
         } ) ;
         } ) ;
         </script>

@@ -19,6 +19,7 @@ navigation.links.link05 = Presse
 navigation.links.link05.sub01 = Presse 1
 navigation.links.link05.sub02 = Presse 2
 navigation.links.link05.sub03 = Presse 3
+navigation.links.link06 = Partner
 
 navigation.language.select = Sprache w&auml;hlen
 navigation.language.de = de
@@ -61,8 +62,8 @@ functions.feature07.text = Selbst bestimmen, mit wem man kommuniziert.
 functions.feature08.header = Kostenlos -  und ungestört!
 functions.feature08.text = cameoNet Basic ist kostenlos und werbefrei.
 
-functions.feature09.header = Extras - f&uuml;r Organisationen und Unternehmen!
-functions.feature09.text = Sichere Kommunikation in Teams einfach und sicher.
+functions.feature09.header = Sicher Dateien versenden!
+functions.feature09.text = Einfach Dokumente, Bilder und Videos teilen.
 
 functions.apps.header = Demn&auml;chst hier erh&auml;ltlich!
 
@@ -142,6 +143,8 @@ compare.row9.col2 = <div class="4u red-xmark">&#x2717</div>
 compare.row10.header = <div class="4u row-label">Offenes Öko-System</div>
 compare.row10.col1 = <div class="4u green-checkmark">&#x2713</div>
 compare.row10.col2 = <div class="4u red-xmark">&#x2717</div>
+
+partner.header = cameoNet arbeiten zusammen mit diesen Partnern
 
 faq.header = FAQ
 faq.why-were-safe.header = Warum ist cameoNet sicherer?

@@ -150,15 +150,18 @@ partner.header = cameoNet arbeiten zusammen mit diesen Partnern
 
 faq.header = FAQ
 faq.why-were-safe.header = Warum ist cameoNet sicherer?
-faq.why-were-safe.text = cameoNet nutzt bew&auml;hrte Kryptologie und beweist mit Open Source, dass es auch seine Versprechen h&auml;lt. cameoNet ist so sicher, dass selbst wir die Nachrichten und Anh&auml;nge nicht lesen k&ouml;nnen.
+faq.why-were-safe.text = cameoNet nutzt bew&auml;hrte Kryptologie (AES und RSA) und beweist mit Open Source, dass es auch seine Versprechen h&auml;lt. cameoNet ist so sicher, dass selbst wir die Nachrichten und Anh&auml;nge nicht lesen k&ouml;nnen. \
+Mehr technische Details sind <a href\="http\://support.cameonet.de/252443-technische-FAQ" target\="_blank">hier</a> zu finden, weitere Fragen beantwortet unser <a href\="\#contactForm">Support</a>.
 faq.what-about-files.header = Kann ich mit cameoNet auch Dateien versenden?
 faq.what-about-files.text = Mit cameoNet k&ouml;nnen Sie auch sicher, einfach und unkompliziert Dateien versenden.
 faq.how-to-sign-in.header = Wie melde ich mich an?
-faq.how-to-sign-in.text = Seit dem 18.08.2014 l&auml;uft der Beta Test. <a href="#/a">Hier</a> können Sie sich anmelden. Aller Unterst&uuml;tzer erhalten als Dankesch&ouml;n nach dem Beta Test 1 Jahr cameoPro kostenlos.
+faq.how-to-sign-in.text = Jeder kann sich völlig anonym und kostenlos <a href\="\#/a">hier</a> anmelden. Zukünfitg wird es kostenpflichtige Versionen von cameoNet geben. Wer sich bis dahin anmeldet wird nach Einführung der kostenpflichtigen Versionen für ein Jahr diese kostenloss nutzen können.
 faq.who-is-behind.header = Wer steht hinter cameoNet?
-faq.who-is-behind.text = Ein Team erfahrener Unternehmer und Entwickler, denen selbstbestimmte Kommunikation mehr als wichtig ist.
+faq.who-is-behind.text = Das Team hinter cameoNet besteht aus erfahrenen Gründern und Entwicklern. Wir verfügen über reichlich Erfahrung mit Softwareprojekten im Medien- und Banken-Umfeld. Darunter sind publity, eine Online Plattform für Aktien Emissionen, und <a href\="http\://www.dailyme.de/" target\="_blank">dailyme</a>, eine mobile TV Plattform.
 faq.how-to-join-anonymous.header = Anonym anmelden, wie geht das?
 faq.how-to-join-anonymous.text = Sie k&ouml;nnen sich ohne Mobilnummer oder Mailadresse anmelden. Nachteil ist, dass wir Ihnen nat&uuml;rlich niemals Ihr Pa&szlig;wort zur&uuml;ckstellen k&ouml;nnen, wenn Sie es verloren haben sollten.
+
+
 faq.footer = Ausf&uuml;hrliche FAQs und weitere Dokumentation finden Sie hier:
 faq.footer.link = cameoNet Support
 
@@ -205,3 +208,5 @@ website.href = https://www.cameonet.de
 website.name = cameoNet
 
 ab_form.message = Bitte f&uuml;llen Sie das folgende Feld nicht aus, Danke.
+faq.team.header=Wer ist das Team hinter cameoNet?
+faq.team.text=

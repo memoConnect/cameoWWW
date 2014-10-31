@@ -175,6 +175,7 @@ contact.submit = Nachricht versenden
 contact.reset = Formular zur&uuml;cksetzen
 contact.fail = Das abschicken war nicht erfolgreich.
 contact.success = Das abschicken war erfolgreich.
+contact.footer = Kontakt via Mail: <br/>support (&auml;t) cameonet.de (PGP Fingerprint: 1E26 38C8 271C 66A5 2806 16CA 29DF 8C76 0B9A 34FB)<br/>michael.merz (&auml;t) cameonet.de (PGP Fingerprint: E16C 74CA E444 993F 596A B517 060A 3195 B157 1958)<br/><a href="http://www.openpgp-schulungen.de/fuer/alle/" target="_blank">Informationen zu Sicherheit für E-Mails</a>
 
 register.header = Anmelden
 register.text = Ja, ich m&ouml;chte als einer der ersten dabei sein, wenn CameoNet online geht und schon als Beta-Tester mitmachen.

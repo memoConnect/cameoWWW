@@ -150,13 +150,13 @@ partner.header = cameoNet cooperates with these partners
 
 faq.header = FAQ
 faq.why-were-safe.header = Why is cameoNet Secure?
-faq.why-were-safe.text = cameoNet uses established, approved means of encryption. Open Source guarantees that we fulfill our commitments. cameoNet is so secure that even we cannot read your communications and attachments.
+faq.why-were-safe.text = cameoNet uses established, approved means of encryption (AES und RSA). Open Source guarantees that we fulfill our commitments. cameoNet is so secure that even we cannot read your communications and attachments.
 faq.what-about-files.header = Can I transfer files with cameoNet?
 faq.what-about-files.text = With cameoNet you can easily and securely transfer files.
 faq.how-to-sign-in.header = How can I access cameoNet?
 faq.how-to-sign-in.text = Beta Test has started on 18.08.2014, you can join cameoNet <a href="/m">here</a>.
 faq.who-is-behind.header = Who are the faces behind cameoNet?
-faq.who-is-behind.text = A team of experienced entrepreneurs and developers, for whom secure, self determined communication is essential.
+faq.who-is-behind.text =
 faq.how-to-join-anonymous.header = Anonymous registration - how does this work??
 faq.how-to-join-anonymous.text = Registration is possible without telephone or mailing address. Be aware we cannot help you with, for example, a lost password.
 faq.footer = More FAQs and further documentation you can find here:
@@ -172,6 +172,7 @@ contact.submit = Submit
 contact.reset = Contact reset
 contact.fail = Contact fail
 contact.success = Contact success
+contact.footer = Contact using E-Mail: <br/>support (&auml;t) cameonet.de (PGP Fingerprint: 1E26 38C8 271C 66A5 2806 16CA 29DF 8C76 0B9A 34FB)<br/>michael.merz (&auml;t) cameonet.de (PGP Fingerprint: E16C 74CA E444 993F 596A B517 060A 3195 B157 1958)<br/><a href="http://www.openpgp-schulungen.de/fuer/alle/" target="_blank">Information about secure E-Mails</a>
 
 register.header = Register/Login
 register.text = Register now! To be one of the first beta testers.
@@ -205,3 +206,4 @@ website.href = https://www.cameonet.de
 website.name = cameoNet
 
 ab_form.message = Please do not type in this field. Thank you.
+faq.team.header=

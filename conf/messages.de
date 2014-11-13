@@ -105,19 +105,27 @@ business.footer =
 compare.header = cameoNet im Vergleich mit Mitbewerbern
 
 compare.col1.header = cameoNet
-compare.col2.header = Wettbewerber
+compare.col2.header = WhatsApp
+compare.col3.header = Threema
+compare.col4.header = Andere Wettbewerber
 
 compare.row1.header = <div class="4u row-label">Ende-zu-Ende-Verschlüsselung</div>
 compare.row1.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row1.col2 = <div class="4u">einige</div>
+compare.row1.col2 = <div class="4u red-xmark">&#x2717</div>
+compare.row1.col3 = <div class="4u green-checkmark">&#x2713</div>
+compare.row1.col4 = <div class="4u">einige</div>
 
-compare.row2.header = <div class="4u row-label">Open Source (<a target="_blank" href="https://github.com/memoConnect">github</a>)</div>
+compare.row2.header = <div class="4u row-label">Mitteilungen an Kontakte außerhalb des Dienstes senden</div>
 compare.row2.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row2.col2 =<div class="4u">wenige</div>
+compare.row2.col2 = <div class="4u red-xmark">&#x2717</div>
+compare.row2.col3 = <div class="4u red-xmark">&#x2717</div>
+compare.row2.col4 = <div class="4u red-xmark">&#x2717</div>
 
-compare.row3.header = <div class="4u row-label">Mehrere Endgeräte</div>
+compare.row3.header = <div class="4u row-label">Mehrere Endgeräte (voll synchronisert)</div>
 compare.row3.col1 = <div class="4u green-checkmark">&#x2713</div>
 compare.row3.col2 = <div class="4u red-xmark">&#x2717</div>
+compare.row3.col3 = <div class="4u red-xmark">&#x2717</div>
+compare.row3.col4 = <div class="4u red-xmark">&#x2717</div>
 
 compare.row4.header = <div class="4u row-label">Mehrere Identitäten</div>
 compare.row4.col1 = <div class="4u green-checkmark">&#x2713</div>

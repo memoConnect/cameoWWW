@@ -103,57 +103,56 @@ business.feature09.text = Erkennen, wann die Gegenseite anwesend ist.
 business.footer =
 
 compare.header = cameoNet im Vergleich mit Mitbewerbern
-
 compare.col1.header = cameoNet
 compare.col2.header = WhatsApp
 compare.col3.header = Threema
 compare.col4.header = Andere Wettbewerber
 
-compare.row1.header = <div class="4u row-label">Ende-zu-Ende-Verschlüsselung</div>
-compare.row1.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row1.col2 = <div class="4u red-xmark">&#x2717</div>
-compare.row1.col3 = <div class="4u green-checkmark">&#x2713</div>
-compare.row1.col4 = <div class="4u">einige</div>
+compare.row1.header = Ende-zu-Ende-Verschlüsselung
+compare.row1.col1 = &#x2713
+compare.row1.col2 = &#x2717
+compare.row1.col3 = &#x2713
+compare.row1.col4 = einige
 
-compare.row2.header = <div class="4u row-label">Mitteilungen an Kontakte außerhalb des Dienstes senden</div>
-compare.row2.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row2.col2 = <div class="4u red-xmark">&#x2717</div>
-compare.row2.col3 = <div class="4u red-xmark">&#x2717</div>
-compare.row2.col4 = <div class="4u red-xmark">&#x2717</div>
+compare.row2.header = Mitteilungen an Kontakte außerhalb des Dienstes senden
+compare.row2.col1 = &#x2713
+compare.row2.col2 = &#x2717
+compare.row2.col3 = &#x2717
+compare.row2.col4 = &#x2717
 
-compare.row3.header = <div class="4u row-label">Mehrere Endgeräte (voll synchronisert)</div>
-compare.row3.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row3.col2 = <div class="4u red-xmark">&#x2717</div>
-compare.row3.col3 = <div class="4u red-xmark">&#x2717</div>
-compare.row3.col4 = <div class="4u red-xmark">&#x2717</div>
+compare.row3.header = Mehrere Endgeräte (voll synchronisert)
+compare.row3.col1 = &#x2713
+compare.row3.col2 = &#x2717
+compare.row3.col3 = &#x2717
+compare.row3.col4 = &#x2717
 
-compare.row4.header = <div class="4u row-label">Mehrere Identitäten</div>
-compare.row4.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row4.col2 = <div class="4u red-xmark">&#x2717</div>
+compare.row4.header = Mehrere Identitäten
+compare.row4.col1 = &#x2713
+compare.row4.col2 = &#x2717
 
-compare.row5.header = <div class="4u row-label">Sicherer Gruppenchat</div>
-compare.row5.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row5.col2 = <div class="4u">einige</div>
+compare.row5.header = Sicherer Gruppenchat
+compare.row5.col1 = &#x2713
+compare.row5.col2 = einige
 
-compare.row6.header = <div class="4u row-label">Werbefrei</div>
-compare.row6.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row6.col2 = <div class="4u">einige</div>
+compare.row6.header = Werbefrei
+compare.row6.col1 = &#x2713
+compare.row6.col2 = einige
 
-compare.row7.header = <div class="4u row-label">Keine Sammlung oder Verwertung von Nutzerdaten</div>
-compare.row7.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row7.col2 = <div class="4u">einige</div>
+compare.row7.header = Keine Sammlung oder Verwertung von Nutzerdaten
+compare.row7.col1 = &#x2713
+compare.row7.col2 = einige
 
-compare.row8.header = <div class="4u row-label">Anonyme Nutzung</div>
-compare.row8.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row8.col2 = <div class="4u red-xmark">&#x2717</div>
+compare.row8.header = Anonyme Nutzung
+compare.row8.col1 = &#x2713
+compare.row8.col2 = &#x2717
 
-compare.row9.header = <div class="4u row-label">Besondere Funktionen für Organisationen</div>
-compare.row9.col1 = <div class="4u ">in Vorbereitung</div>
-compare.row9.col2 = <div class="4u red-xmark">&#x2717</div>
+compare.row9.header = Besondere Funktionen für Organisationen
+compare.row9.col1 = in Vorbereitung
+compare.row9.col2 = &#x2717
 
-compare.row10.header = <div class="4u row-label">Offenes Öko-System</div>
-compare.row10.col1 = <div class="4u green-checkmark">&#x2713</div>
-compare.row10.col2 = <div class="4u red-xmark">&#x2717</div>
+compare.row10.header = Offenes Öko-System
+compare.row10.col1 = &#x2713
+compare.row10.col2 = &#x2717
 
 partner.header = cameoNet arbeiten zusammen mit diesen Partnern
 

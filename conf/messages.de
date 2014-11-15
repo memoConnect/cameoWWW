@@ -126,33 +126,77 @@ compare.row3.col2 = &#x2717
 compare.row3.col3 = &#x2717
 compare.row3.col4 = &#x2717
 
-compare.row4.header = Mehrere Identitäten
+compare.row4.header = Alle Plattformen (Telefon, Tablet, Desktop)
 compare.row4.col1 = &#x2713
 compare.row4.col2 = &#x2717
+compare.row4.col3 = &#x2717
+compare.row4.col4 = wenige
 
-compare.row5.header = Sicherer Gruppenchat
+compare.row5.header = Keine Sammlung oder Verwertung von Nutzerdaten
 compare.row5.col1 = &#x2713
-compare.row5.col2 = einige
+compare.row5.col2 = &#x2717
+compare.row5.col3 = &#x2713
+compare.row5.col4 = wenige
 
-compare.row6.header = Werbefrei
+compare.row6.header = Inhalte können vom Anbieter nicht gelesen / genutzt werden
 compare.row6.col1 = &#x2713
-compare.row6.col2 = einige
+compare.row6.col2 = &#x2717
+compare.row6.col3 = &#x2713
+compare.row6.col4 = wenige
 
-compare.row7.header = Keine Sammlung oder Verwertung von Nutzerdaten
+compare.row7.header = Mehrere Identitäten (z.B. Trennung Beruf und Privat möglich)
 compare.row7.col1 = &#x2713
-compare.row7.col2 = einige
+compare.row7.col2 = &#x2717
+compare.row7.col3 = &#x2717
+compare.row7.col4 = &#x2717
 
-compare.row8.header = Anonyme Nutzung
+compare.row8.header = Werbefrei
 compare.row8.col1 = &#x2713
 compare.row8.col2 = &#x2717
+compare.row8.col3 = &#x2713
+compare.row8.col4 = einige
 
-compare.row9.header = Besondere Funktionen für Organisationen
-compare.row9.col1 = in Vorbereitung
+compare.row9.header = Anonyme Nutzung möglich
+compare.row9.col1 = &#x2713
 compare.row9.col2 = &#x2717
+compare.row9.col3 = &#x2717
+compare.row9.col4 = wenige
 
-compare.row10.header = Offenes Öko-System
+compare.row10.header = Sicherer Gruppenchat
 compare.row10.col1 = &#x2713
 compare.row10.col2 = &#x2717
+compare.row10.col3 = &#x2713
+compare.row10.col4 = wenige
+
+compare.row11.header = Open Source (<a target="_blank" href="https://github.com/memoConnect">github</a>)
+compare.row11.col1 = &#x2713
+compare.row11.col2 = &#x2717
+compare.row11.col3 = &#x2717
+compare.row11.col4 = &#x2717
+
+compare.row12.header = Fotos/Videos versenden
+compare.row12.col1 = &#x2713
+compare.row12.col2 = &#x2713
+compare.row12.col3 = &#x2713
+compare.row12.col4 = &#x2713
+
+compare.row13.header = Dateien versenden
+compare.row13.col1 = &#x2713
+compare.row13.col2 = &#x2713
+compare.row13.col3 = &#x2713
+compare.row13.col4 = &#x2713
+
+compare.row14.header = Sprachnachrichten versenden
+compare.row14.col1 = &#x2713
+compare.row14.col2 = &#x2713
+compare.row14.col3 = &#x2713
+compare.row14.col4 = einige
+
+compare.row15.header = Authentifizierung des Gegenparts möglich
+compare.row15.col1 = &#x2713
+compare.row15.col2 = &#x2717
+compare.row15.col3 = &#x2713
+compare.row15.col4 = wenige
 
 partner.header = cameoNet arbeiten zusammen mit diesen Partnern
 

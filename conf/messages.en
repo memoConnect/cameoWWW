@@ -105,46 +105,99 @@ business.footer =
 compare.header = cameoNet in comparison with our competitors
 
 compare.col1.header = cameoNet
-compare.col2.header = Competitors
+compare.col2.header = WhatsApp
+compare.col3.header = Threema
+compare.col4.header = other competitors
 
-compare.row1.header = &#x2713
-compare.row1.col2 = some
+compare.row1.header = end-to-end-encryption
+compare.row1.col1 = &#x2713
+compare.row1.col2 = &#x2717
+compare.row1.col3 = &#x2713
+compare.row1.col4 = some
 
-compare.row2.header = Open Source (<a target="_blank" href="https://github.com/memoConnect">github</a>)
+compare.row2.header = messages to external non cameoNet users
 compare.row2.col1 = &#x2713
-compare.row2.col2 = a few
+compare.row2.col2 = &#x2717
+compare.row2.col3 = &#x2717
+compare.row2.col4 = &#x2717
 
-compare.row3.header = Multiple devices
+compare.row3.header = several devices (full synchronized)
 compare.row3.col1 = &#x2713
 compare.row3.col2 = &#x2717
+compare.row3.col3 = &#x2717
+compare.row3.col4 = &#x2717
 
-compare.row4.header = Multiple identities
+compare.row4.header = all platforms (cellular, tablet, desktop)
 compare.row4.col1 = &#x2713
 compare.row4.col2 = &#x2717
+compare.row4.col3 = &#x2717
+compare.row4.col4 = few
 
-compare.row5.header = Secure group chat
+compare.row5.header = no collection or selling of user data
 compare.row5.col1 = &#x2713
-compare.row5.col2 = some
+compare.row5.col2 = &#x2717
+compare.row5.col3 = &#x2713
+compare.row5.col4 = few
 
-compare.row6.header = No ads
+compare.row6.header = content can not be read/used by operator
 compare.row6.col1 = &#x2713
-compare.row6.col2 = some
+compare.row6.col2 = &#x2717
+compare.row6.col3 = &#x2713
+compare.row6.col4 = few
 
-compare.row7.header = No collection or selling of user data
+compare.row7.header = multi identities (e.g. separating business and private)
 compare.row7.col1 = &#x2713
-compare.row7.col2 = some
+compare.row7.col2 = &#x2717
+compare.row7.col3 = &#x2717
+compare.row7.col4 = &#x2717
 
-compare.row8.header = Anonymous usage
+compare.row8.header = adds free
 compare.row8.col1 = &#x2713
 compare.row8.col2 = &#x2717
+compare.row8.col3 = &#x2713
+compare.row8.col4 = some
 
-compare.row9.header = Specific organizational features
-compare.row9.col1 = comming soon
+compare.row9.header = anonymous usage
+compare.row9.col1 = &#x2713
 compare.row9.col2 = &#x2717
+compare.row9.col3 = &#x2717
+compare.row9.col4 = few
 
-compare.row10.header = Open eco-system
+compare.row10.header = secure group chat
 compare.row10.col1 = &#x2713
 compare.row10.col2 = &#x2717
+compare.row10.col3 = &#x2713
+compare.row10.col4 = few
+
+compare.row11.header = open source (<a target="_blank" href="https://github.com/memoConnect">github</a>)
+compare.row11.col1 = &#x2713
+compare.row11.col2 = &#x2717
+compare.row11.col3 = &#x2717
+compare.row11.col4 = &#x2717
+
+compare.row12.header = photos/videos transfer
+compare.row12.col1 = &#x2713
+compare.row12.col2 = &#x2713
+compare.row12.col3 = &#x2713
+compare.row12.col4 = &#x2713
+
+compare.row13.header = file transfer
+compare.row13.col1 = &#x2713
+compare.row13.col2 = &#x2713
+compare.row13.col3 = &#x2713
+compare.row13.col4 = &#x2713
+
+compare.row14.header = speech messages transfer
+compare.row14.col1 = &#x2713
+compare.row14.col2 = &#x2713
+compare.row14.col3 = &#x2713
+compare.row14.col4 = some
+
+compare.row15.header = verification of communication partners
+compare.row15.col1 = &#x2713
+compare.row15.col2 = &#x2717
+compare.row15.col3 = &#x2713
+compare.row15.col4 = few
 
 partner.header = cameoNet cooperates with these partners
 

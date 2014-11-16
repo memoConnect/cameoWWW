@@ -121,13 +121,13 @@ compare.row2.col2 = &#x2717
 compare.row2.col3 = &#x2717
 compare.row2.col4 = &#x2717
 
-compare.row3.header = several devices (full synchronized)
+compare.row3.header = multiple devices (fully synchronized)
 compare.row3.col1 = &#x2713
 compare.row3.col2 = &#x2717
 compare.row3.col3 = &#x2717
 compare.row3.col4 = &#x2717
 
-compare.row4.header = all platforms (cellular, tablet, desktop)
+compare.row4.header = all platforms (phone, tablet, desktop)
 compare.row4.col1 = &#x2713
 compare.row4.col2 = &#x2717
 compare.row4.col3 = &#x2717
@@ -139,19 +139,19 @@ compare.row5.col2 = &#x2717
 compare.row5.col3 = &#x2713
 compare.row5.col4 = few
 
-compare.row6.header = content can not be read/used by operator
+compare.row6.header = content cannot be read/used by operator
 compare.row6.col1 = &#x2713
 compare.row6.col2 = &#x2717
 compare.row6.col3 = &#x2713
 compare.row6.col4 = few
 
-compare.row7.header = multi identities (e.g. separating business and private)
+compare.row7.header = multiple identities (e.g. separating business and private)
 compare.row7.col1 = &#x2713
 compare.row7.col2 = &#x2717
 compare.row7.col3 = &#x2717
 compare.row7.col4 = &#x2717
 
-compare.row8.header = adds free
+compare.row8.header = ads free
 compare.row8.col1 = &#x2713
 compare.row8.col2 = &#x2717
 compare.row8.col3 = &#x2713
@@ -187,7 +187,7 @@ compare.row13.col2 = &#x2713
 compare.row13.col3 = &#x2713
 compare.row13.col4 = &#x2713
 
-compare.row14.header = speech messages transfer
+compare.row14.header =  voice messages transfer
 compare.row14.col1 = &#x2713
 compare.row14.col2 = &#x2713
 compare.row14.col3 = &#x2713
